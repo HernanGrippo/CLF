@@ -6,8 +6,13 @@
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="scss/style.css" />
 
 <style>
+
+p#hero {
+  font-size: 24px;
+}
 
 body {
     font-family: 'Inter', sans-serif;
@@ -166,7 +171,7 @@ i {
 
 </style>
 </head>
-<body>
+<body class="body">
 <!-- Navbar -->
 <header>
 <div class="container">
@@ -215,10 +220,9 @@ i {
 
   <!-- HERO -->
   <section id="hero">
-
     <div class="row align-items-center">
       <div class="col-md-2">
-        <div class="text-center">
+        <div class="text-center d-sm-none d-md-block">
           <img src="img/waves.png" alt="waves">
         </div>
       </div>
@@ -226,7 +230,7 @@ i {
         <h1 class="text-center">Respect. Connect. Protect</h1>
       </div>
       <div class="col-md-2 text-center">
-        <div class="text-center">
+        <div class="text-center d-sm-none d-md-block">
           <img src="img/waves.png" alt="waves">
         </div>
       </div>

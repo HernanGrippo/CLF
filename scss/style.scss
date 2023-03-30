@@ -1,0 +1,24 @@
+$primary-color: #f00;
+$link-color: #00f;
+$link-color-hover: #0f0;
+
+
+#hero {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        
+        li {
+            display:inline;
+            font-size: 11px;
+            a {
+                color: $link-color;
+                font-size: 4px;
+                :hover {
+                    color: $link-color;
+                }
+            }
+        }
+    }
+}
