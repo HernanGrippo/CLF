@@ -1,3 +1,9 @@
+@include 'header.scss';
+@include 'footer.scss';
+@include 'hero.scss';
+@include 'sponsors.scss';
+@include 'campaigns.scss';
+
 $primary-color: #f00;
 $link-color: #00f;
 $link-color-hover: #0f0;
