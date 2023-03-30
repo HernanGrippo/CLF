@@ -1,0 +1,18 @@
+#hero ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#hero ul li {
+  display: inline;
+  font-size: 11px;
+}
+#hero ul li a {
+  color: #00f;
+  font-size: 4px;
+}
+#hero ul li a :hover {
+  color: #00f;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,47 @@
+ .pfooter{
+  font-size: 20px;
+  }
+
+ .footer{
+   padding-top: 50px; 
+  }
+
+.footerlinks{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    color: #9B3926;  
+}
+.contact{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #9B3926;
+}
+.contact a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #9B3926;
+}
+ul{
+    line-height: 31px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+ color: #631000;
+}

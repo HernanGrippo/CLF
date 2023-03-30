@@ -6,11 +6,14 @@
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+<link rel="stylesheet" href="scss/style.css" />
+<link rel="stylesheet" href="footer.css">
 
 <style>
+
+p#hero {
+  font-size: 24px;
+}
 
 body {
     font-family: 'Inter', sans-serif;
@@ -38,6 +41,7 @@ body {
   line-height: 31.47px;
   text-transform: uppercase;
   font-family: 'Inter', sans-serif;
+  margin-left: 15px;
 }
 
 .line {
@@ -48,22 +52,27 @@ body {
   transform: rotate(180deg);
 }
 
-.container-lg {
-  max-width: 1140px;
-  margin: 0 auto;
-}
-
 h1 {
     font-family: ‘Gelica’;
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 75px;
     line-height: 89px;
     text-align: center;
     color: #9B3926;
 }
 
-.container-lg {
+h2 {
+  font-family: 'Gelica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 77px;
+  text-align: center;
+  color: #9B3926;
+}
+
+.container {
   max-width: 1600px;
   margin: 0 auto;
 }
@@ -109,14 +118,64 @@ i {
     background-color: #9B3926;
 }
 
+#campaign p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 36px;
+  /* or 138% */
+  text-align: center;
+  color: #333333;
+  padding: 0 0 40px 0;
+}
+#campaign h3{
+  padding: 20px 0;
+}
 
+#hero {
+  padding: 100px 0 40px 0;
+}
 
+#hero p {
+  padding: 30px 0 40px 0;
+  text-align: center;
+  font-style: normal; 
+  font-weight: 400; 
+  font-size: 26px; 
+}
+
+#hero img {
+ width: 200px;
+ margin: auto;
+ position: relative;
+}
+
+#video iframe {
+  width: 100%;
+  min-height: 500px;
+}
+
+#sponsors h2 {
+  padding: 100px 0 20px;
+}
+
+#sponsors h3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000;
+  padding: 20px 0;
+}
 
 </style>
 </head>
-<body>
+<body class="body">
 <!-- Navbar -->
-<div class="container-lg">
+<header>
+<div class="container">
     <div class="row">
       <div class="col">
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -153,73 +212,139 @@ i {
       </div>
     </div>
 </div>
-
+</header>
 <!-- end of Navbar -->
 
 <div class="line"></div>
 
-<div class="container-lg">
-    <div class="row">
-      <div class="col">
-        <div class="d-flex align-items-center">
-          <i class="bi bi-person me-3"></i>
-          <h1 class="text-center flex-grow-1">Respect. Connect. Protect</h1>
-          <i class="bi bi-gear ms-3"></i>
+<div class="container">
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="row align-items-center">
+      <div class="col-md-2">
+        <div class="text-center d-sm-none d-md-block">
+          <img src="img/waves.png" alt="waves">
         </div>
-        <p class="text-center font-style-normal font-weight-400 font-size-26 line-height-333333">Led by Conservation Lands Foundation, the Bureau of Land Management, and an array of local and indigenous affiliate groups, “Respect. Connect. Protect.” is a campaign designed. to encourage enthusiastic, respectful, and safe usage of National Conservation Lands.</p>
+      </div>
+      <div class="col-md-8 text-center">
+        <h1 class="text-center">Respect. Connect. Protect</h1>
+      </div>
+      <div class="col-md-2 text-center">
+        <div class="text-center d-sm-none d-md-block">
+          <img src="img/waves.png" alt="waves">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <p>Led by Conservation Lands Foundation, the Bureau of Land Management, and an array of local and indigenous affiliate groups, “Respect. Connect. Protect.” is a campaign designed. to encourage enthusiastic, respectful, and safe usage of National Conservation Lands.</p>
         <button class="btn">LEARN MORE</button>
-    </div>
-    </div>
-  
-
-  </div>
-  
-
-<div class="container-lg">
-
-
-<!-- Page content -->
-<div class=“w3-content” style=“max-width:2000px;margin-top:46px”>
-  <!-- Automatic Slideshow Images -->
-
-  <!-- The Contact Section -->
-  <div class=“w3-container w3-content w3-padding-64” style=“max-width:800px” id=“contact”>
-    <h2 class=“w3-wide w3-center”>CONTACT</h2>
-    <p class=“w3-opacity w3-center”><i>Fan? Drop a note!</i></p>
-    <div class=“w3-row w3-padding-32">
-      <div class=“w3-col m6 w3-large w3-margin-bottom”>
-        <i class=“fa fa-map-marker” style=“width:30px”></i> Chicago, US<br>
-        <i class=“fa fa-phone” style=“width:30px”></i> Phone: +00 151515<br>
-        <i class=“fa fa-envelope” style=“width:30px”> </i> Email: mail@mail.com<br>
-      </div>
-      <div class=“w3-col m6">
-        <form action=“/action_page.php” target=“_blank”>
-          <div class=“w3-row-padding” style=“margin:0 -16px 8px -16px”>
-            <div class=“w3-half”>
-              <input class=“w3-input w3-border” type=“text” placeholder=“Name” required name=“Name”>
-            </div>
-            <div class=“w3-half”>
-              <input class=“w3-input w3-border” type=“text” placeholder=“Email” required name=“Email”>
-            </div>
-          </div>
-          <input class=“w3-input w3-border” type=“text” placeholder=“Message” required name=“Message”>
-          <button class=“w3-button w3-black w3-section w3-right” type=“submit”>SEND</button>
-        </form>
       </div>
     </div>
-  </div>
-<!-- End Page Content -->
+
+  </section>
+
+  <!-- Video -->
+  <section id="video">
+    <div class="row">
+      <div class="col-md-6 text-center offset-md-3">
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID_HERE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR CAMPAIGN -->
+  <section id="campaign">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 style="padding: 100px 0 20px;">Our Campaign</h2>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <p class="campaign">The coalition works collaboratively to develop messaging and content (including the Spokespebble video series), to provide specific regional guidance, and to ensure campaign messaging and activations are appropriately respectful of the experiences and traditions of indigenous groups.</p>
+      </div>
+    </div>
+    
+    <div class="row justify-content-center">
+      <div class="col-md-3 col-sm-12 text-center">
+        <img src="img/icon-respect.png" alt="Image 1" class="img-fluid rounded">
+        <h3>Respect</h3>
+      </div>
+      <div class="col-md-3 col-sm-12 text-center">
+        <img src="img/icon-connect.png" alt="Image 2" class="img-fluid rounded">
+        <h3>Connect</h3>
+      </div>
+      <div class="col-md-3 col-sm-12 text-center">
+        <img src="img/icon-protect.png" alt="Image 3" class="img-fluid rounded">
+        <h3>Protect</h3>
+      </div>
+    </div>
+  </section>
+
+    <!-- SPONSORS -->
+    <section id="sponsors">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2>Sponsors</h2>
+        </div>
+      </div>
+      
+      <div class="row justify-content-center">
+        <div class="col-md-3 col-sm-12 text-center">
+          <img src="https://dummyimage.com/180x190/ccc/fff" alt="Image 1" class="img-fluid">
+          <h3>Sponsor 1</h3>
+        </div>
+        <div class="col-md-3 col-sm-12 text-center">
+          <img src="https://dummyimage.com/180x190/ccc/fff" alt="Image 2" class="img-fluid">
+          <h3>Sponsor 2</h3>
+        </div>
+        <div class="col-md-3 col-sm-12 text-center">
+          <img src="https://dummyimage.com/180x190/ccc/fff" alt="Image 3" class="img-fluid">
+          <h3>Sponsor 3</h3>
+        </div>
+      </div>
+    </section>
+
 </div>
-<!-- Image of location/map -->
+
 <!-- Footer -->
-<footer class=“w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge”>
-  <i class=“fa fa-facebook-official w3-hover-opacity”></i>
-  <i class=“fa fa-instagram w3-hover-opacity”></i>
-  <i class=“fa fa-snapchat w3-hover-opacity”></i>
-  <i class=“fa fa-pinterest-p w3-hover-opacity”></i>
-  <i class=“fa fa-twitter w3-hover-opacity”></i>
-  <i class=“fa fa-linkedin w3-hover-opacity”></i>
-  <p class=“w3-medium”>Powered by <a href=“https://www.w3schools.com/w3css/default.asp” target=“_blank”>w3.css</a></p>
+<section id="footer">
+<div class="container">
+  <footer class="footer" style="padding-top: 60px;padding-bottom: 54px;">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <img src="img/clfc-logo.png" alt="Your Logo" class="me-3" style="max-width: 281px;"> 
+        <div class="d-flex align-items-center">
+          <div style="padding-top: 40px; padding-bottom: 40px;">
+            <p class="contact"><a href="mailto:info@conservationlands.org">info@conservationlands.org</a></p>
+            <p class="contact">(970) 247-0807</p>
+            <a href="https://www.facebook.com/" target="_blank"> <img src="img/facebooklogo.png" alt="Your Logo" class="me-3" style="max-width: 37px;"></a> 
+            <a href="https://www.instagram.com/" target="_blank"> <img src="img/instagramlogo.png" alt="Your Logo" class="me-3" style="max-width: 37px;"></a> 
+          </div>
+        </div>
+        <p class="pfooter">We acknowledge that the land on which our home office is located and where members of our staff live and execute our business is the original land of the Utes–Nuuchiu–the longest continuous residents of Colorado.</p>
+        <p class="pfooter">© 2023. All Rights Reserved.	Privacy Policy. Terms and Conditions.</p>
+      </div>
+      <div class="col-md-2 offset-md-4">
+        <ul class="footer-list-unstyled">
+          <li><a class="footerlinks" href="#">HOME</a></li>
+          <li><a class="footerlinks" href="#">ABOUT</a></li>
+          <li><a class="footerlinks" href="#">GET INVOLVED</a></li>
+          <li><a class="footerlinks" href="#">RESOURCES</a></li>
+          <li><a class="footerlinks" href="#">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
 </footer>
+</section>
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 </html>
