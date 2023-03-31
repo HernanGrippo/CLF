@@ -22,6 +22,11 @@ body h2 {
   color: #9B3926;
 }
 
+.background {
+  background-image: url("../img/background-body.png");
+  background-repeat: repeat;
+}
+
 #footer {
   padding: 82px 0 97px 0;
 }
@@ -112,7 +117,7 @@ body h2 {
 }
 
 #video {
-  padding: 96px 0 151px 0;
+  padding: 18px 0 98px 0;
 }
 
 #sponsors {
