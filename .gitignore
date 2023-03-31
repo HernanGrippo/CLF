@@ -1,27 +1,69 @@
-# General
+# OS generated files
 .DS_Store
-.AppleDouble
-.LSOverride
-
-# Icon must end with two \r
-Icon
-
-
-# Thumbnails
+.DS_Store?
 ._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
 .Spotlight-V100
-.TemporaryItems
 .Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+ehthumbs.db
+*[Tt]humbs.db
+*.Trashes
+# User specific
+.htaccess
+*.log
+# Plugins used in development
+# add local dev plugins here
+wp-content/plugins/query-monitor
+# WP Engine specific
+.smushit-status
+.gitattributes
+_wpeprivate
+wp-content/object-cache.php
+wp-content/mu-plugins/force-strong-passwords
+wp-content/mu-plugins/mu-plugin.php
+wp-content/mu-plugins/slt-force-strong-passwords.php
+wp-content/mu-plugins/stop-long-comments.php
+wp-content/mu-plugins/wpengine-common
+wp-content/mysql.sql
+# Hyperdb plugin from WPE
+wp-content/db.php
+wp-content/plugins/hyperdb*
+# WordPress specific
+wp-config.php
+wp-content/uploads/
+wp-content/blogs.dir/
+wp-content/upgrade/*
+wp-content/backup-db/*
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/cache/*
+wp-content/cache/supercache/*
+wp-content/debug.log
+# WordPress default themes
+wp-content/themes/twenty*
+wp-content/languages/themes/twenty*
+# WordPress core (as of 4.0.0)
+/index.php
+/license.txt
+/readme.html
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-config.php
+wp-config-sample.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+wp-admin
+wp-includes
+wp-content/index.php
+wp-content/themes/index.php
+wp-content/plugins/index.php
+# Large/disallowed file types
+# a CDN should be used for these
+*.mp3
