@@ -1,21 +1,20 @@
-@charset "UTF-8";
 body {
   font-family: "Inter", sans-serif;
   font-style: normal;
 }
 body h1 {
-  font-family: ‘Gelica’;
-  font-style: normal;
+  font-family: "gelica", sans-serif;
   font-weight: 700;
+  font-style: normal;
   font-size: 75px;
   line-height: 89px;
   text-align: center;
   color: #9B3926;
 }
 body h2 {
-  font-family: "Gelica";
-  font-style: normal;
+  font-family: "gelica", sans-serif;
   font-weight: 700;
+  font-style: normal;
   font-size: 65px;
   line-height: 77px;
   text-align: center;
@@ -37,13 +36,15 @@ body h2 {
   margin: 0;
 }
 #footer ul li a {
-  font-weight: bold;
+  font-family: "interstate", sans-serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 26px;
   line-height: 40px;
   color: #9B3926;
   text-decoration: none;
 }
-#footer ul li a :hover {
+#footer ul li a:hover {
   color: #631000;
 }
 #footer .contact-links {
@@ -54,37 +55,45 @@ body h2 {
   font-size: 20px;
 }
 #footer .contact-links a {
-  font-weight: bold;
+  font-family: "interstate", sans-serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 26px;
   line-height: 36px;
   color: #9B3926;
   text-decoration: none;
+}
+#footer .contact-links a:hover {
+  color: #631000;
 }
 
 #hero {
   padding: 176px 0 0 0;
 }
 #hero h1 {
-  color: #9B3926;
-  font-family: "Gelica";
-  font-size: 75px;
-  font-style: normal;
+  font-family: "gelica", sans-serif;
   font-weight: 700;
+  font-style: normal;
+  font-size: 75px;
   line-height: 89px;
+  text-align: center;
+  color: #9B3926;
 }
 #hero h2 {
-  color: #9B3926;
-  font-family: "Gelica";
-  font-size: 65px;
-  font-style: normal;
+  font-family: "gelica", sans-serif;
   font-weight: 700;
+  font-style: normal;
+  font-size: 65px;
   line-height: 77px;
+  text-align: center;
+  color: #9B3926;
 }
 #hero p {
+  font-family: "interstate", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   padding: 60px 0 80px 0;
   text-align: center;
-  font-style: normal;
-  font-weight: 400;
   font-size: 26px;
 }
 #hero img {
@@ -107,8 +116,9 @@ body h2 {
   background-color: #F79721;
   font-size: 26px;
   line-height: 31.47px;
-  font-family: Inter, sans-serif;
+  font-family: "interstate", sans-serif;
   font-weight: 700;
+  font-style: normal;
   cursor: pointer;
 }
 #hero .btn:hover {
@@ -136,13 +146,16 @@ body h2 {
   padding: 20px 0;
 }
 
+#campaign {
+  padding: 0 0 130px 0;
+}
 #campaign h2 {
   padding: 0 0 60px 0;
 }
 #campaign p {
-  font-family: "Inter";
-  font-style: normal;
+  font-family: "interstate", sans-serif;
   font-weight: 400;
+  font-style: normal;
   font-size: 26px;
   line-height: 36px;
   /* or 138% */

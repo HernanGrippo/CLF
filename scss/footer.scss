@@ -10,13 +10,15 @@
 
         li {
             a {
-                font-weight: bold;
+                font-family: "interstate", sans-serif;
+                font-weight: 700;
+                font-style: normal;
                 font-size: 26px;
                 line-height: 40px;
                 color: #9B3926;
                 text-decoration: none; 
                 
-                :hover{
+                &:hover{
                     color: #631000;
                 }
             }
@@ -32,11 +34,17 @@
         }
     
         a {
-            font-weight: bold;
+            font-family: "interstate", sans-serif;
+            font-weight: 700;
+            font-style: normal;
             font-size: 26px;
             line-height: 36px;
             color: #9B3926;
             text-decoration: none;
+
+            &:hover{
+                color: #631000;
+            }
         }
     }
 

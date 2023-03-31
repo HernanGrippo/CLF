@@ -3,28 +3,31 @@
     padding: 176px 0 0 0;
 
     h1 {
-        color: #9B3926;
-        font-family: 'Gelica';
-        font-size: 75px;
-        font-style: normal;
+        font-family: "gelica", sans-serif;
         font-weight: 700;
+        font-style: normal;
+        font-size: 75px;
         line-height: 89px;
+        text-align: center;
+        color: #9B3926;
     }
 
     h2 {
-        color: #9B3926;
-        font-family: 'Gelica';
-        font-size: 65px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 77px;
+      font-family: "gelica", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 65px;
+      line-height: 77px;
+      text-align: center;
+      color: #9B3926;
     }
-
+    
     p {
+        font-family: "interstate", sans-serif;
+        font-weight: 400;
+        font-style: normal;
         padding: 60px 0 80px 0;
         text-align: center;
-        font-style: normal; 
-        font-weight: 400; 
         font-size: 26px; 
     }
     
@@ -50,8 +53,9 @@
         background-color: #F79721;
         font-size: 26px;
         line-height: 31.47px;
-        font-family: Inter, sans-serif;
+        font-family: "interstate", sans-serif;
         font-weight: 700;
+        font-style: normal;
         cursor: pointer;
     }
 
