@@ -4,19 +4,16 @@
 <meta charset=“UTF-8">
 <meta name=“viewport” content=“width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="scss/style.css" />
-<link rel="stylesheet" href="footer.css">
 
 <style>
 
 p#hero {
   font-size: 24px;
-}
-
-body {
-    font-family: 'Inter', sans-serif;
 }
 
 .logo {
@@ -52,26 +49,6 @@ body {
   transform: rotate(180deg);
 }
 
-h1 {
-    font-family: ‘Gelica’;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 75px;
-    line-height: 89px;
-    text-align: center;
-    color: #9B3926;
-}
-
-h2 {
-  font-family: 'Gelica';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 65px;
-  line-height: 77px;
-  text-align: center;
-  color: #9B3926;
-}
-
 .container {
   max-width: 1600px;
   margin: 0 auto;
@@ -94,80 +71,9 @@ i {
   font-size: 26px;
 }
 
-.line-height-333333 {
-  line-height: 33.3333px;
-}
-
-.btn {
-  color: #000; /* added to set text color to black */
-  height: 79px;
-  width: 274px;
-  position: relative; /* changed from absolute to relative */
-  left: 50%;
-  transform: translateX(-50%); /* added to center align the button */
-  border-radius: 15px;
-  border: none;
-  background-color: #F79721;
-  font-size: 26px;
-  line-height: 31.47px;
-  font-family: Inter, sans-serif;
-  cursor: pointer;
-}
-.btn:hover {
-    color: #fff;
-    background-color: #9B3926;
-}
-
-#campaign p {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 26px;
-  line-height: 36px;
-  /* or 138% */
-  text-align: center;
-  color: #333333;
-  padding: 0 0 40px 0;
-}
-#campaign h3{
-  padding: 20px 0;
-}
-
-#hero {
-  padding: 100px 0 40px 0;
-}
-
-#hero p {
-  padding: 30px 0 40px 0;
-  text-align: center;
-  font-style: normal; 
-  font-weight: 400; 
-  font-size: 26px; 
-}
-
-#hero img {
- width: 200px;
- margin: auto;
- position: relative;
-}
-
 #video iframe {
   width: 100%;
   min-height: 500px;
-}
-
-#sponsors h2 {
-  padding: 100px 0 20px;
-}
-
-#sponsors h3 {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 26px;
-  line-height: 31px;
-  color: #000;
-  padding: 20px 0;
 }
 
 </style>
@@ -259,28 +165,25 @@ i {
   <section id="campaign">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 style="padding: 100px 0 20px;">Our Campaign</h2>
+        <h2>Our Campaign</h2>
       </div>
     </div>
     
     <div class="row">
       <div class="col-md-8 offset-md-2">
-        <p class="campaign">The coalition works collaboratively to develop messaging and content (including the Spokespebble video series), to provide specific regional guidance, and to ensure campaign messaging and activations are appropriately respectful of the experiences and traditions of indigenous groups.</p>
+        <p>The coalition works collaboratively to develop messaging and content (including the Spokespebble video series), to provide specific regional guidance, and to ensure campaign messaging and activations are appropriately respectful of the experiences and traditions of indigenous groups.</p>
       </div>
     </div>
     
     <div class="row justify-content-center">
       <div class="col-md-3 col-sm-12 text-center">
-        <img src="img/icon-respect.png" alt="Image 1" class="img-fluid rounded">
-        <h3>Respect</h3>
+        <img src="img/respect.png" alt="Respect" class="img-fluid rounded">
       </div>
       <div class="col-md-3 col-sm-12 text-center">
-        <img src="img/icon-connect.png" alt="Image 2" class="img-fluid rounded">
-        <h3>Connect</h3>
+        <img src="img/connect.png" alt="Respect" class="img-fluid rounded">
       </div>
       <div class="col-md-3 col-sm-12 text-center">
-        <img src="img/icon-protect.png" alt="Image 3" class="img-fluid rounded">
-        <h3>Protect</h3>
+        <img src="img/protect.png" alt="Pretect" class="img-fluid rounded">
       </div>
     </div>
   </section>
@@ -311,31 +214,33 @@ i {
 
 </div>
 
+<div class="line"></div>
+
 <!-- Footer -->
 <section id="footer">
 <div class="container">
-  <footer class="footer" style="padding-top: 60px;padding-bottom: 54px;">
+  <footer class="footer">
     <div class="row justify-content-center">
       <div class="col-md-6">
         <img src="img/clfc-logo.png" alt="Your Logo" class="me-3" style="max-width: 281px;"> 
         <div class="d-flex align-items-center">
-          <div style="padding-top: 40px; padding-bottom: 40px;">
-            <p class="contact"><a href="mailto:info@conservationlands.org">info@conservationlands.org</a></p>
-            <p class="contact">(970) 247-0807</p>
+          <div class="contact-links">
+            <p><a href="mailto:info@conservationlands.org">info@conservationlands.org</a></p>
+            <p><a href="tel:+19702470807">(970) 247-0807</a></p>
             <a href="https://www.facebook.com/" target="_blank"> <img src="img/facebooklogo.png" alt="Your Logo" class="me-3" style="max-width: 37px;"></a> 
             <a href="https://www.instagram.com/" target="_blank"> <img src="img/instagramlogo.png" alt="Your Logo" class="me-3" style="max-width: 37px;"></a> 
           </div>
         </div>
-        <p class="pfooter">We acknowledge that the land on which our home office is located and where members of our staff live and execute our business is the original land of the Utes–Nuuchiu–the longest continuous residents of Colorado.</p>
-        <p class="pfooter">© 2023. All Rights Reserved.	Privacy Policy. Terms and Conditions.</p>
+        <p>We acknowledge that the land on which our home office is located and where members of our staff live and execute our business is the original land of the Utes–Nuuchiu–the longest continuous residents of Colorado.</p>
+        <p>© 2023. All Rights Reserved.	Privacy Policy. Terms and Conditions.</p>
       </div>
       <div class="col-md-2 offset-md-4">
-        <ul class="footer-list-unstyled">
-          <li><a class="footerlinks" href="#">HOME</a></li>
-          <li><a class="footerlinks" href="#">ABOUT</a></li>
-          <li><a class="footerlinks" href="#">GET INVOLVED</a></li>
-          <li><a class="footerlinks" href="#">RESOURCES</a></li>
-          <li><a class="footerlinks" href="#">CONTACT</a></li>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">GET INVOLVED</a></li>
+          <li><a href="#">RESOURCES</a></li>
+          <li><a href="#">CONTACT</a></li>
         </ul>
       </div>
     </div>

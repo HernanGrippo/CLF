@@ -1,18 +1,152 @@
-#hero ul {
-  margin: 0;
-  padding: 0;
+@charset "UTF-8";
+body {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+body h1 {
+  font-family: ‘Gelica’;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 89px;
+  text-align: center;
+  color: #9B3926;
+}
+body h2 {
+  font-family: "Gelica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 77px;
+  text-align: center;
+  color: #9B3926;
+}
+
+#footer {
+  padding: 82px 0 97px 0;
+}
+#footer ul {
+  line-height: 31px;
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
-#hero ul li {
-  display: inline;
-  font-size: 11px;
+#footer ul li a {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 40px;
+  color: #9B3926;
+  text-decoration: none;
 }
-#hero ul li a {
-  color: #00f;
-  font-size: 4px;
+#footer ul li a :hover {
+  color: #631000;
 }
-#hero ul li a :hover {
-  color: #00f;
+#footer .contact-links {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#footer .contact-links p {
+  font-size: 20px;
+}
+#footer .contact-links a {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 36px;
+  color: #9B3926;
+  text-decoration: none;
+}
+
+#hero {
+  padding: 176px 0 0 0;
+}
+#hero h1 {
+  color: #9B3926;
+  font-family: "Gelica";
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 89px;
+}
+#hero h2 {
+  color: #9B3926;
+  font-family: "Gelica";
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 77px;
+}
+#hero p {
+  padding: 60px 0 80px 0;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+}
+#hero img {
+  width: 200px;
+  margin: auto;
+  position: relative;
+}
+#hero .line-height-333333 {
+  line-height: 33.3333px;
+}
+#hero .btn {
+  color: #000; /* added to set text color to black */
+  height: 79px;
+  width: 274px;
+  position: relative; /* changed from absolute to relative */
+  left: 50%;
+  transform: translateX(-50%); /* added to center align the button */
+  border-radius: 15px;
+  border: none;
+  background-color: #F79721;
+  font-size: 26px;
+  line-height: 31.47px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+#hero .btn:hover {
+  color: #fff;
+  background-color: #9B3926;
+}
+
+#video {
+  padding: 96px 0 151px 0;
+}
+
+#sponsors {
+  padding: 0 0 163px 0;
+}
+#sponsors h2 {
+  padding: 157px 0 69px 0;
+}
+#sponsors h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000;
+  padding: 20px 0;
+}
+
+#campaign h2 {
+  padding: 0 0 60px 0;
+}
+#campaign p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 36px;
+  /* or 138% */
+  text-align: center;
+  color: #333333;
+  padding: 0 0 105px 0;
+}
+#campaign h3 {
+  padding: 20px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
