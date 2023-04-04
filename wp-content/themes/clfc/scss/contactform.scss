@@ -2,17 +2,35 @@
     .container {
       display: flex;
       justify-content: center;
+      max-width: 1386px;
+      max-height: 674;
+      margin-bottom: 83px;
+      background-image: url('../img/formbackground.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 0;
     }
     .left {
-      background-color: red;
-      width: 100px;
-      height: 100px;
-      margin-right: 10px;
+      width: 765px;
+      height: 674px;
+      h2 {
+        font-size: 65px;
+        font-style: bold;
+        color: #FEFBEA; 
+        padding: 112px 56px 40px 108px;
+      }
+      p {
+        padding: 0px 59px 0px 108px;
+        color: #FEFBEA; 
+      }
     }
     .right {
-      background-color: blue;
-      width: 100px;
-      height: 100px;
-      margin-left: 10px;
+      background-color: #406F84;
+      width: 621px;
+      height: 674px;
+      border-radius: 25px; 
+    }
+    .form {
+      padding: 120px 75px 83px 200px;
     }
 }

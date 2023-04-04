@@ -167,4 +167,23 @@ body h2 {
   padding: 20px 0;
 }
 
+#contact-form .container {
+  max-width: 1386px;
+  justify-content: center;
+}
+#contact-form .left {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  float: left;
+}
+#contact-form .right {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  float: right;
+}
+
 /*# sourceMappingURL=style.css.map */

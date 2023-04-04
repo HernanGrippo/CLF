@@ -63,6 +63,24 @@
     </div>
   </section>
 
+  <section id="contact-form">
+    <div class="row">
+      <div class="col">
+        <div class="container">
+          <div class="left">
+            <h2>Join the Movement.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+            <div class="right">
+                <div class="form">
+                   <?php echo apply_shortcodes('[contact-form-7 id="11" title="Contact form 1"]'); ?>
+                </div>  
+            </div>
+        </div>  
+      </div>
+    </div>
+  </section>
+
     <!-- SPONSORS
     <section id="sponsors">
       <div class="row">
