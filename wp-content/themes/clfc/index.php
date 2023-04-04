@@ -71,7 +71,7 @@
             <h2>Join the Movement.</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
-            <div class="right">
+            <div class="right text-center">
                 <div class="form">
                    <?php echo apply_shortcodes('[contact-form-7 id="11" title="Contact form 1"]'); ?>
                 </div>  
