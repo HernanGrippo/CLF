@@ -67,9 +67,9 @@
     <div class="row">
       <div class="col">
         <div class="container">
-          <div class="left">
-            <h2>Join the Movement.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="left text-center">
+            <h2>Get Involved.</h2>
+            <p>Sign up for our mailing list.</p>
           </div>
             <div class="right text-center">
                 <div class="form">

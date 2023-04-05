@@ -186,10 +186,12 @@ body h2 {
   font-size: 65px;
   font-style: bold;
   color: #FEFBEA;
-  padding: 112px 56px 40px 108px;
+  padding: 112px 0px 40px 0px;
 }
 #contact-form .left p {
-  padding: 0px 59px 0px 108px;
+  font-family: "Inter", sans-serif;
+  font-size: 26;
+  font-weight: normal;
   color: #FEFBEA;
 }
 #contact-form .right {
@@ -206,18 +208,34 @@ body h2 {
   height: 91px;
   margin-bottom: 40px;
 }
+#contact-form .form input::placeholder {
+  color: #FEFBEA;
+  font-family: "Inter", sans-serif;
+  font-size: 26;
+  font-weight: normal;
+}
 #contact-form .form .wpcf7-validates-as-required {
   background-color: #406F84;
   border: 2px solid #7ED6D6;
   border-radius: 25px;
+  text-align: center;
 }
 #contact-form .form .wpcf7-submit {
   background-color: #F79721;
   width: 212px;
   height: 70px;
+  border-radius: 15px;
+  border: 2px solid #F79721;
 }
 #contact-form .form .wpcf7-spinner {
   display: block;
+  margin: auto;
+}
+#contact-form .form .wpcf7-form-control {
+  font-family: "Inter", sans-serif;
+  font-size: 26;
+  font-weight: bold;
+  color: #FEFBEA;
 }
 
 /*# sourceMappingURL=style.css.map */
