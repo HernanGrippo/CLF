@@ -3,11 +3,8 @@
 Template Name: Contact
 */
 ?>
-<?php
-  if ( have_posts() ) :
-    while ( have_posts() ) :
-      the_post();
-      the_content();
-    endwhile;
-  endif;
-?>
+<?php get_header();?>
+
+<? get_template_part( 'components/contactform' ); ?>
+
+<?php get_footer();?> 

@@ -5,6 +5,7 @@
       max-width: 1386px;
       max-height: 674;
       margin-bottom: 150px;
+      margin-top: 92px;
       background-image: url('../img/formbackground.png');
       background-size: cover;
       background-repeat: no-repeat;
@@ -13,6 +14,12 @@
     .left {
       width: 765px;
       height: 674px;
+      
+        @media (max-width: 575px) { 
+          max-width: 100%;
+          height: auto;
+         }
+
       h2 {
         font-size: 65px;
         font-style: bold;
@@ -32,6 +39,13 @@
       height: 674px;
       border-radius: 25px; 
       position: relative;
+
+        @media (max-width: 575px) { 
+          max-width: 100%;
+          height: auto;
+          display: block;
+         }
+
 
       .form {
         margin-top: 120px;
@@ -79,9 +93,6 @@
         bottom: -20px;
         right: -240px;
         position: absolute;
-        @include media-breakpoint-up(sm) {
-        display: block;
-        }
       }
 
     }
