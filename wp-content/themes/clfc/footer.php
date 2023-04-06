@@ -10,13 +10,13 @@
         <div class="d-flex align-items-center">
           <div class="contact-links">
             <p><a href="mailto:info@conservationlands.org">info@conservationlands.org</a></p>
-            <a href="https://www.facebook.com/conservationlands/" target="_blank"> <img src="<?php bloginfo('template_url'); ?>/img/facebook.png" alt="facebook" class="me-3" style="max-width: 20px;"></a> 
-            <a href="https://twitter.com/ConservationLF" target="_blank"> <img src="<?php bloginfo('template_url'); ?>/img/twitter.png" alt="twitter" class="me-3" style="max-width: 34px;"></a> 
-            <a href="https://www.instagram.com/conservationlands/" target="_blank"> <img src="<?php bloginfo('template_url'); ?>/img/instagram.png" alt="instagram" class="me-3" style="max-width: 30px;"></a> 
-            <a href=https://www.youtube.com/user/ConservationLF" target="_blank"> <img src="<?php bloginfo('template_url'); ?>/img/youtube.png" alt="youtube" class="me-3" style="max-width: 44px;"></a> 
-            <a href="https://www.linkedin.com/company/conservation-lands-foundation/" target="_blank"> <img src="<?php bloginfo('template_url'); ?>/img/linkedin.png" alt="linkedin" class="me-3" style="max-width: 30px;"></a> 
-            <a href="https://www.flickr.com/photos/conservationlands" target="_blank"> <img src="<?php bloginfo('template_url'); ?>/img/vector.png" alt="flickr" class="me-3" style="max-width: 29px;"></a> 
-            <a href="https://www.tiktok.com/@conservationlands" target="_blank"> <img src="<?php bloginfo('template_url'); ?>/img/tiktok.png" alt="tiktok" class="me-3" style="max-width: 30px;"></a> 
+            <a href="https://www.facebook.com/conservationlands/" target="_blank"> <img src="<?php bloginfo('template_url'); ?>/img/facebook.png" alt="facebook" class="me-4" style="max-width: 20px;"></a> 
+            <a href="https://twitter.com/ConservationLF" target="_blank"> <img src="<?php bloginfo('template_url'); ?>/img/twitter.png" alt="twitter" class="me-4" style="max-width: 34px;"></a> 
+            <a href="https://www.instagram.com/conservationlands/" target="_blank"> <img src="<?php bloginfo('template_url'); ?>/img/instagram.png" alt="instagram" class="me-4" style="max-width: 30px;"></a> 
+            <a href=https://www.youtube.com/user/ConservationLF" target="_blank"> <img src="<?php bloginfo('template_url'); ?>/img/youtube.png" alt="youtube" class="me-4" style="max-width: 44px;"></a> 
+            <a href="https://www.linkedin.com/company/conservation-lands-foundation/" target="_blank"> <img src="<?php bloginfo('template_url'); ?>/img/linkedin.png" alt="linkedin" class="me-4" style="max-width: 30px;"></a> 
+            <a href="https://www.flickr.com/photos/conservationlands" target="_blank"> <img src="<?php bloginfo('template_url'); ?>/img/vector.png" alt="flickr" class="me-4" style="max-width: 29px;"></a> 
+            <a href="https://www.tiktok.com/@conservationlands" target="_blank"> <img src="<?php bloginfo('template_url'); ?>/img/tiktok.png" alt="tiktok" class="me-4" style="max-width: 30px;"></a> 
           </div>
         </div>
         <div class="col-md-9">
