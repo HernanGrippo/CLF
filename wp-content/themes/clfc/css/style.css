@@ -256,5 +256,10 @@ body h2 {
   right: -240px;
   position: absolute;
 }
+@media (min-width: 576px) {
+  #contact-form .right img {
+    display: block;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

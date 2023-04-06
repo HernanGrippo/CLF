@@ -79,10 +79,9 @@
         bottom: -20px;
         right: -240px;
         position: absolute;
-        // @include media-breakpoint-up(sm) {
-        // display: block;
-        // }
-      
+        @include media-breakpoint-up(sm) {
+        display: block;
+        }
       }
 
     }
