@@ -40,13 +40,13 @@
   <section id="campaign">
     <div class="row">
       <div class="col-12 text-center">
-        <h2>Our Campaign</h2>
+        <h2>Resources</h2>
       </div>
     </div>
     
     <div class="row">
-      <div class="col-md-8 offset-md-2">
-        <p>The coalition works collaboratively to develop messaging and content (including the Spokespebble video series), to provide specific regional guidance, and to ensure campaign messaging and activations are appropriately respectful of the experiences and traditions of indigenous groups.</p>
+      <div class="col-md-10 offset-md-1">
+        <p>You won’t find a list of rules posted anywhere on America’s National Conservation Lands - but if you want to enjoy the most incredible outdoor experiences around, here are a few things you need to know.<br><b>Click the links below</b> to learn how you can RESPECT the awesome power of nature, CONNECT with the historic splendor of the land, and PROTECT the beauty of our outdoor spaces for future generations.</p>
       </div>
     </div>
     
