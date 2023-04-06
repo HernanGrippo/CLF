@@ -4,7 +4,7 @@
       justify-content: center;
       max-width: 1386px;
       max-height: 674;
-      margin-bottom: 83px;
+      margin-bottom: 150px;
       background-image: url('../img/formbackground.png');
       background-size: cover;
       background-repeat: no-repeat;
@@ -31,50 +31,61 @@
       width: 621px;
       height: 674px;
       border-radius: 25px; 
-    }
-    .form {
-      margin-top: 120px;
-        input{
-          width: 463px;
-          height: 91px;
-          margin-bottom: 40px;
-          &::placeholder{
-            color: #FEFBEA;
+      position: relative;
+
+      .form {
+        margin-top: 120px;
+          input{
+            width: 463px;
+            height: 91px;
+            margin-bottom: 40px;
+            &::placeholder{
+              color: #FEFBEA;
+              font-family: 'Inter', sans-serif;
+              font-size: 26;
+              font-weight: normal;  
+            }
+          }
+          
+          .wpcf7-validates-as-required{
+            background-color: #406F84;
+            border: 2px solid #7ED6D6;
+            border-radius: 25px;
+            text-align: center;
+          }
+          
+          .wpcf7-submit {
+            background-color: #F79721;
+            width: 212px;
+            height: 70px;
+            border-radius: 15px;
+            border: 2px solid #F79721;
+          }
+          
+          .wpcf7-spinner {
+            display:block;
+            margin:auto;
+          }
+          
+          .wpcf7-form-control {
             font-family: 'Inter', sans-serif;
             font-size: 26;
-            font-weight: normal;  
+            font-weight: bold;
+            color: #FEFBEA;
           }
-        }
-        
-        .wpcf7-validates-as-required{
-          background-color: #406F84;
-          border: 2px solid #7ED6D6;
-          border-radius: 25px;
-          text-align: center;
-        }
-        
-        .wpcf7-submit {
-          background-color: #F79721;
-          width: 212px;
-          height: 70px;
-          border-radius: 15px;
-          border: 2px solid #F79721;
-        }
-        
-        .wpcf7-spinner {
-          display:block;
-          margin:auto;
-        }
-        
-        .wpcf7-form-control {
-          font-family: 'Inter', sans-serif;
-          font-size: 26;
-          font-weight: bold;
-          color: #FEFBEA;
-        }
+      }
+  
+      img {
+        bottom: -20px;
+        right: -240px;
+        position: absolute;
+        // @include media-breakpoint-up(sm) {
+        // display: block;
+        // }
+      
+      }
 
     }
 }
-
 
 

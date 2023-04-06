@@ -63,6 +63,7 @@
     </div>
   </section>
 
+  <!-- CONTACT FORM -->
   <section id="contact-form">
     <div class="row">
       <div class="col">
@@ -74,10 +75,11 @@
             <div class="right text-center">
                 <div class="form">
                    <?php echo apply_shortcodes('[contact-form-7 id="11" title="Contact form 1"]'); ?>
-                </div>  
+                </div>
+                  <img src="<?php bloginfo('template_url'); ?>/img/stone.png" alt="happy stone">
             </div>
-        </div>  
-      </div>
+          </div> 
+        </div>
     </div>
   </section>
 

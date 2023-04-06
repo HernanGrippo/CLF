@@ -1,3 +1,9 @@
+/*!
+ * Bootstrap v4.0.0 (https://getbootstrap.com)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
 body {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -24,10 +30,14 @@ body h2 {
 .background {
   background-image: url("../img/background-body.png");
   background-repeat: repeat;
+  overflow-x: hidden;
 }
 
 #footer {
   padding: 82px 0 97px 0;
+}
+#footer .me-4 {
+  margin: 0 8px 0 8px;
 }
 #footer .me-4:hover {
   opacity: 50%;
@@ -175,7 +185,7 @@ body h2 {
   justify-content: center;
   max-width: 1386px;
   max-height: 674;
-  margin-bottom: 83px;
+  margin-bottom: 150px;
   background-image: url("../img/formbackground.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -202,43 +212,49 @@ body h2 {
   width: 621px;
   height: 674px;
   border-radius: 25px;
+  position: relative;
 }
-#contact-form .form {
+#contact-form .right .form {
   margin-top: 120px;
 }
-#contact-form .form input {
+#contact-form .right .form input {
   width: 463px;
   height: 91px;
   margin-bottom: 40px;
 }
-#contact-form .form input::placeholder {
+#contact-form .right .form input::placeholder {
   color: #FEFBEA;
   font-family: "Inter", sans-serif;
   font-size: 26;
   font-weight: normal;
 }
-#contact-form .form .wpcf7-validates-as-required {
+#contact-form .right .form .wpcf7-validates-as-required {
   background-color: #406F84;
   border: 2px solid #7ED6D6;
   border-radius: 25px;
   text-align: center;
 }
-#contact-form .form .wpcf7-submit {
+#contact-form .right .form .wpcf7-submit {
   background-color: #F79721;
   width: 212px;
   height: 70px;
   border-radius: 15px;
   border: 2px solid #F79721;
 }
-#contact-form .form .wpcf7-spinner {
+#contact-form .right .form .wpcf7-spinner {
   display: block;
   margin: auto;
 }
-#contact-form .form .wpcf7-form-control {
+#contact-form .right .form .wpcf7-form-control {
   font-family: "Inter", sans-serif;
   font-size: 26;
   font-weight: bold;
   color: #FEFBEA;
+}
+#contact-form .right img {
+  bottom: -20px;
+  right: -240px;
+  position: absolute;
 }
 
 /*# sourceMappingURL=style.css.map */
