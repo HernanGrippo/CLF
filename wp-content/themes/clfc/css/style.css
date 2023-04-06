@@ -29,6 +29,9 @@ body h2 {
 #footer {
   padding: 82px 0 97px 0;
 }
+#footer .me-3:hover {
+  opacity: 50%;
+}
 #footer ul {
   line-height: 31px;
   list-style: none;
