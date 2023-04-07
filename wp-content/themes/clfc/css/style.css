@@ -186,6 +186,12 @@ body h2 {
   background-repeat: no-repeat;
   padding: 0;
 }
+@media (max-width: 575px) {
+  #contact-form .container {
+    height: auto;
+    display: block;
+  }
+}
 #contact-form .left {
   width: 765px;
   height: 674px;
