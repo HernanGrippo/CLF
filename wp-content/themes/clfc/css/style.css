@@ -30,6 +30,15 @@ body h2 {
 #footer {
   padding: 82px 0 97px 0;
 }
+@media (max-width: 575px) {
+  #footer .logofooter {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    align-items: center;
+    padding-top: 20px;
+  }
+}
 #footer .me-4 {
   margin: 0 8px 0 8px;
 }
@@ -178,9 +187,8 @@ body h2 {
   display: flex;
   justify-content: center;
   max-width: 1386px;
-  max-height: 674;
+  height: auto;
   margin-bottom: 150px;
-  margin-top: 92px;
   background-image: url("../img/formbackground.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -188,8 +196,12 @@ body h2 {
 }
 @media (max-width: 575px) {
   #contact-form .container {
+    max-width: 100%;
     height: auto;
+    background-image: url("../img/contactbackresponsive.png");
+    background-size: contain;
     display: block;
+    justify-content: center;
   }
 }
 #contact-form .left {
@@ -200,6 +212,7 @@ body h2 {
   #contact-form .left {
     max-width: 100%;
     height: auto;
+    display: block;
   }
 }
 #contact-form .left h2 {
@@ -226,21 +239,39 @@ body h2 {
     max-width: 100%;
     height: auto;
     display: block;
+    margin-top: -20px;
   }
 }
 #contact-form .right .form {
   margin-top: 120px;
+}
+@media (max-width: 575px) {
+  #contact-form .right .form {
+    padding-top: 33px;
+  }
 }
 #contact-form .right .form input {
   width: 463px;
   height: 91px;
   margin-bottom: 40px;
 }
+@media (max-width: 575px) {
+  #contact-form .right .form input {
+    width: 360px;
+    height: 70px;
+  }
+}
 #contact-form .right .form input::placeholder {
   color: #FEFBEA;
   font-family: "Inter", sans-serif;
-  font-size: 26;
+  font-size: 26px;
   font-weight: normal;
+}
+@media (max-width: 575px) {
+  #contact-form .right .form input::placeholder {
+    border-radius: 15px;
+    font-size: 24px;
+  }
 }
 #contact-form .right .form .wpcf7-validates-as-required {
   background-color: #406F84;
@@ -254,6 +285,7 @@ body h2 {
   height: 70px;
   border-radius: 15px;
   border: 2px solid #F79721;
+  color: #406F84;
 }
 #contact-form .right .form .wpcf7-spinner {
   display: block;
@@ -263,12 +295,20 @@ body h2 {
   font-family: "Inter", sans-serif;
   font-size: 26;
   font-weight: bold;
-  color: #FEFBEA;
 }
 #contact-form .right img {
   bottom: -20px;
   right: -240px;
   position: absolute;
+}
+@media (max-width: 575px) {
+  #contact-form .right img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    left: 250px;
+    bottom: -90px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

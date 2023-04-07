@@ -4,17 +4,20 @@
       display: flex;
       justify-content: center;
       max-width: 1386px;
-      max-height: 674;
+      height: auto;
       margin-bottom: 150px;
-      margin-top: 92px;
       background-image: url('../img/formbackground.png');
       background-size: cover;
       background-repeat: no-repeat;
       padding: 0;
      
       @media (max-width: 575px) { 
+        max-width: 100%;
         height: auto;
+        background-image: url('../img/contactbackresponsive.png');
+        background-size: contain;
         display: block;
+        justify-content: center;
       }
 
     }
@@ -26,6 +29,7 @@
         @media (max-width: 575px) { 
           max-width: 100%;
           height: auto;
+          display: block;
          }
 
       h2 {
@@ -52,20 +56,33 @@
           max-width: 100%;
           height: auto;
           display: block;
+          margin-top: -20px;
          }
 
 
       .form {
+        @media (max-width: 575px) { 
+          padding-top: 33px;
+        }
         margin-top: 120px;
           input{
             width: 463px;
             height: 91px;
             margin-bottom: 40px;
+             @media (max-width: 575px) { 
+                width: 360px;
+                height: 70px;
+              }      
             &::placeholder{
               color: #FEFBEA;
               font-family: 'Inter', sans-serif;
-              font-size: 26;
+              font-size: 26px;
               font-weight: normal;  
+              @media (max-width: 575px) { 
+                border-radius: 15px;
+                font-size: 24px;
+              }      
+
             }
           }
           
@@ -82,6 +99,7 @@
             height: 70px;
             border-radius: 15px;
             border: 2px solid #F79721;
+            color: #406F84;
           }
           
           .wpcf7-spinner {
@@ -93,7 +111,6 @@
             font-family: 'Inter', sans-serif;
             font-size: 26;
             font-weight: bold;
-            color: #FEFBEA;
           }        
        }
   
@@ -101,6 +118,14 @@
             bottom: -20px;
             right: -240px;
             position: absolute;
+            @media (max-width: 575px) { 
+              max-width: 50%;
+              height: auto;
+              display: block;
+              left: 250px;
+              bottom: -90px;
+             }
+    
           }
 
       }
