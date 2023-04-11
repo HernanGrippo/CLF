@@ -1,0 +1,29 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    
+    h1 {
+        font-family: "gelica", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 75px;
+        line-height: 89px;
+        text-align: center;
+        color: #9B3926;
+    }
+    
+    h2 {
+      font-family: "gelica", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 65px;
+      line-height: 77px;
+      text-align: center;
+      color: #9B3926;
+    }
+  }    
+.background {
+  background-image: url("../img/background-body.png");
+  background-repeat: repeat;
+  overflow-x: hidden;
+}
