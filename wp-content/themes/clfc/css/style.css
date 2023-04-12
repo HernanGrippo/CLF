@@ -30,15 +30,6 @@ body h2 {
 #footer {
   padding: 82px 0 97px 0;
 }
-@media (max-width: 575px) {
-  #footer .logofooter {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    align-items: center;
-    padding-top: 20px;
-  }
-}
 #footer .me-4 {
   margin: 0 8px 0 8px;
 }
@@ -144,6 +135,22 @@ body h2 {
 
 #video {
   padding: 18px 0 98px 0;
+}
+
+#hero-aboutus {
+  height: 466px;
+  width: 100%;
+  margin: 50px 0 50px 0;
+}
+#hero-aboutus .container {
+  background-image: url(../img/aboutushero.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 364px;
+}
+#hero-aboutus .container h1 {
+  padding-top: 150px;
 }
 
 #sponsors {
