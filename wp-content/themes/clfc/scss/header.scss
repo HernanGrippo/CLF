@@ -1,29 +1,93 @@
-body {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    
-    h1 {
-        font-family: "gelica", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 75px;
-        line-height: 89px;
-        text-align: center;
-        color: #9B3926;
-    }
-    
-    h2 {
-      font-family: "gelica", sans-serif;
-      font-weight: 700;
-      font-style: normal;
-      font-size: 65px;
-      line-height: 77px;
-      text-align: center;
-      color: #9B3926;
-    }
-  }    
 .background {
   background-image: url("../img/background-body.png");
   background-repeat: repeat;
   overflow-x: hidden;
 }
+p#hero {
+  font-size: 24px;
+}
+
+.logo {
+    max-width: 281px;
+    height: auto;
+}
+
+.navbar {
+    height: 200px;
+}
+
+.navbar-nav {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.navbar-nav .nav-link {
+  font-style: normal;
+  font-weight: bold;
+  color: #9B3926;
+  font-size: 26px;
+  line-height: 31.47px;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  margin-left: 15px;
+}
+
+.line {
+  position: relative;
+  width: 100%;
+  height: 3px;
+  border: 3px solid #C34F30;
+  transform: rotate(180deg);
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+i {
+  font-size: 24px;
+  color: #000;
+}
+
+.font-style-normal {
+  font-style: normal;
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.font-size-26 {
+  font-size: 26px;
+}
+
+#video iframe {
+  width: 100%;
+  min-height: 500px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  
+  h1 {
+      font-family: "gelica", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 75px;
+      line-height: 89px;
+      text-align: center;
+      color: #9B3926;
+  }
+  
+  h2 {
+    font-family: "gelica", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 65px;
+    line-height: 77px;
+    text-align: center;
+    color: #9B3926;
+  }
+}    

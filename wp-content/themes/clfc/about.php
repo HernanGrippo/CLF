@@ -45,7 +45,7 @@ Template Name: About
     </div>
     <div class="col-md-9">
       <h3>About Conservation Lands Foundation</h3>
-      <p>We power a national network of community-led organizations to conserve the largest acreage of unprotected public lands in the country that are  necessary for healthy people, planet and our way of life. For more than 15 years, we’ve been protecting, restoring and expanding America’s National Conservation Lands.</p>
+      <p>We power a national network of community-led organizations to conserve the largest acreage of unprotected public lands in the country that are  necessary for healthy people, planet and our way of life.<br><br>For more than 15 years, we’ve been protecting, restoring and expanding America’s National Conservation Lands.</p>
     </div>
   </div>
 </div>
@@ -72,4 +72,4 @@ Template Name: About
     </div>
 </section>
 
-<?php get_footer();?> 
+<?php get_footer(); ?>

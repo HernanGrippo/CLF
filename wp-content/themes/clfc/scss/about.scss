@@ -53,15 +53,25 @@
     }
     .blm-logo{
         max-width: 291px;
+        padding-top: 20px;
     }
-    .clf-logo{
+    .clfc-logo{
         max-width: 396px;
+        padding-top: 10px;
     }
     h3{
         font-size: 28px;
         font-weight:bold;
-        line-height: 34px;
+        line-height: 60px;
         font-family: 'Inter', sans-serif;
+        padding-left: 50px;
+    }
+    p{
+        font-size: 28px;
+        font-weight:400;
+        line-height: 36px;
+        font-family: 'Inter', sans-serif;
+        padding-left: 50px;
     }
     .waveabout{
         padding: 86px 0 100px 0;
