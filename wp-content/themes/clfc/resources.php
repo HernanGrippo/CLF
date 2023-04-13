@@ -90,7 +90,7 @@ Template Name: Resources
   <div class="line"></div>
   <div class="row">
     <div class="col-md-3">
-      <img src="<?php bloginfo('template_url'); ?>/img/connect.png" alt="Logo">
+      <img src="<?php bloginfo('template_url'); ?>/img/connect2.png" alt="Logo">
     </div>
     <div class="col-md-9">
       <h2>Connect</h2>
