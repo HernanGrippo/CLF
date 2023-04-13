@@ -11,7 +11,7 @@
 
 <?php wp_head(); ?>
 </head>
-<body class="body">
+<body>
 <!-- Navbar -->
 <header>
 <div class="container">
