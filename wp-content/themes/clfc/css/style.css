@@ -137,22 +137,6 @@ body h2 {
   padding: 18px 0 98px 0;
 }
 
-#hero-aboutus {
-  height: 466px;
-  width: 100%;
-  margin: 50px 0 50px 0;
-}
-#hero-aboutus .container {
-  background-image: url(../img/aboutushero.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 364px;
-}
-#hero-aboutus .container h1 {
-  padding-top: 150px;
-}
-
 #sponsors {
   padding: 0 0 163px 0;
 }
@@ -316,6 +300,82 @@ body h2 {
     left: 250px;
     bottom: -90px;
   }
+}
+
+#hero-aboutus {
+  height: 466px;
+  width: 100%;
+  margin: 50px 0 50px 0;
+}
+#hero-aboutus .container {
+  background-image: url(../img/aboutushero.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 364px;
+}
+#hero-aboutus .container h1 {
+  padding-top: 150px;
+}
+
+#whatare h2 {
+  text-align: left;
+}
+#whatare p {
+  padding-left: 10px;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 36px;
+  font-family: "Inter", sans-serif;
+  margin-right: 20px;
+}
+#whatare ul {
+  padding: 50px 0 0 60px;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 36px;
+  font-family: "Inter", sans-serif;
+}
+#whatare .btn {
+  height: 79px;
+  width: 482px;
+  border-radius: 15px;
+  border-color: #F79721;
+  background: #F79721;
+  margin-top: 48px;
+  color: #213A45;
+  font-weight: bold;
+  padding-top: 19px;
+  font-size: 26px;
+}
+
+#logoabout {
+  padding: 40px 0 0 0;
+}
+#logoabout .row {
+  padding: 107px 0 0 0;
+}
+#logoabout .blm-logo {
+  max-width: 291px;
+}
+#logoabout .clf-logo {
+  max-width: 396px;
+}
+#logoabout h3 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 34px;
+  font-family: "Inter", sans-serif;
+}
+#logoabout .waveabout {
+  padding: 86px 0 100px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#instagram-embed {
+  padding: 0 0 80px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
