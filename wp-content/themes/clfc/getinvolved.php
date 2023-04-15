@@ -38,7 +38,7 @@ Template Name: GetInvolved
 </section>
 
 <!-- Video -->
-  <section id="video">
+  <section id="videoinvolved">
     <div class="row">
       <div class="col text-center">
         <img src="<?php bloginfo('template_url'); ?>/img/video.png" alt="Video" class="img-fluid rounded">
@@ -46,8 +46,8 @@ Template Name: GetInvolved
     </div>
   </section>
 
-  <!-- HERO -->
-   <section id="hero">
+  <!-- JOIN Spokespebble -->
+   <section id="joinspoke">
     <div class="row align-items-center">
       <div class="col-md-2">
         <div class="text-center d-sm-none d-md-block">
