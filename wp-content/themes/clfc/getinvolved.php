@@ -54,7 +54,7 @@ Template Name: GetInvolved
         </div>
       </div>
       <div class="col-md-8 text-center">
-      <img class="waveabout" src="<?php bloginfo('template_url'); ?>/img/waveabout.png" alt="wave line">
+      <img class="waveaboutspoke" src="<?php bloginfo('template_url'); ?>/img/waveabout.png" alt="wave line">
         <h2 class="text-center">Join in on the fun with Spokespebble</h2>
       </div>
       <div class="col-md-2 text-center">
