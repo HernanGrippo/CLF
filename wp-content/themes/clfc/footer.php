@@ -28,11 +28,11 @@
       </div>
       <div class="col-md-2 offset-md-4">
         <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">GET INVOLVED</a></li>
-          <li><a href="#">RESOURCES</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="<?php echo get_site_url(); ?>">HOME</a></li>
+          <li><a href="<?php echo get_site_url(); ?>/about/">ABOUT</a></li>
+          <li><a href="<?php echo get_site_url(); ?>/get-involved/">GET INVOLVED</a></li>
+          <li><a href="<?php echo get_site_url(); ?>/resources/">RESOURCES</a></li>
+          <li><a href="<?php echo get_site_url(); ?>/contact-us/">CONTACT</a></li>
         </ul>
       </div>
     </div>
