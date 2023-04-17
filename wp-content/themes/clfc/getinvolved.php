@@ -7,11 +7,21 @@ Template Name: GetInvolved
 
 <!-- HERO -->
 <section id="hero-getinvolved">
-    <div class="container">
-        <h1>Respect.Connect.Protect.</h1>
-        <p>Led by Conservation Lands Foundation, in partnership with the Bureau of Land Management and an array of local and indigenous affiliate groups, “Respect. Connect. Protect.” is a campaign designed to encourage respectful and safe visitation on America’s National Conservation Lands.</p>
-        <p>The coalition works collaboratively with partners to provide resources for understanding the uses, history, and Indigenous cultural significance of the land as well as specific regional guidance for how to make visits safe and enjoyable. </p>    
-    </div>
+    <div class="row align-items-center">
+      <div class="col-md-0">
+        <div class="text-center d-sm-none d-md-block">
+        </div>
+      </div>
+      <div class="col-md-12 text-center">
+        <h1 class="text-center">Respect. Connect. Protect</h1>
+      </div>
+      <div class="col-md-0">
+        <div class="text-center d-sm-none d-md-block">
+        </div>
+      </div>
+</div>
+<p>Led by Conservation Lands Foundation, in partnership with the Bureau of Land Management and an array of local and indigenous affiliate groups, “Respect. Connect. Protect.” is a campaign designed to encourage respectful and safe visitation on America’s National Conservation Lands.</p>
+<p>The coalition works collaboratively with partners to provide resources for understanding the uses, history, and Indigenous cultural significance of the land as well as specific regional guidance for how to make visits safe and enjoyable. </p>    
 </section>
 
 <!-- WHAT ARE NATIONAL SECTION -->
