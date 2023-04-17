@@ -1,0 +1,86 @@
+#hero-aboutus {
+    height: 466px;
+    width: 100%;
+    margin: 50px 0 50px 0;
+    .container{
+        background-image: url(../img/aboutushero.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 364px;
+    h1{
+        padding-top: 150px;
+    }
+    }
+}
+#whatare{
+    h2{
+        text-align: left;
+    }
+    p{
+        padding-left: 10px;
+        font-size: 26px;
+        font-weight:400;
+        line-height: 36px;
+        font-family: 'Inter', sans-serif;
+        margin-right: 20px;
+    }
+    ul{
+        padding: 50px 0 0 60px;
+        font-size: 26px;
+        font-weight:400;
+        line-height: 36px;
+        font-family: 'Inter', sans-serif;
+    }
+    .btn {
+        height: 79px;
+        width: 482px;
+        border-radius: 15px;
+        border-color: #F79721;
+        background: #F79721;
+        margin-top: 48px;
+        color: #213A45;
+        font-weight: bold;
+        padding-top: 19px;
+        font-size: 26px;
+    }
+}
+#logoabout {
+    padding: 40px 0 0 0;
+    .row {
+    padding: 107px 0 0 0;
+    ;
+    }
+    .blm-logo{
+        max-width: 291px;
+        padding-top: 20px;
+    }
+    .clfc-logo{
+        max-width: 396px;
+        padding-top: 10px;
+    }
+    h3{
+        font-size: 28px;
+        font-weight:bold;
+        line-height: 60px;
+        font-family: 'Inter', sans-serif;
+        padding-left: 50px;
+    }
+    p{
+        font-size: 28px;
+        font-weight:400;
+        line-height: 36px;
+        font-family: 'Inter', sans-serif;
+        padding-left: 50px;
+    }
+    .waveabout{
+        padding: 86px 0 100px 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+#instagram-embed{
+    padding: 0 0 80px 0;
+}
+

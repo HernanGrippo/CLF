@@ -1,0 +1,131 @@
+#hero-getinvolved {
+    height: 604px;
+    width: 100%;
+    margin: 50px 0 50px 0;
+    .container{
+        background-image: url(../img/getinvolvedhero.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 604px;
+        padding-top: 60px;
+    p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2em;
+        line-height: 36px;
+        text-align: center;
+        color: #9B3926;
+        padding: 0 120px 0 120px;
+        padding-top: 52px;
+    }
+    }
+}
+#meet{
+    padding-top: 100px;
+    h2{
+        text-align: left;
+    }
+    p{
+        padding-left: 10px;
+        font-size: 26px;
+        font-weight:400;
+        line-height: 36px;
+        font-family: 'Inter', sans-serif;
+        margin-right: 20px;
+    }
+    ul{
+        padding: 50px 0 0 60px;
+        font-size: 26px;
+        font-weight:400;
+        line-height: 36px;
+        font-family: 'Inter', sans-serif;
+        list-style: none;
+    }
+    .btn {
+        height: 79px;
+        width: 482px;
+        border-radius: 15px;
+        border-color: #F79721;
+        background: #F79721;
+        margin-top: 48px;
+        color: #213A45;
+        font-weight: bold;
+        padding-top: 19px;
+        font-size: 26px;
+    }
+    img {
+        max-width: 528px;
+        height: auto;
+    }
+}
+#joinspoke {
+
+    padding: 90px 0 123px 0;
+
+    h1 {
+        font-family: "gelica", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 75px;
+        line-height: 89px;
+        text-align: center;
+        color: #9B3926;
+    }
+
+    h2 {
+      font-family: "gelica", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 65px;
+      line-height: 77px;
+      text-align: center;
+      color: #9B3926;
+    }
+    
+    p {
+        font-family: "interstate", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding: 60px 0 80px 0;
+        text-align: center;
+        font-size: 26px; 
+    }
+    
+    img {
+        width: 200px;
+        margin: auto;
+        position: relative;
+        padding: 0 0 90px 0;
+    }
+
+    .line-height-333333 {
+        line-height: 33.3333px;
+    }
+      
+    .btn {
+        color: #000; /* added to set text color to black */
+        height: 79px;
+        width: 274px;
+        position: relative; /* changed from absolute to relative */
+        left: 50%;
+        transform: translateX(-50%); /* added to center align the button */
+        border-radius: 15px;
+        border: none;
+        background-color: #F79721;
+        font-size: 26px;
+        line-height: 31.47px;
+        font-family: "interstate", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        color: #fff;
+        background-color: #9B3926;
+    }
+
+}
+

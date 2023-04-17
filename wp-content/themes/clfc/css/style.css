@@ -1,3 +1,73 @@
+.background {
+  background-image: url("../img/background-body.png");
+  background-repeat: repeat;
+  overflow-x: hidden;
+}
+
+p#hero {
+  font-size: 24px;
+}
+
+.logo {
+  max-width: 281px;
+  height: auto;
+}
+
+.navbar {
+  height: 200px;
+}
+
+.navbar-nav {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.navbar-nav .nav-link {
+  font-style: normal;
+  font-weight: bold;
+  color: #9B3926;
+  font-size: 26px;
+  line-height: 31.47px;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  margin-left: 15px;
+}
+
+.line {
+  position: relative;
+  width: 100%;
+  height: 3px;
+  border: 3px solid #C34F30;
+  transform: rotate(180deg);
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+i {
+  font-size: 24px;
+  color: #000;
+}
+
+.font-style-normal {
+  font-style: normal;
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.font-size-26 {
+  font-size: 26px;
+}
+
+#video iframe {
+  width: 100%;
+  min-height: 500px;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -21,23 +91,8 @@ body h2 {
   color: #9B3926;
 }
 
-.background {
-  background-image: url("../img/background-body.png");
-  background-repeat: repeat;
-  overflow-x: hidden;
-}
-
 #footer {
   padding: 82px 0 97px 0;
-}
-@media (max-width: 575px) {
-  #footer .logofooter {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    align-items: center;
-    padding-top: 20px;
-  }
 }
 #footer .me-4 {
   margin: 0 8px 0 8px;
@@ -309,6 +364,314 @@ body h2 {
     left: 250px;
     bottom: -90px;
   }
+}
+
+.contactpad {
+  padding: 110px 0 0 0;
+}
+
+#hero-aboutus {
+  height: 466px;
+  width: 100%;
+  margin: 50px 0 50px 0;
+}
+#hero-aboutus .container {
+  background-image: url(../img/aboutushero.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 364px;
+}
+#hero-aboutus .container h1 {
+  padding-top: 150px;
+}
+
+#whatare h2 {
+  text-align: left;
+}
+#whatare p {
+  padding-left: 10px;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 36px;
+  font-family: "Inter", sans-serif;
+  margin-right: 20px;
+}
+#whatare ul {
+  padding: 50px 0 0 60px;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 36px;
+  font-family: "Inter", sans-serif;
+}
+#whatare .btn {
+  height: 79px;
+  width: 482px;
+  border-radius: 15px;
+  border-color: #F79721;
+  background: #F79721;
+  margin-top: 48px;
+  color: #213A45;
+  font-weight: bold;
+  padding-top: 19px;
+  font-size: 26px;
+}
+
+#logoabout {
+  padding: 40px 0 0 0;
+}
+#logoabout .row {
+  padding: 107px 0 0 0;
+}
+#logoabout .blm-logo {
+  max-width: 291px;
+  padding-top: 20px;
+}
+#logoabout .clfc-logo {
+  max-width: 396px;
+  padding-top: 10px;
+}
+#logoabout h3 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 60px;
+  font-family: "Inter", sans-serif;
+  padding-left: 50px;
+}
+#logoabout p {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+  font-family: "Inter", sans-serif;
+  padding-left: 50px;
+}
+#logoabout .waveabout {
+  padding: 86px 0 100px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#instagram-embed {
+  padding: 0 0 80px 0;
+}
+
+#resources {
+  padding: 115px 0 62px 0;
+}
+#resources h2 {
+  padding: 0 0 60px 0;
+}
+#resources p {
+  font-family: "interstate", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 36px;
+  /* or 138% */
+  text-align: center;
+  color: #333333;
+  padding: 0 0 105px 0;
+}
+#resources h3 {
+  padding: 20px 0;
+}
+
+#respect {
+  padding: 40px 0 0 0;
+}
+#respect .row {
+  padding: 107px 0 0 0;
+}
+#respect .blm-logo {
+  max-width: 291px;
+  padding-top: 20px;
+}
+#respect .clfc-logo {
+  max-width: 396px;
+  padding-top: 10px;
+}
+#respect h2 {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 65px;
+  padding-left: 50px;
+  color: #598863;
+  text-align: left;
+}
+#respect p {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+  font-family: "Inter", sans-serif;
+  padding-left: 50px;
+}
+
+#respect2 {
+  padding: 0 0 100px 0;
+}
+#respect2 .bg {
+  border-radius: 25px;
+  background-color: #406F84;
+  position: absolute;
+  height: 107px;
+  width: 100%;
+  opacity: 90%;
+}
+#respect2 h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  padding: 0 0 50px 20px;
+}
+#respect2 p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #FEFBEA;
+  padding: 0 70px 0 70px;
+}
+#respect2 .resourceslink {
+  padding-top: 48px;
+  display: block;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #213A45;
+  text-decoration: none;
+}
+
+#hero-getinvolved {
+  height: 604px;
+  width: 100%;
+  margin: 50px 0 50px 0;
+}
+#hero-getinvolved .container {
+  background-image: url(../img/getinvolvedhero.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 604px;
+  padding-top: 60px;
+}
+#hero-getinvolved .container p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 36px;
+  text-align: center;
+  color: #9B3926;
+  padding: 0 120px 0 120px;
+  padding-top: 52px;
+}
+
+#meet {
+  padding-top: 100px;
+}
+#meet h2 {
+  text-align: left;
+}
+#meet p {
+  padding-left: 10px;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 36px;
+  font-family: "Inter", sans-serif;
+  margin-right: 20px;
+}
+#meet ul {
+  padding: 50px 0 0 60px;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 36px;
+  font-family: "Inter", sans-serif;
+  list-style: none;
+}
+#meet .btn {
+  height: 79px;
+  width: 482px;
+  border-radius: 15px;
+  border-color: #F79721;
+  background: #F79721;
+  margin-top: 48px;
+  color: #213A45;
+  font-weight: bold;
+  padding-top: 19px;
+  font-size: 26px;
+}
+#meet img {
+  max-width: 528px;
+  height: auto;
+}
+
+#joinspoke {
+  padding: 90px 0 123px 0;
+}
+#joinspoke h1 {
+  font-family: "gelica", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 75px;
+  line-height: 89px;
+  text-align: center;
+  color: #9B3926;
+}
+#joinspoke h2 {
+  font-family: "gelica", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 65px;
+  line-height: 77px;
+  text-align: center;
+  color: #9B3926;
+}
+#joinspoke p {
+  font-family: "interstate", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 60px 0 80px 0;
+  text-align: center;
+  font-size: 26px;
+}
+#joinspoke img {
+  width: 200px;
+  margin: auto;
+  position: relative;
+  padding: 0 0 90px 0;
+}
+#joinspoke .line-height-333333 {
+  line-height: 33.3333px;
+}
+#joinspoke .btn {
+  color: #000; /* added to set text color to black */
+  height: 79px;
+  width: 274px;
+  position: relative; /* changed from absolute to relative */
+  left: 50%;
+  transform: translateX(-50%); /* added to center align the button */
+  border-radius: 15px;
+  border: none;
+  background-color: #F79721;
+  font-size: 26px;
+  line-height: 31.47px;
+  font-family: "interstate", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  cursor: pointer;
+}
+#joinspoke .btn:hover {
+  color: #fff;
+  background-color: #9B3926;
 }
 
 /*# sourceMappingURL=style.css.map */

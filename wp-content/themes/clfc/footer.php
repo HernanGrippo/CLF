@@ -1,5 +1,7 @@
 <!-- Footer -->
+</div>
 <div class="line"></div>
+
 <section id="footer">
 <div class="container">
   <footer class="footer">
@@ -35,13 +37,9 @@
       </div>
     </div>
   </div>
-
 </footer>
 </section>
-</body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </html>
-
-<?php wp_footer(); ?>
