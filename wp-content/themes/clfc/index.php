@@ -4,13 +4,13 @@
 <section id="hero">
   <div class="row align-items-center">
       <div class="col-md-12 text-center">
-        <h1 class="text-center">Respect. Connect. Protect</h1>
+        <h1 class="text-center">Respect. Connect. Protect.</h1>
       </div>
   </div>
     <div class="row">
       <div class="col-md-8 offset-md-2">
-        <p>Led by Conservation Lands Foundation, the Bureau of Land Management, and an array of local and indigenous affiliate groups, “Respect. Connect. Protect.” is a campaign designed. to encourage enthusiastic, respectful, and safe usage of National Conservation Lands.</p>
-        <button class="btn">LEARN MORE</button>
+        <p>Led by Conservation Lands Foundation, the Bureau of Land Management, and an array of local and indigenous affiliate groups, “Respect. Connect. Protect.” is a campaign designed to encourage enthusiastic, respectful, and safe usage of National Conservation Lands.</p>
+        <a href="http://test.local/Get-involved/" class="btn">LEARN MORE</a>
       </div>
     </div>
 </section> 
