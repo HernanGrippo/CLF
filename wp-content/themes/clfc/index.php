@@ -28,7 +28,7 @@
   <section id="campaign">
     <div class="row">
       <div class="col-12 text-center">
-        <h2>Resources</h2>
+        <h2>How To</h2>
       </div>
     </div>
     
