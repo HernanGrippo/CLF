@@ -5,10 +5,10 @@
 <section id="footer">
 <div class="container">
   <footer class="footer">
-    <div class="row justify-content-center">
-      <div class="col-md-6">
+    <div class="row justify-content-left">
+      <div class="col-md-12 col-lg-6 align-items-left">
         <img src="<?php bloginfo('template_url'); ?>/img/logo-footer.png" alt="conservation lands foundation logo" class="me-3" style="max-width: 461px;"> 
-        <img src="<?php bloginfo('template_url'); ?>/img/national.png" alt="national system of public lands" class="me-3" style="max-width: 234px;"> 
+        <img src="<?php bloginfo('template_url'); ?>/img/national.png" alt="national system of public lands" class="me-3b"> 
         <div class="d-flex align-items-center">
           <div class="contact-links">
             <p><a href="mailto:info@conservationlands.org">info@conservationlands.org</a></p>
@@ -21,12 +21,12 @@
             <a href="https://www.tiktok.com/@conservationlands" target="_blank"> <img src="<?php bloginfo('template_url'); ?>/img/tiktok.png" alt="tiktok" class="me-4" style="max-width: 30px;"></a> 
           </div>
         </div>
-        <div class="col-md-9">
+        <div class="col-md-9 col-lg-9">
           <p>We acknowledge that the land on which our home office is located and where members of our staff live and execute our business is the original land of the Utes–Nuuchiu–the longest continuous residents of Colorado.</p>
           <p>© 2023. All Rights Reserved.	Privacy Policy. Terms and Conditions.</p>
         </div>
       </div>
-      <div class="col-md-2 offset-md-4">
+      <div class="col-md-12 col-lg-2 offset-lg-4">
         <ul>
           <li><a href="#">HOME</a></li>
           <li><a href="#">ABOUT</a></li>

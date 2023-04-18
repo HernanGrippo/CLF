@@ -92,7 +92,16 @@ body h2 {
 }
 
 #footer {
-  padding: 82px 0 97px 0;
+  padding: 82px 0 20px 0;
+}
+#footer .me-3b {
+  max-width: 234px;
+}
+@media (max-width: 576px) {
+  #footer .me-3b {
+    max-width: 234px;
+    padding-top: 30px;
+  }
 }
 #footer .me-4 {
   margin: 0 8px 0 8px;
@@ -118,6 +127,18 @@ body h2 {
 #footer ul li a:hover {
   color: #631000;
 }
+@media (max-width: 992px) {
+  #footer ul li a {
+    font-size: 18px;
+    font-size: 22px;
+  }
+}
+@media (max-width: 576px) {
+  #footer ul li a {
+    font-size: 18px;
+    font-size: 22px;
+  }
+}
 #footer .contact-links {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -136,6 +157,16 @@ body h2 {
 }
 #footer .contact-links a:hover {
   color: #631000;
+}
+@media (max-width: 992px) {
+  #footer .contact-links img {
+    padding: 30px 0 0 0;
+  }
+}
+@media (max-width: 576px) {
+  #footer .contact-links img {
+    padding: 30px 0 0 0;
+  }
 }
 
 #hero {
