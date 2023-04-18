@@ -572,7 +572,24 @@ body h2 {
   padding: 0 120px 0 120px;
   padding-top: 52px;
 }
-@media (max-width: 575px) {
+@media (max-width: 1548px) {
+  #hero-getinvolved {
+    background-image: none;
+  }
+}
+@media (max-width: 992px) {
+  #hero-getinvolved {
+    width: 100%;
+    height: auto;
+    background-image: none;
+  }
+  #hero-getinvolved p {
+    font-size: 26px;
+    padding: 50px 20px 0 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 992px) and (max-width: 576px) {
   #hero-getinvolved {
     width: 100%;
     height: auto;
@@ -623,7 +640,27 @@ body h2 {
   max-width: 528px;
   height: auto;
 }
-@media (max-width: 575px) {
+@media (max-width: 992px) {
+  #meet h2 {
+    font-size: 60px;
+    text-align: center;
+  }
+  #meet p {
+    font-size: 26px;
+    padding: 50px 20px 0 20px;
+    text-align: center;
+  }
+  #meet ul {
+    font-size: 26px;
+    list-style: circle;
+    padding: 50px 0px 100px 60px;
+  }
+  #meet img {
+    max-width: 100%;
+    padding-left: 50px;
+  }
+}
+@media (max-width: 576px) {
   #meet h2 {
     font-size: 40px;
   }
@@ -678,9 +715,6 @@ body h2 {
   position: relative;
   padding: 0 0 90px 0;
 }
-#joinspoke .line-height-333333 {
-  line-height: 33.3333px;
-}
 #joinspoke .btn {
   color: #000; /* added to set text color to black */
   height: 79px;
@@ -702,7 +736,7 @@ body h2 {
   color: #fff;
   background-color: #9B3926;
 }
-@media (max-width: 575px) {
+@media (max-width: 576px) {
   #joinspoke h2 {
     font-size: 40px;
     line-height: 57px;

@@ -19,7 +19,20 @@
         padding: 0 120px 0 120px;
         padding-top: 52px;
     }
-    @media (max-width: 575px) { 
+     @media (max-width: 1548px) {
+        background-image: none;
+    } 
+
+     @media (max-width: 992px) { 
+        width: 100%;
+        height: auto;
+        background-image: none;
+        p{
+            font-size: 26px;
+            padding: 50px 20px 0 20px;
+            text-align:center;
+    }
+     @media (max-width: 576px) { 
         width: 100%;
         height: auto;
         background-image: none;
@@ -29,7 +42,7 @@
             text-align:left;
         }
     }
-
+    }
 }
 #meet{
     padding-top: 100px;
@@ -68,7 +81,28 @@
         max-width: 528px;
         height: auto;
     }
-    @media (max-width: 575px) { 
+    @media (max-width: 992px) { 
+        h2{
+            font-size: 60px;
+            text-align:center;
+
+        }
+        p{
+            font-size: 26px;
+            padding: 50px 20px 0 20px;
+            text-align:center;
+        }
+        ul{
+            font-size: 26px;
+            list-style: circle;
+            padding: 50px 0px 100px 60px;
+        }
+        img{
+            max-width: 100%;
+            padding-left: 50px;
+        }
+    }
+    @media (max-width: 576px) { 
         h2{
             font-size: 40px;
         }
@@ -127,10 +161,6 @@
         position: relative;
         padding: 0 0 90px 0;
     }
-
-    .line-height-333333 {
-        line-height: 33.3333px;
-    }
       
     .btn {
         color: #000; /* added to set text color to black */
@@ -154,7 +184,7 @@
         color: #fff;
         background-color: #9B3926;
     }
-    @media (max-width: 575px) { 
+    @media (max-width: 576px) { 
         h2{
             font-size: 40px;
             line-height: 57px;
