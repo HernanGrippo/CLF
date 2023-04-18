@@ -85,7 +85,7 @@ Template Name: Resources
 </section>
 
 <!-- CONNECT -->
-<section id="respect">
+<section id="connect">
   <div class="container">
   <div class="line"></div>
   <div class="row">
@@ -136,7 +136,7 @@ Template Name: Resources
 </section>
 
 <!-- PROTECT -->
-<section id="respect">
+<section id="protect">
   <div class="container">
   <div class="line"></div>
   <div class="row">
