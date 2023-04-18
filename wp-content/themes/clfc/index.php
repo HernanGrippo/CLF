@@ -1,7 +1,7 @@
 <?php get_header();?>
 
  <!-- HERO -->
-  <section id="hero">
+<section id="hero">
     <div class="row align-items-center">
       <div class="col-md-2">
         <div class="text-center d-sm-none d-md-block">
@@ -16,7 +16,7 @@
           <img src="<?php bloginfo('template_url'); ?>/img/waves.png" alt="waves">
         </div>
       </div>
-    </div>
+</div>
 
     <div class="row">
       <div class="col-md-8 offset-md-2">
@@ -25,7 +25,7 @@
       </div>
     </div>
 
-  </section>
+  </section> 
 
   <!-- Video -->
   <section id="video">
