@@ -33,11 +33,10 @@ Template Name: GetInvolved
       <p>As strong as Smokey the Bear, as wise as Woodsy the Owl, Spokespebble is a nature-loving hunk of million-year-old sedimentary rock who is young at heart and always on the go. As the official voice (and adorable face) of the Respect. Connect. Protect. campaign, Spokespebble is your guide to planning ahead, staying safe, and being awesome whenever you visit National Conservation Lands.</p>
       <p>Managed by the Bureau of Land Management, many of these protected lands are beyond and between the National Parks and include:</p>
         <ul>
-         <li>Favorite food: Rock candy.</li>
-         <li>Favorite movie: The Rock.</li>
-         <li>Wilderness Areas</li>
-         <li>Favorite genre of comedy: Rock puns.</li>
-         <li>Favorite music: Smooth jazz. (Psych. It’s rock music.)</li>
+         <li><b>Favorite food:</b> Rock candy.</li>
+         <li><b>Favorite movie:</b> The Rock.</li>
+         <li><b>Favorite genre of comedy:</b> Rock puns.</li>
+         <li><b>Favorite music:</b> Smooth jazz. (Psych. It’s rock music.)</li>
         </ul> 
     </div>
     <div class="col-md-12 col-lg-4">
