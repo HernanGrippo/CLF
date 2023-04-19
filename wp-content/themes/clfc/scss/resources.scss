@@ -17,7 +17,7 @@ p {
     padding: 0 0 105px 0;
   }
 
-  h3{
+  h3 {
     padding: 20px 0;
   }
   
@@ -27,7 +27,6 @@ p {
     padding: 40px 0 0 0;
     .row {
     padding: 107px 0 0 0;
-    ;
     }
     .blm-logo{
         max-width: 291px;
@@ -46,7 +45,7 @@ p {
         text-align: left;
     }
     p{
-        font-size: 28px;
+        font-size: 26px;
         font-weight:400;
         line-height: 36px;
         font-family: 'Inter', sans-serif;
@@ -63,36 +62,39 @@ p {
         height: 107px;
         width: 100%;
         opacity: 90%;
+        text-align: center;
     }
     h3{
-        font-family: 'Inter';
+        font-family: "interstate", sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 30px;
         line-height: 36px;
         padding: 0 0 50px 20px;
     }
-    p{
-        font-family: 'Inter';
+    a{
+        font-family: "interstate", sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 24px;
         line-height: 36px;
-        text-align: center;
         text-decoration-line: underline;
         color: #FEFBEA;
-        padding: 0 70px 0 70px;
+        margin: 20px 0 0 0;
     }
     .resourceslink {
         padding-top: 48px;
         display: block;
         text-align: center;
-        font-family: 'Inter';
+        font-family: "interstate", sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 24px;
         line-height: 36px;
         color: #213A45;
         text-decoration: none;
+        img{
+            padding-bottom: 6px;
+        }
     }    
 }
