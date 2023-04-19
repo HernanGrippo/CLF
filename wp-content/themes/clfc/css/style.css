@@ -92,7 +92,16 @@ body h2 {
 }
 
 #footer {
-  padding: 82px 0 97px 0;
+  padding: 82px 0 20px 0;
+}
+#footer .me-3b {
+  max-width: 234px;
+}
+@media (max-width: 576px) {
+  #footer .me-3b {
+    max-width: 234px;
+    padding-top: 30px;
+  }
 }
 #footer .me-4 {
   margin: 0 8px 0 8px;
@@ -118,6 +127,18 @@ body h2 {
 #footer ul li a:hover {
   color: #631000;
 }
+@media (max-width: 992px) {
+  #footer ul li a {
+    font-size: 18px;
+    font-size: 22px;
+  }
+}
+@media (max-width: 576px) {
+  #footer ul li a {
+    font-size: 18px;
+    font-size: 22px;
+  }
+}
 #footer .contact-links {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -136,6 +157,16 @@ body h2 {
 }
 #footer .contact-links a:hover {
   color: #631000;
+}
+@media (max-width: 992px) {
+  #footer .contact-links img {
+    padding: 30px 0 0 0;
+  }
+}
+@media (max-width: 576px) {
+  #footer .contact-links img {
+    padding: 30px 0 0 0;
+  }
 }
 
 #hero {
@@ -186,11 +217,11 @@ body h2 {
   border: none;
   background-color: #F79721;
   font-size: 26px;
-  line-height: 31.47px;
   font-family: "interstate", sans-serif;
   font-weight: 700;
   font-style: normal;
   cursor: pointer;
+  padding-top: 19px;
 }
 #hero .btn:hover {
   color: #fff;
@@ -331,29 +362,30 @@ body h2 {
 #contact-form .right .form .wpcf7-validates-as-required {
   background-color: #406F84;
   border: 2px solid #7ED6D6;
-  border-radius: 25px;
+  border-radius: 15px;
   text-align: center;
 }
+#contact-form .right .form .wpcf7-form-control {
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+}
 #contact-form .right .form .wpcf7-submit {
+  font-weight: bold;
   background-color: #F79721;
   width: 212px;
   height: 70px;
   border-radius: 15px;
   border: 2px solid #F79721;
-  color: #406F84;
+  color: #213A45;
 }
 #contact-form .right .form .wpcf7-spinner {
   display: block;
   margin: auto;
 }
-#contact-form .right .form .wpcf7-form-control {
-  font-family: "Inter", sans-serif;
-  font-size: 26;
-  font-weight: bold;
-}
 #contact-form .right img {
   bottom: -20px;
-  right: -240px;
+  right: -100px;
   position: absolute;
 }
 @media (max-width: 575px) {
@@ -398,7 +430,7 @@ body h2 {
   margin-right: 20px;
 }
 #whatare ul {
-  padding: 50px 0 0 60px;
+  padding: 10px 0 0 60px;
   font-size: 26px;
   font-weight: 400;
   line-height: 36px;
@@ -500,7 +532,7 @@ body h2 {
   text-align: left;
 }
 #respect p {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 400;
   line-height: 36px;
   font-family: "Inter", sans-serif;
@@ -517,31 +549,31 @@ body h2 {
   height: 107px;
   width: 100%;
   opacity: 90%;
+  text-align: center;
 }
 #respect2 h3 {
-  font-family: "Inter";
+  font-family: "interstate", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   padding: 0 0 50px 20px;
 }
-#respect2 p {
-  font-family: "Inter";
+#respect2 a {
+  font-family: "interstate", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
-  text-align: center;
   text-decoration-line: underline;
   color: #FEFBEA;
-  padding: 0 70px 0 70px;
+  margin: 20px 0 0 0;
 }
 #respect2 .resourceslink {
   padding-top: 48px;
   display: block;
   text-align: center;
-  font-family: "Inter";
+  font-family: "interstate", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -549,13 +581,14 @@ body h2 {
   color: #213A45;
   text-decoration: none;
 }
+#respect2 .resourceslink img {
+  padding-bottom: 6px;
+}
 
 #hero-getinvolved {
   height: 604px;
   width: 100%;
   margin: 50px 0 50px 0;
-}
-#hero-getinvolved .container {
   background-image: url(../img/getinvolvedhero.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -563,16 +596,45 @@ body h2 {
   min-height: 604px;
   padding-top: 60px;
 }
-#hero-getinvolved .container p {
+#hero-getinvolved p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 2em;
+  font-size: 26px;
   line-height: 36px;
   text-align: center;
   color: #9B3926;
-  padding: 0 120px 0 120px;
+  padding: 0 300px 0 300px;
   padding-top: 52px;
+}
+@media (max-width: 1548px) {
+  #hero-getinvolved {
+    background-image: none;
+  }
+}
+@media (max-width: 992px) {
+  #hero-getinvolved {
+    width: 100%;
+    height: auto;
+    background-image: none;
+  }
+  #hero-getinvolved p {
+    font-size: 26px;
+    padding: 50px 20px 0 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 992px) and (max-width: 576px) {
+  #hero-getinvolved {
+    width: 100%;
+    height: auto;
+    background-image: none;
+  }
+  #hero-getinvolved p {
+    font-size: 20px;
+    padding: 50px 20px 0 20px;
+    text-align: left;
+  }
 }
 
 #meet {
@@ -590,7 +652,7 @@ body h2 {
   margin-right: 20px;
 }
 #meet ul {
-  padding: 50px 0 0 60px;
+  padding: 50px 0 100px 60px;
   font-size: 26px;
   font-weight: 400;
   line-height: 36px;
@@ -612,6 +674,45 @@ body h2 {
 #meet img {
   max-width: 528px;
   height: auto;
+}
+@media (max-width: 992px) {
+  #meet h2 {
+    font-size: 60px;
+    text-align: center;
+  }
+  #meet p {
+    font-size: 26px;
+    padding: 50px 20px 0 20px;
+    text-align: center;
+  }
+  #meet ul {
+    font-size: 26px;
+    list-style: circle;
+    padding: 50px 0px 100px 60px;
+  }
+  #meet img {
+    max-width: 100%;
+    padding-left: 50px;
+  }
+}
+@media (max-width: 576px) {
+  #meet h2 {
+    font-size: 40px;
+  }
+  #meet p {
+    font-size: 20px;
+    padding: 50px 20px 0 30px;
+    text-align: left;
+  }
+  #meet ul {
+    font-size: 20px;
+    list-style: circle;
+    padding: 50px 20px 100px 20px;
+  }
+  #meet img {
+    max-width: 100%;
+    padding-bottom: 100px;
+  }
 }
 
 #joinspoke {
@@ -639,7 +740,7 @@ body h2 {
   font-family: "interstate", sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding: 60px 0 80px 0;
+  padding: 50px 0 80px 0;
   text-align: center;
   font-size: 26px;
 }
@@ -648,9 +749,6 @@ body h2 {
   margin: auto;
   position: relative;
   padding: 0 0 90px 0;
-}
-#joinspoke .line-height-333333 {
-  line-height: 33.3333px;
 }
 #joinspoke .btn {
   color: #000; /* added to set text color to black */
@@ -672,6 +770,17 @@ body h2 {
 #joinspoke .btn:hover {
   color: #fff;
   background-color: #9B3926;
+}
+@media (max-width: 576px) {
+  #joinspoke h2 {
+    font-size: 40px;
+    line-height: 57px;
+  }
+  #joinspoke p {
+    font-size: 20px;
+    padding: 50px 20px 80px 20px;
+    text-align: left;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

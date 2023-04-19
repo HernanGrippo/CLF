@@ -10,7 +10,7 @@ Template Name: Resources
   <section id="resources">
     <div class="row">
       <div class="col-12 text-center">
-        <h2>Resources</h2>
+        <h2>How To</h2>
       </div>
     </div>
     
@@ -52,12 +52,11 @@ Template Name: Resources
 <section id="respect2">
 <div class="container2">
   <div class="row">
-  <h3>How to:</h3>
     <div class="col-md-4">
       <div class="position-relative">
-        <img src="<?php bloginfo('template_url'); ?>/img/climb.png" class="card-img-top" class="img-fluid" alt="...">
+        <img src="<?php bloginfo('template_url'); ?>/img/walking.png" class="card-img-top" class="img-fluid" alt="...">
         <div class="bottom-0 start-0 w-100 bg p-3">
-          <p>Have minimal impact on the land during your visit</p>
+          <a href="https://www.blm.gov/outdoorethics" target="blank">Have minimal impact on<br>the land during your visit</a>
         </div>
       </div>
     </div>
@@ -65,15 +64,15 @@ Template Name: Resources
       <div class="position-relative">
         <img src="<?php bloginfo('template_url'); ?>/img/tanka.png" class="card-img-top" class="img-fluid" alt="...">
         <div class="bottom-0 start-0s w-100 bg p-3">
-          <p>Keep you and your loved ones safe out there</p>
+          <a href="https://www.blm.gov/programs/recreation/know-before-you-go" target="blank">Keep you and your loved<br>ones safe out there</a>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="position-relative">
-        <img src="<?php bloginfo('template_url'); ?>/img/climb.png" class="card-img-top" class="img-fluid" alt="...">
+        <img src="<?php bloginfo('template_url'); ?>/img/canyon.png" class="card-img-top" class="img-fluid" alt="...">
         <div class="bottom-0 start-0 w-100 bg align p-3">
-          <p>Respect Indigenous cultural sites</p>
+          <a href="https://www.aianta.org/leave-no-trace/" target="blank">Respect Indigenous<br>cultural sites</a>
         </div>
       </div>
     </div>
@@ -85,7 +84,7 @@ Template Name: Resources
 </section>
 
 <!-- CONNECT -->
-<section id="respect">
+<section id="connect">
   <div class="container">
   <div class="line"></div>
   <div class="row">
@@ -103,28 +102,27 @@ Template Name: Resources
 <section id="respect2">
 <div class="container2">
   <div class="row">
-  <h3>How to:</h3>
     <div class="col-md-4">
       <div class="position-relative">
-        <img src="<?php bloginfo('template_url'); ?>/img/climb.png" class="card-img-top" class="img-fluid" alt="...">
+        <img src="<?php bloginfo('template_url'); ?>/img/boat.png" class="card-img-top" class="img-fluid" alt="...">
         <div class="bottom-0 start-0 w-100 bg p-3">
-          <p>Explore destinations and activities</p>
+          <a href="https://www.recreation.gov/" target="blank">Explore destinations<br>and activities</a>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="position-relative">
-        <img src="<?php bloginfo('template_url'); ?>/img/climb.png" class="card-img-top" class="img-fluid" alt="...">
+        <img src="<?php bloginfo('template_url'); ?>/img/mountain.png" class="card-img-top" class="img-fluid" alt="...">
         <div class="bottom-0 start-0s w-100 bg p-3">
-          <p>Understand Tribal Nations’ cultural connections</p>
+          <a href="https://nativeamerica.travel/" target="blank">Understand Tribal Nations’<br>cultural connections</a>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="position-relative">
-        <img src="<?php bloginfo('template_url'); ?>/img/climb.png" class="card-img-top" class="img-fluid" alt="...">
+        <img src="<?php bloginfo('template_url'); ?>/img/map.png" class="card-img-top" class="img-fluid" alt="...">
         <div class="bottom-0 start-0 w-100 bg align p-3">
-          <p>Identify historic and prehistoric archaeological sites</p>
+          <a href="https://native-land.ca/" target="blank">Identify historical and current<br>homelands of Tribal Nations</a>
         </div>
       </div>
     </div>
@@ -136,7 +134,7 @@ Template Name: Resources
 </section>
 
 <!-- PROTECT -->
-<section id="respect">
+<section id="protect">
   <div class="container">
   <div class="line"></div>
   <div class="row">
@@ -154,12 +152,11 @@ Template Name: Resources
 <section id="respect2">
 <div class="container2">
   <div class="row">
-  <h3>How to:</h3>
     <div class="col-md-4">
       <div class="position-relative">
         <img src="<?php bloginfo('template_url'); ?>/img/mountains2.png" class="card-img-top" class="img-fluid" alt="...">
         <div class="bottom-0 start-0 w-100 bg p-3">
-          <p>Have minimal impact on the land during your visit</p>
+          <a href="https://www.conservationlands.org/take_action" target="blank">See which public lands<br>need protecting NOW</a>
         </div>
       </div>
     </div>
@@ -167,7 +164,7 @@ Template Name: Resources
       <div class="position-relative">
         <img src="<?php bloginfo('template_url'); ?>/img/wild.png" class="card-img-top" class="img-fluid" alt="...">
         <div class="bottom-0 start-0s w-100 bg p-3">
-          <p>Keep you and your loved ones safe out there</p>
+          <a href="https://www.blm.gov/get-involved" target="blank">Give back to<br>public lands</a>
         </div>
       </div>
     </div>
@@ -175,7 +172,7 @@ Template Name: Resources
       <div class="position-relative">
         <img src="<?php bloginfo('template_url'); ?>/img/family.png" class="card-img-top" class="img-fluid" alt="...">
         <div class="bottom-0 start-0 w-100 bg align p-3">
-          <p>Respect Indigenous cultural sites</p>
+          <a href="https://www.togetheroutdoors.com/" target="blank">Make the outdoors<br>great for everyone</a>
         </div>
       </div>
     </div>
