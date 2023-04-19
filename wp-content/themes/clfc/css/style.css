@@ -597,7 +597,7 @@ body h2 {
   padding-top: 60px;
 }
 #hero-getinvolved p {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
