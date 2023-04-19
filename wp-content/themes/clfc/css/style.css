@@ -362,29 +362,30 @@ body h2 {
 #contact-form .right .form .wpcf7-validates-as-required {
   background-color: #406F84;
   border: 2px solid #7ED6D6;
-  border-radius: 25px;
+  border-radius: 15px;
   text-align: center;
 }
+#contact-form .right .form .wpcf7-form-control {
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+}
 #contact-form .right .form .wpcf7-submit {
+  font-weight: bold;
   background-color: #F79721;
   width: 212px;
   height: 70px;
   border-radius: 15px;
   border: 2px solid #F79721;
-  color: #406F84;
+  color: #213A45;
 }
 #contact-form .right .form .wpcf7-spinner {
   display: block;
   margin: auto;
 }
-#contact-form .right .form .wpcf7-form-control {
-  font-family: "Inter", sans-serif;
-  font-size: 26;
-  font-weight: bold;
-}
 #contact-form .right img {
   bottom: -20px;
-  right: -240px;
+  right: -100px;
   position: absolute;
 }
 @media (max-width: 575px) {
