@@ -607,20 +607,17 @@ body h2 {
 #resources h3 {
   padding: 20px 0;
 }
+@media (max-width: 576px) {
+  #resources img {
+    margin-bottom: 50px;
+  }
+}
 
 #respect {
   padding: 40px 0 0 0;
 }
 #respect .row {
   padding: 107px 0 0 0;
-}
-#respect .blm-logo {
-  max-width: 291px;
-  padding-top: 20px;
-}
-#respect .clfc-logo {
-  max-width: 396px;
-  padding-top: 10px;
 }
 #respect h2 {
   font-size: 55px;
@@ -637,6 +634,27 @@ body h2 {
   font-family: "Inter", sans-serif;
   padding-left: 50px;
 }
+@media (max-width: 576px) {
+  #respect .row {
+    padding: 100px 0 0 0px;
+  }
+  #respect p {
+    padding-left: 0;
+  }
+  #respect h2 {
+    text-align: center;
+    padding-left: 0;
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 992px) {
+  #respect p {
+    margin-left: 15px;
+  }
+  #respect h2 {
+    margin-left: 15px;
+  }
+}
 
 #respect2 {
   padding: 0 0 100px 0;
@@ -649,6 +667,11 @@ body h2 {
   width: 100%;
   opacity: 90%;
   text-align: center;
+}
+@media (max-width: 992px) {
+  #respect2 .bg {
+    border-radius: 15px;
+  }
 }
 #respect2 h3 {
   font-family: "interstate", sans-serif;
@@ -683,7 +706,54 @@ body h2 {
 #respect2 .resourceslink img {
   padding-bottom: 6px;
 }
+@media (max-width: 992px) {
+  #respect2 .imagelink {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 576px) {
+  #respect2 .imagelink {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+#respect2 .boxedtext {
+  padding-top: 15px;
+}
+@media (max-width: 992px) {
+  #respect2 .boxedtext {
+    padding-top: 25px;
+  }
+}
+@media (max-width: 576px) {
+  #respect2 .col-md-4 {
+    margin: 0 0 40px 0;
+  }
+}
 
+@media (max-width: 992px) {
+  .connecticon {
+    padding: 80px 0 0 0;
+  }
+  .protecticon {
+    padding: 80px 0 0 0;
+  }
+  .respecticon {
+    margin: 80px 0 0 0;
+  }
+}
+@media (max-width: 576px) {
+  .connecticon {
+    padding: 0 0 0 66px;
+  }
+  .protecticon {
+    padding: 0 0 0 66px;
+  }
+  .respecticon {
+    padding: 0 0 0 66px;
+  }
+}
 #hero-getinvolved {
   height: 604px;
   width: 100%;
