@@ -33,6 +33,12 @@ p#hero {
   margin-left: 15px;
 }
 
+.nav-link:hover {
+  text-decoration: none;
+  border-bottom: 4px solid #F79721;
+  transition: all 500ms;
+}
+
 .line {
   position: relative;
   width: 100%;
