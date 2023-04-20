@@ -31,6 +31,12 @@ p#hero {
   font-family: 'Inter', sans-serif;
   margin-left: 15px;
 }
+.nav-link:hover {
+    text-decoration: none;
+    border-bottom: 4px solid #F79721;
+    transition: all 500ms;
+  }
+
 
 .line {
   position: relative;
@@ -71,7 +77,7 @@ body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   
-  h1 {
+h1 {
       font-family: "gelica", sans-serif;
       font-weight: 700;
       font-style: normal;
@@ -79,9 +85,9 @@ body {
       line-height: 89px;
       text-align: center;
       color: #9B3926;
-  }
-  
-  h2 {
+}
+
+h2 {
     font-family: "gelica", sans-serif;
     font-weight: 700;
     font-style: normal;

@@ -5,7 +5,7 @@ Template Name: Resources
 ?>
 <?php get_header();?>
 
-  <!-- RESOURCES -->
+  <!-- RESOURCES --> 
 
   <section id="resources">
     <div class="row">
@@ -39,7 +39,7 @@ Template Name: Resources
   <div class="line"></div>
   <div class="row">
     <div class="col-md-3">
-      <img src="<?php bloginfo('template_url'); ?>/img/respect2.png" alt="Logo">
+      <img class="respecticon" src="<?php bloginfo('template_url'); ?>/img/respect2.png" alt="Logo">
     </div>
     <div class="col-md-9">
       <h2>Respect</h2>
@@ -55,24 +55,30 @@ Template Name: Resources
     <div class="col-md-4">
       <div class="position-relative">
         <img src="<?php bloginfo('template_url'); ?>/img/walking.png" class="card-img-top" class="img-fluid" alt="...">
-        <div class="bottom-0 start-0 w-100 bg p-3">
-          <a href="https://www.blm.gov/outdoorethics" target="blank">Have minimal impact on<br>the land during your visit</a>
+        <div class="bottom-0 start-0 w-100 bg">
+        <div class="boxedtext">
+          <a class="imagelink" href="https://www.blm.gov/outdoorethics" target="blank">Have minimal impact on<br>the land during your visit</a>
+        </div>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="position-relative">
         <img src="<?php bloginfo('template_url'); ?>/img/tanka.png" class="card-img-top" class="img-fluid" alt="...">
-        <div class="bottom-0 start-0s w-100 bg p-3">
-          <a href="https://www.blm.gov/programs/recreation/know-before-you-go" target="blank">Keep you and your loved<br>ones safe out there</a>
+        <div class="bottom-0 start-0s w-100 bg">
+        <div class="boxedtext">
+          <a class="imagelink" href="https://www.blm.gov/programs/recreation/know-before-you-go" target="blank">Keep you and your loved<br>ones safe out there</a>
+        </div>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="position-relative">
         <img src="<?php bloginfo('template_url'); ?>/img/canyon.png" class="card-img-top" class="img-fluid" alt="...">
-        <div class="bottom-0 start-0 w-100 bg align p-3">
-          <a href="https://www.aianta.org/leave-no-trace/" target="blank">Respect Indigenous<br>cultural sites</a>
+        <div class="bottom-0 start-0 w-100 bg">
+        <div class="boxedtext">
+          <a class="imagelink" href="https://www.aianta.org/leave-no-trace/" target="blank">Respect Indigenous<br>cultural sites</a>
+        </div>
         </div>
       </div>
     </div>
@@ -89,7 +95,7 @@ Template Name: Resources
   <div class="line"></div>
   <div class="row">
     <div class="col-md-3">
-      <img src="<?php bloginfo('template_url'); ?>/img/connect2.png" alt="Logo">
+      <img class="connecticon" src="<?php bloginfo('template_url'); ?>/img/connect2.png" alt="Logo">
     </div>
     <div class="col-md-9">
       <h2>Connect</h2>
@@ -105,24 +111,30 @@ Template Name: Resources
     <div class="col-md-4">
       <div class="position-relative">
         <img src="<?php bloginfo('template_url'); ?>/img/boat.png" class="card-img-top" class="img-fluid" alt="...">
-        <div class="bottom-0 start-0 w-100 bg p-3">
-          <a href="https://www.recreation.gov/" target="blank">Explore destinations<br>and activities</a>
+        <div class="bottom-0 start-0 w-100 bg">
+          <div class="boxedtext">
+            <a class="imagelink" href="https://www.recreation.gov/" target="blank">Explore destinations<br>and activities</a>
+          </div>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="position-relative">
         <img src="<?php bloginfo('template_url'); ?>/img/mountain.png" class="card-img-top" class="img-fluid" alt="...">
-        <div class="bottom-0 start-0s w-100 bg p-3">
-          <a href="https://nativeamerica.travel/" target="blank">Understand Tribal Nations’<br>cultural connections</a>
+        <div class="bottom-0 start-0s w-100 bg">
+        <div class="boxedtext">
+          <a class="imagelink" href="https://nativeamerica.travel/" target="blank">Understand Tribal Nations’<br>cultural connections</a>
+        </div>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="position-relative">
         <img src="<?php bloginfo('template_url'); ?>/img/map.png" class="card-img-top" class="img-fluid" alt="...">
-        <div class="bottom-0 start-0 w-100 bg align p-3">
-          <a href="https://native-land.ca/" target="blank">Identify historical and current<br>homelands of Tribal Nations</a>
+        <div class="bottom-0 start-0 w-100 bg">
+        <div class="boxedtext">
+          <a class="imagelink" href="https://native-land.ca/" target="blank">Identify historical and current<br>homelands of Tribal Nations</a>
+        </div>
         </div>
       </div>
     </div>
@@ -139,7 +151,7 @@ Template Name: Resources
   <div class="line"></div>
   <div class="row">
     <div class="col-md-3">
-      <img src="<?php bloginfo('template_url'); ?>/img/protect2.png" alt="Logo">
+      <img class="protecticon" src="<?php bloginfo('template_url'); ?>/img/protect2.png" alt="Logo">
     </div>
     <div class="col-md-9">
       <h2>Protect</h2>
@@ -155,24 +167,30 @@ Template Name: Resources
     <div class="col-md-4">
       <div class="position-relative">
         <img src="<?php bloginfo('template_url'); ?>/img/mountains2.png" class="card-img-top" class="img-fluid" alt="...">
-        <div class="bottom-0 start-0 w-100 bg p-3">
-          <a href="https://www.conservationlands.org/take_action" target="blank">See which public lands<br>need protecting NOW</a>
+        <div class="bottom-0 start-0 w-100 bg">
+        <div class="boxedtext">
+          <a class="imagelink" href="https://www.conservationlands.org/take_action" target="blank">See which public lands<br>need protecting NOW</a>
+        </div>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="position-relative">
         <img src="<?php bloginfo('template_url'); ?>/img/wild.png" class="card-img-top" class="img-fluid" alt="...">
-        <div class="bottom-0 start-0s w-100 bg p-3">
-          <a href="https://www.blm.gov/get-involved" target="blank">Give back to<br>public lands</a>
+        <div class="bottom-0 start-0s w-100 bg">
+        <div class="boxedtext">
+          <a class="imagelink" href="https://www.blm.gov/get-involved" target="blank">Give back to<br>public lands</a>
+        </div>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="position-relative">
         <img src="<?php bloginfo('template_url'); ?>/img/family.png" class="card-img-top" class="img-fluid" alt="...">
-        <div class="bottom-0 start-0 w-100 bg align p-3">
-          <a href="https://www.togetheroutdoors.com/" target="blank">Make the outdoors<br>great for everyone</a>
+        <div class="bottom-0 start-0 w-100 bg">
+        <div class="boxedtext">
+          <a class="imagelink" href="https://www.togetheroutdoors.com/" target="blank">Make the outdoors<br>great for everyone</a>
+        </div>
         </div>
       </div>
     </div>

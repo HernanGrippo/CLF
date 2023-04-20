@@ -3,9 +3,9 @@
 
     h2 {
     padding: 0 0 60px 0;
-}
+    }
 
-p {
+    p {
     font-family: "interstate", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -15,26 +15,22 @@ p {
     text-align: center;
     color: #333333;
     padding: 0 0 105px 0;
-  }
+    }
 
-  h3 {
+    h3 {
     padding: 20px 0;
-  }
-  
+    }
+    @media (max-width: 576px) { 
+        img {
+            margin-bottom: 50px;
+        }
+    }
 }
 
 #respect {
     padding: 40px 0 0 0;
     .row {
-    padding: 107px 0 0 0;
-    }
-    .blm-logo{
-        max-width: 291px;
-        padding-top: 20px;
-    }
-    .clfc-logo{
-        max-width: 396px;
-        padding-top: 10px;
+        padding: 107px 0 0 0;
     }
     h2{
         font-size: 55px;
@@ -51,6 +47,28 @@ p {
         font-family: 'Inter', sans-serif;
         padding-left: 50px;
     }
+    @media (max-width: 576px) {   
+        .row {
+            padding: 100px 0 0 0px;
+        }
+        p{
+            padding-left: 0;
+        }
+        h2{
+            text-align: center;
+            padding-left: 0;
+            padding-bottom: 30px;
+        }  
+    } 
+    @media (max-width: 992px) {
+        p{
+            margin-left: 15px;
+        }
+        h2{
+            margin-left: 15px;
+        }
+
+    }  
 }
 
 #respect2 {
@@ -63,6 +81,9 @@ p {
         width: 100%;
         opacity: 90%;
         text-align: center;
+        @media (max-width: 992px) {
+            border-radius: 15px;
+        }
     }
     h3{
         font-family: "interstate", sans-serif;
@@ -81,7 +102,7 @@ p {
         text-decoration-line: underline;
         color: #FEFBEA;
         margin: 20px 0 0 0;
-    }
+}
     .resourceslink {
         padding-top: 48px;
         display: block;
@@ -96,5 +117,50 @@ p {
         img{
             padding-bottom: 6px;
         }
-    }    
+    }
+    .imagelink{
+        @media (max-width: 992px){
+            font-size: 18px;
+            line-height: 22px;
+        }
+        @media (max-width: 576px){
+            font-size: 22px;
+            line-height: 28px;
+        }
+    }
+    .boxedtext{
+        padding-top: 15px;
+          @media (max-width: 992px){
+             padding-top: 25px;
+           }
+    }
+    @media (max-width: 576px) {   
+        .col-md-4{
+            margin: 0 0 40px 0;
+        }
+    }
+}
+
+@media (max-width: 992px) { 
+    .connecticon{
+        padding: 80px 0 0 0;
+    }
+    .protecticon {
+        padding: 80px 0 0 0;
+    }
+    .respecticon{
+        margin: 80px 0 0 0;
+    }
+
+}
+@media (max-width: 576px) {   
+    .connecticon{
+        padding: 0 0 0 66px;
+    }
+    .protecticon {
+        padding: 0 0 0 66px;
+    }
+    .respecticon{
+        padding: 0 0 0 66px;
+    }
 }

@@ -9,7 +9,7 @@
   </div>
     <div class="row">
       <div class="col-md-8 offset-md-2">
-        <p>Led by Conservation Lands Foundation, the Bureau of Land Management, and an array of local and indigenous affiliate groups, “Respect. Connect. Protect.” is a campaign designed to encourage enthusiastic, respectful, and safe usage of National Conservation Lands.</p>
+        <p>Led by Conservation Lands Foundation, in partnership with the Bureau of Land Management and an array of local and Indigenous affiliate groups, “Respect. Connect. Protect.” is a campaign to encourage enthusiastic, respectful, and safe usage of National Conservation Lands.</p>
         <a href="http://test.local/Get-involved/" class="btn">LEARN MORE</a>
       </div>
     </div>
