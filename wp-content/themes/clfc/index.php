@@ -16,7 +16,7 @@ Template Name: Home
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <p>Led by Conservation Lands Foundation, in partnership with the Bureau of Land Management and an array of local and Indigenous affiliate groups, “Respect. Connect. Protect.” is a campaign to encourage enthusiastic, respectful, and safe usage of National Conservation Lands.</p>
-        <a href="<?php bloginfo('template_url'); ?>/Get-involved/" class="btn">LEARN MORE</a>
+        <a href="<?php echo get_site_url(); ?>/Get-involved/" class="btn">LEARN MORE</a>
       </div>
     </div>
 </section> 
@@ -40,7 +40,7 @@ Template Name: Home
     
     <div class="row">
       <div class="col-md-10 offset-md-1">
-        <p>You won’t find a list of rules posted anywhere on America’s National Conservation Lands - but if you want to enjoy the most incredible outdoor experiences around, here are a few things you need to know.<b>Click the links below</b> to learn how you can RESPECT the awesome power of nature, CONNECT with the historic splendor of the land, and PROTECT the beauty of our outdoor spaces for future generations.</p>
+        <p>You won’t find a list of rules posted anywhere on America’s National Conservation Lands - but if you want to enjoy the most incredible outdoor experiences around, here are a few things you need to know. <b>Click the links below</b> to learn how you can RESPECT the awesome power of nature, CONNECT with the historic splendor of the land, and PROTECT the beauty of our outdoor spaces for future generations.</p>
       </div>
     </div>
     

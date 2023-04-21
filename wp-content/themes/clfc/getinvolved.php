@@ -20,7 +20,7 @@ Template Name: GetInvolved
         </div>
       </div>
 </div>
-<p>Led by Conservation Lands Foundation, in partnership with the Bureau of Land Management and an array of local and indigenous affiliate groups, “Respect. Connect. Protect.” is a campaign designed to encourage respectful and safe visitation on America’s National Conservation Lands.</p>
+<p>Led by Conservation Lands Foundation, in partnership with the Bureau of Land Management and an array of local and Indigenous affiliate groups, “Respect. Connect. Protect.” is a campaign designed to encourage respectful and safe visitation on America’s National Conservation Lands.</p>
 <p>The coalition works collaboratively with partners to provide resources for understanding the uses, history, and Indigenous cultural significance of the land as well as specific regional guidance for how to make visits safe and enjoyable. </p>    
 </section>
 

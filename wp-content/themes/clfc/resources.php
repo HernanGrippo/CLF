@@ -16,7 +16,7 @@ Template Name: Resources
     
     <div class="row">
       <div class="col-md-10 offset-md-1">
-        <p>You won’t find a list of rules posted anywhere on America’s National Conservation Lands - but if you want to enjoy the most incredible outdoor experiences around, here are a few things you need to know.<b>Click the links below</b> to learn how you can RESPECT the awesome power of nature, CONNECT with the historic splendor of the land, and PROTECT the beauty of our outdoor spaces for future generations.</p>
+        <p>You won’t find a list of rules posted anywhere on America’s National Conservation Lands - but if you want to enjoy the most incredible outdoor experiences around, here are a few things you need to know. <b>Click the links below</b> to learn how you can RESPECT the awesome power of nature, CONNECT with the historic splendor of the land, and PROTECT the beauty of our outdoor spaces for future generations.</p>
       </div>
     </div>
     
@@ -48,7 +48,7 @@ Template Name: Resources
       <img class="respecticon" src="<?php bloginfo('template_url'); ?>/img/respect2.png" alt="Logo">
     </div>
     <div class="col-md-9">
-      <h2>Respect</h2>
+      <h2>Respect.</h2>
       <p>When you visit National Conservation Lands, respect for nature’s unpredictability needs to be top of mind. You’d better come prepared, because in most instances it’s just you and the great outdoors. No bathrooms, no water fountains, no gas stations, no restaurants, no visitors centers, no cell coverage, no park rangers. We’re here with resources to help you plan, prepare, and visit accordingly.</p>
     </div>
   </div>
@@ -104,7 +104,7 @@ Template Name: Resources
       <img class="connecticon" src="<?php bloginfo('template_url'); ?>/img/connect2.png" alt="Logo">
     </div>
     <div class="col-md-9">
-      <h2>Connect</h2>
+      <h2>Connect.</h2>
       <p>When you visit America’s public lands, you have a unique opportunity to connect with yourselves, with each other, and with the history and meaning of the land itself. Learn more about the ongoing story of the land - and how you can become a part of it - below.</p>
     </div>
   </div>
@@ -160,7 +160,7 @@ Template Name: Resources
       <img class="protecticon" src="<?php bloginfo('template_url'); ?>/img/protect2.png" alt="Logo">
     </div>
     <div class="col-md-9">
-      <h2>Protect</h2>
+      <h2>Protect.</h2>
       <p>When you visit America’s public lands, you’re more than a tourist - you’re a steward of the land and a caretaker for the next generation of explorers. We’ll show you how to keep the land clean, in good health, and accessible. </p>
     </div>
   </div>
