@@ -40,7 +40,7 @@ Template Name: GetInvolved
         </ul> 
     </div>
     <div class="col-md-12 col-lg-4">
-      <img src="<?php bloginfo('template_url'); ?>/img/rockyinvolved.png" alt="stone" class="img-fluid">
+      <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/rockyinvolved.png" alt="stone" class="img-fluid">
     </div>
   </div>
 </div>
@@ -50,7 +50,7 @@ Template Name: GetInvolved
   <section id="videoinvolved">
     <div class="row">
       <div class="col text-center">
-        <img src="<?php bloginfo('template_url'); ?>/img/video.png" alt="Video" class="img-fluid rounded">
+        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/video.png" alt="Video" class="img-fluid rounded">
       </div>
     </div>
   </section>
@@ -63,7 +63,7 @@ Template Name: GetInvolved
         </div>
       </div>
       <div class="col-md-12 col-lg-8 text-center">
-      <img class="waveaboutspoke" src="<?php bloginfo('template_url'); ?>/img/waveabout.png" alt="wave line">
+      <img class="waveaboutspoke" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/waveabout.png" alt="wave line">
         <h2 class="text-center">Join in on the fun with Spokespebble</h2>
       </div>
       <div class="col-md-0 col-lg-2 text-center">

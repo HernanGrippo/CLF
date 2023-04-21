@@ -25,7 +25,7 @@ Template Name: Home
   <section id="video">
     <div class="row">
       <div class="col text-center">
-        <img src="<?php bloginfo('template_url'); ?>/img/video.png" alt="Video" class="img-fluid rounded">
+        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/video.png" alt="Video" class="img-fluid rounded">
       </div>
     </div>
   </section>
@@ -47,17 +47,17 @@ Template Name: Home
     <div class="row justify-content-center">
       <div class="col-md-3 col-sm-12 text-center">
       <a href="<?php echo get_site_url(); ?>/resources/#respect">
-        <img src="<?php bloginfo('template_url'); ?>/img/respect.png" alt="Respect" class="img-fluid rounded">
+        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/respect.png" alt="Respect" class="img-fluid rounded">
       </a>
       </div> 
       <div class="col-md-3 col-sm-12 text-center">
         <a href="<?php echo get_site_url(); ?>/resources/#connect">
-        <img src="<?php bloginfo('template_url'); ?>/img/connect.png" alt="Respect" class="img-fluid rounded">
+        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/connect.png" alt="Respect" class="img-fluid rounded">
         </a>
       </div>
       <div class="col-md-3 col-sm-12 text-center">
       <a href="<?php echo get_site_url(); ?>/resources/#protect">
-        <img src="<?php bloginfo('template_url'); ?>/img/protect.png" alt="Pretect" class="img-fluid rounded">
+        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/protect.png" alt="Pretect" class="img-fluid rounded">
         </a>
       </div>
     </div>
