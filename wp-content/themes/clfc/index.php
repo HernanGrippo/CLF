@@ -15,7 +15,7 @@
     </div>
 </section> 
 
-  <!-- Video -->
+  <!-- Video --> 
   <section id="video">
     <div class="row">
       <div class="col text-center">
@@ -43,7 +43,7 @@
       <a href="http://test.local/resources/#respect">
         <img src="<?php bloginfo('template_url'); ?>/img/respect.png" alt="Respect" class="img-fluid rounded">
       </a>
-      </div>
+      </div> 
       <div class="col-md-3 col-sm-12 text-center">
         <a href="http://test.local/resources/#connect">
         <img src="<?php bloginfo('template_url'); ?>/img/connect.png" alt="Respect" class="img-fluid rounded">

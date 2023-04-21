@@ -22,13 +22,19 @@ Template Name: Resources
     
     <div class="row justify-content-center">
       <div class="col-md-3 col-sm-12 text-center">
+        <a href="http://test.local/resources/#respect">
         <img src="<?php bloginfo('template_url'); ?>/img/respect.png" alt="Respect" class="img-fluid rounded">
+      </a>
       </div>
       <div class="col-md-3 col-sm-12 text-center">
+      <a href="http://test.local/resources/#connect">
         <img src="<?php bloginfo('template_url'); ?>/img/connect.png" alt="Respect" class="img-fluid rounded">
+        </a>
       </div>
       <div class="col-md-3 col-sm-12 text-center">
+      <a href="http://test.local/resources/#protect">
         <img src="<?php bloginfo('template_url'); ?>/img/protect.png" alt="Pretect" class="img-fluid rounded">
+        </a>
       </div>
     </div>
   </section>
@@ -85,7 +91,7 @@ Template Name: Resources
   </div>
 </div>
 <div>
-<a href="https://www.conservationlands.org/national_conservation_lands"  class="resourceslink" target="blank">SHOW MORE<img src="<?php bloginfo('template_url'); ?>/img/yellowarrow.png" alt="imagen"></a>
+<!-- <a href="https://www.conservationlands.org/national_conservation_lands"  class="resourceslink" target="blank">SHOW MORE<img src="<?php bloginfo('template_url'); ?>/img/yellowarrow.png" alt="imagen"></a> -->
 </div>
 </section>
 
@@ -141,7 +147,7 @@ Template Name: Resources
   </div>
 </div>
 <div>
-<a href="https://www.conservationlands.org/national_conservation_lands"  class="resourceslink" target="blank">SHOW MORE<img src="<?php bloginfo('template_url'); ?>/img/yellowarrow.png" alt="imagen"></a>
+<!-- <a href="https://www.conservationlands.org/national_conservation_lands"  class="resourceslink" target="blank">SHOW MORE<img src="<?php bloginfo('template_url'); ?>/img/yellowarrow.png" alt="imagen"></a> -->
 </div>
 </section>
 
@@ -197,7 +203,7 @@ Template Name: Resources
   </div>
 </div>
 <div>
-<a href="https://www.conservationlands.org/national_conservation_lands"  class="resourceslink" target="blank">SHOW MORE<img src="<?php bloginfo('template_url'); ?>/img/yellowarrow.png" alt="imagen"></a>
+<!-- <a href="https://www.conservationlands.org/national_conservation_lands"  class="resourceslink" target="blank">SHOW MORE<img src="<?php bloginfo('template_url'); ?>/img/yellowarrow.png" alt="imagen"></a> -->
 </div>
 </section>
 

@@ -25,6 +25,9 @@
             margin-bottom: 50px;
         }
     }
+    img:hover{
+        opacity: 50%;
+    }
 }
 
 #respect {
@@ -119,6 +122,9 @@
         }
     }
     .imagelink{
+        &:hover{
+            opacity: 50%;
+        }
         @media (max-width: 992px){
             font-size: 18px;
             line-height: 22px;
@@ -164,3 +170,4 @@
         padding: 0 0 0 66px;
     }
 }
+
