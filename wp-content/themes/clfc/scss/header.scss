@@ -49,11 +49,10 @@ p#hero {
   text-decoration: none;
   border-bottom: 4px solid transparent;
 }
-@media (min-width: 1200px) { 
-.nav-link:hover {
-    border-color:#F79721;
-    transition: all 500ms;
-  }
+@media (min-width: 1000px) { 
+  .nav-link:hover {
+      border-color:#F79721;
+    } 
 } 
 
 .line {

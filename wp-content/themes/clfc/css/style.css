@@ -50,7 +50,7 @@ p#hero {
   display: block;
   font-style: normal;
   font-weight: bold;
-  color: #9B3926;
+  color: #269b39;
   font-size: 26px;
   line-height: 31px;
   text-transform: uppercase;
@@ -60,10 +60,9 @@ p#hero {
   border-bottom: 4px solid transparent;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .nav-link:hover {
-    border-color: #F79721;
-    transition: all 500ms;
+    border-color: #00ff84;
   }
 }
 .line {
