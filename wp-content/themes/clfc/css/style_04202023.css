@@ -12,27 +12,60 @@ p#hero {
   max-width: 281px;
   height: auto;
 }
+@media (min-width: 1200px) {
+  .logo {
+    padding-top: 20px;
+  }
+}
 
 .navbar {
+  display: block;
   height: 200px;
+}
+@media (max-width: 992px) {
+  .navbar {
+    padding: 28px 0 0 0;
+  }
 }
 
 .navbar-nav {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media (min-width: 1200px) {
+  .navbar-nav {
+    padding-top: 40px;
+  }
+}
+@media (max-width: 992px) {
+  .navbar-nav {
+    background-image: url("../img/background-body.png");
+    background-repeat: repeat;
+    margin-top: 24px;
+    border: 5px solid #C34F30;
+  }
 }
 
 .navbar-nav .nav-link {
+  display: block;
   font-style: normal;
   font-weight: bold;
   color: #9B3926;
   font-size: 26px;
-  line-height: 31.47px;
+  line-height: 31px;
   text-transform: uppercase;
   font-family: "Inter", sans-serif;
   margin-left: 15px;
+  text-decoration: none;
+  border-bottom: 4px solid transparent;
 }
 
+@media (min-width: 1200px) {
+  .nav-link:hover {
+    border-color: #F79721;
+    transition: all 500ms;
+  }
+}
 .line {
   position: relative;
   width: 100%;
@@ -231,6 +264,9 @@ body h2 {
 #video {
   padding: 18px 0 98px 0;
 }
+#video img:hover {
+  opacity: 80%;
+}
 
 #sponsors {
   padding: 0 0 163px 0;
@@ -253,6 +289,12 @@ body h2 {
 }
 #campaign h2 {
   padding: 0 0 60px 0;
+}
+#campaign img {
+  padding: 0 0 66px 0;
+}
+#campaign img:hover {
+  opacity: 50%;
 }
 #campaign p {
   font-family: "interstate", sans-serif;
@@ -279,6 +321,7 @@ body h2 {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0;
+  border-radius: 25px;
 }
 @media (max-width: 575px) {
   #contact-form .container {
@@ -307,11 +350,21 @@ body h2 {
   color: #FEFBEA;
   padding: 112px 0px 40px 0px;
 }
+@media (max-width: 575px) {
+  #contact-form .left h2 {
+    padding: 20px 0px 40px 0px;
+  }
+}
 #contact-form .left p {
   font-family: "Inter", sans-serif;
   font-size: 26;
   font-weight: normal;
   color: #FEFBEA;
+}
+@media (max-width: 575px) {
+  #contact-form .left p {
+    padding: 0 0 40px 0;
+  }
 }
 #contact-form .right {
   background-color: #406F84;
@@ -334,12 +387,19 @@ body h2 {
 @media (max-width: 575px) {
   #contact-form .right .form {
     padding-top: 33px;
+    margin-top: 0px;
   }
 }
 #contact-form .right .form input {
   width: 463px;
   height: 91px;
   margin-bottom: 40px;
+}
+@media (max-width: 992px) {
+  #contact-form .right .form input {
+    width: 300px;
+    height: 70px;
+  }
 }
 @media (max-width: 575px) {
   #contact-form .right .form input {
@@ -379,6 +439,11 @@ body h2 {
   border: 2px solid #F79721;
   color: #213A45;
 }
+#contact-form .right .form .wpcf7-submit:hover {
+  color: #fff;
+  background-color: #9B3926;
+  border: 2px solid #9B3926;
+}
 #contact-form .right .form .wpcf7-spinner {
   display: block;
   margin: auto;
@@ -388,12 +453,17 @@ body h2 {
   right: -100px;
   position: absolute;
 }
+@media (max-width: 992px) {
+  #contact-form .right img {
+    left: 40px;
+  }
+}
 @media (max-width: 575px) {
   #contact-form .right img {
     max-width: 50%;
     height: auto;
     display: block;
-    left: 250px;
+    left: 200px;
     bottom: -90px;
   }
 }
@@ -483,6 +553,10 @@ body h2 {
   font-weight: bold;
   padding-top: 19px;
   font-size: 26px;
+}
+#whatare .btn:hover {
+  color: #fff;
+  background-color: #9B3926;
 }
 @media (max-width: 992px) {
   #whatare img {
@@ -612,6 +686,9 @@ body h2 {
     margin-bottom: 50px;
   }
 }
+#resources img:hover {
+  opacity: 50%;
+}
 
 #respect {
   padding: 40px 0 0 0;
@@ -705,6 +782,9 @@ body h2 {
 }
 #respect2 .resourceslink img {
   padding-bottom: 6px;
+}
+#respect2 .imagelink:hover {
+  opacity: 50%;
 }
 @media (max-width: 992px) {
   #respect2 .imagelink {
@@ -952,4 +1032,8 @@ body h2 {
   }
 }
 
-/*# sourceMappingURL=atyle.css.map */
+#videoinvolved img:hover {
+  opacity: 80%;
+}
+
+/*# sourceMappingURL=style_04202023.css.map */

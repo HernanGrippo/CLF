@@ -46,17 +46,17 @@ Template Name: Home
     
     <div class="row justify-content-center">
       <div class="col-md-3 col-sm-12 text-center">
-      <a href="<?php bloginfo('template_url'); ?>/resources/#respect">
+      <a href="<?php echo get_site_url(); ?>/resources/#respect">
         <img src="<?php bloginfo('template_url'); ?>/img/respect.png" alt="Respect" class="img-fluid rounded">
       </a>
       </div> 
       <div class="col-md-3 col-sm-12 text-center">
-        <a href="<?php bloginfo('template_url'); ?>/resources/#connect">
+        <a href="<?php echo get_site_url(); ?>/resources/#connect">
         <img src="<?php bloginfo('template_url'); ?>/img/connect.png" alt="Respect" class="img-fluid rounded">
         </a>
       </div>
       <div class="col-md-3 col-sm-12 text-center">
-      <a href="<?php bloginfo('template_url'); ?>/resources/#protect">
+      <a href="<?php echo get_site_url(); ?>/resources/#protect">
         <img src="<?php bloginfo('template_url'); ?>/img/protect.png" alt="Pretect" class="img-fluid rounded">
         </a>
       </div>
