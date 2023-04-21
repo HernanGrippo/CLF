@@ -23,17 +23,17 @@ Template Name: Resources
     <div class="row justify-content-center">
       <div class="col-md-3 col-sm-12 text-center">
         <a href="<?php bloginfo('template_url'); ?>/resources/#respect">
-        <img src="<?php bloginfo('template_url'); ?>/img/respect.png" alt="Respect" class="img-fluid rounded">
+        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/respect.png" alt="Respect" class="img-fluid rounded">
       </a>
       </div>
       <div class="col-md-3 col-sm-12 text-center">
       <a href="<?php bloginfo('template_url'); ?>/resources/#connect">
-        <img src="<?php bloginfo('template_url'); ?>/img/connect.png" alt="Respect" class="img-fluid rounded">
+        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/connect.png" alt="Respect" class="img-fluid rounded">
         </a>
       </div>
       <div class="col-md-3 col-sm-12 text-center">
       <a href="<?php bloginfo('template_url'); ?>/resources/#protect">
-        <img src="<?php bloginfo('template_url'); ?>/img/protect.png" alt="Pretect" class="img-fluid rounded">
+        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/protect.png" alt="Pretect" class="img-fluid rounded">
         </a>
       </div>
     </div>
@@ -45,7 +45,7 @@ Template Name: Resources
   <div class="line"></div>
   <div class="row">
     <div class="col-md-3">
-      <img class="respecticon" src="<?php bloginfo('template_url'); ?>/img/respect2.png" alt="Logo">
+      <img class="respecticon" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/respect2.png" alt="Logo">
     </div>
     <div class="col-md-9">
       <h2>Respect.</h2>
@@ -60,7 +60,7 @@ Template Name: Resources
   <div class="row">
     <div class="col-md-4">
       <div class="position-relative">
-        <img src="<?php bloginfo('template_url'); ?>/img/walking.png" class="card-img-top" class="img-fluid" alt="...">
+        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/walking.png" class="card-img-top" class="img-fluid" alt="...">
         <div class="bottom-0 start-0 w-100 bg">
         <div class="boxedtext">
           <a class="imagelink" href="https://www.blm.gov/outdoorethics" target="blank">Have minimal impact on<br>the land during your visit</a>
@@ -70,7 +70,7 @@ Template Name: Resources
     </div>
     <div class="col-md-4">
       <div class="position-relative">
-        <img src="<?php bloginfo('template_url'); ?>/img/tanka.png" class="card-img-top" class="img-fluid" alt="...">
+        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/tanka.png" class="card-img-top" class="img-fluid" alt="...">
         <div class="bottom-0 start-0s w-100 bg">
         <div class="boxedtext">
           <a class="imagelink" href="https://www.blm.gov/programs/recreation/know-before-you-go" target="blank">Keep you and your loved<br>ones safe out there</a>
@@ -80,7 +80,7 @@ Template Name: Resources
     </div>
     <div class="col-md-4">
       <div class="position-relative">
-        <img src="<?php bloginfo('template_url'); ?>/img/canyon.png" class="card-img-top" class="img-fluid" alt="...">
+        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/canyon.png" class="card-img-top" class="img-fluid" alt="...">
         <div class="bottom-0 start-0 w-100 bg">
         <div class="boxedtext">
           <a class="imagelink" href="https://www.aianta.org/leave-no-trace/" target="blank">Respect Indigenous<br>cultural sites</a>
@@ -91,7 +91,7 @@ Template Name: Resources
   </div>
 </div>
 <div>
-<!-- <a href="https://www.conservationlands.org/national_conservation_lands"  class="resourceslink" target="blank">SHOW MORE<img src="<?php bloginfo('template_url'); ?>/img/yellowarrow.png" alt="imagen"></a> -->
+<!-- <a href="https://www.conservationlands.org/national_conservation_lands"  class="resourceslink" target="blank">SHOW MORE<img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/yellowarrow.png" alt="imagen"></a> -->
 </div>
 </section>
 
@@ -101,7 +101,7 @@ Template Name: Resources
   <div class="line"></div>
   <div class="row">
     <div class="col-md-3">
-      <img class="connecticon" src="<?php bloginfo('template_url'); ?>/img/connect2.png" alt="Logo">
+      <img class="connecticon" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/connect2.png" alt="Logo">
     </div>
     <div class="col-md-9">
       <h2>Connect.</h2>
@@ -116,7 +116,7 @@ Template Name: Resources
   <div class="row">
     <div class="col-md-4">
       <div class="position-relative">
-        <img src="<?php bloginfo('template_url'); ?>/img/boat.png" class="card-img-top" class="img-fluid" alt="...">
+        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/boat.png" class="card-img-top" class="img-fluid" alt="...">
         <div class="bottom-0 start-0 w-100 bg">
           <div class="boxedtext">
             <a class="imagelink" href="https://www.recreation.gov/" target="blank">Explore destinations<br>and activities</a>
@@ -126,7 +126,7 @@ Template Name: Resources
     </div>
     <div class="col-md-4">
       <div class="position-relative">
-        <img src="<?php bloginfo('template_url'); ?>/img/mountain.png" class="card-img-top" class="img-fluid" alt="...">
+        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/mountain.png" class="card-img-top" class="img-fluid" alt="...">
         <div class="bottom-0 start-0s w-100 bg">
         <div class="boxedtext">
           <a class="imagelink" href="https://nativeamerica.travel/" target="blank">Understand Tribal Nations’<br>cultural connections</a>
@@ -136,7 +136,7 @@ Template Name: Resources
     </div>
     <div class="col-md-4">
       <div class="position-relative">
-        <img src="<?php bloginfo('template_url'); ?>/img/map.png" class="card-img-top" class="img-fluid" alt="...">
+        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/map.png" class="card-img-top" class="img-fluid" alt="...">
         <div class="bottom-0 start-0 w-100 bg">
         <div class="boxedtext">
           <a class="imagelink" href="https://native-land.ca/" target="blank">Identify historical and current<br>homelands of Tribal Nations</a>
@@ -147,7 +147,7 @@ Template Name: Resources
   </div>
 </div>
 <div>
-<!-- <a href="https://www.conservationlands.org/national_conservation_lands"  class="resourceslink" target="blank">SHOW MORE<img src="<?php bloginfo('template_url'); ?>/img/yellowarrow.png" alt="imagen"></a> -->
+<!-- <a href="https://www.conservationlands.org/national_conservation_lands"  class="resourceslink" target="blank">SHOW MORE<img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/yellowarrow.png" alt="imagen"></a> -->
 </div>
 </section>
 
@@ -157,7 +157,7 @@ Template Name: Resources
   <div class="line"></div>
   <div class="row">
     <div class="col-md-3">
-      <img class="protecticon" src="<?php bloginfo('template_url'); ?>/img/protect2.png" alt="Logo">
+      <img class="protecticon" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/protect2.png" alt="Logo">
     </div>
     <div class="col-md-9">
       <h2>Protect.</h2>
@@ -172,7 +172,7 @@ Template Name: Resources
   <div class="row">
     <div class="col-md-4">
       <div class="position-relative">
-        <img src="<?php bloginfo('template_url'); ?>/img/mountains2.png" class="card-img-top" class="img-fluid" alt="...">
+        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/mountains2.png" class="card-img-top" class="img-fluid" alt="...">
         <div class="bottom-0 start-0 w-100 bg">
         <div class="boxedtext">
           <a class="imagelink" href="https://www.conservationlands.org/take_action" target="blank">See which public lands<br>need protecting NOW</a>
@@ -182,7 +182,7 @@ Template Name: Resources
     </div>
     <div class="col-md-4">
       <div class="position-relative">
-        <img src="<?php bloginfo('template_url'); ?>/img/wild.png" class="card-img-top" class="img-fluid" alt="...">
+        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/wild.png" class="card-img-top" class="img-fluid" alt="...">
         <div class="bottom-0 start-0s w-100 bg">
         <div class="boxedtext">
           <a class="imagelink" href="https://www.blm.gov/get-involved" target="blank">Give back to<br>public lands</a>
@@ -192,7 +192,7 @@ Template Name: Resources
     </div>
     <div class="col-md-4">
       <div class="position-relative">
-        <img src="<?php bloginfo('template_url'); ?>/img/family.png" class="card-img-top" class="img-fluid" alt="...">
+        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/family.png" class="card-img-top" class="img-fluid" alt="...">
         <div class="bottom-0 start-0 w-100 bg">
         <div class="boxedtext">
           <a class="imagelink" href="https://www.togetheroutdoors.com/" target="blank">Make the outdoors<br>great for everyone</a>
@@ -203,7 +203,7 @@ Template Name: Resources
   </div>
 </div>
 <div>
-<!-- <a href="https://www.conservationlands.org/national_conservation_lands"  class="resourceslink" target="blank">SHOW MORE<img src="<?php bloginfo('template_url'); ?>/img/yellowarrow.png" alt="imagen"></a> -->
+<!-- <a href="https://www.conservationlands.org/national_conservation_lands"  class="resourceslink" target="blank">SHOW MORE<img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/yellowarrow.png" alt="imagen"></a> -->
 </div>
 </section>
 

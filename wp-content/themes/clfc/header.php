@@ -12,7 +12,6 @@
 
   <?php wp_head(); ?>
 </head>
-
 <body>
   <!-- Navbar -->
   <header>
@@ -23,7 +22,7 @@
             <div class="container-fluid">
               <!-- Logo -->
               <a class="navbar-brand" href="<?php echo get_site_url(); ?>">
-                <img class="logo" src="<?php bloginfo('template_url'); ?>/img/clfc-logo.png" alt="Conservation Lands Foundation Campaign logo">
+                <img class="logo" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/clfc-logo.png" alt="Conservation Lands Foundation Campaign logo">
               </a>
 
               <!-- Toggle button for collapsed menu -->

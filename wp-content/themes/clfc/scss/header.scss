@@ -11,7 +11,7 @@ p#hero {
     max-width: 281px;
     height: auto;
     @media (min-width: 1200px) { 
-      padding-top: 20px;
+      padding-top: 0px;
     }
   }
 
@@ -26,7 +26,7 @@ p#hero {
     padding-top: 10px;
     padding-bottom: 10px;
     @media (min-width: 1200px) { 
-      padding-top: 40px;
+      padding-top: 0px;
     }
     @media (max-width: 992px) { 
       background-image: url("../img/background-body.png");

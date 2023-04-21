@@ -30,7 +30,7 @@ Template Name: About
         <a href="https://www.conservationlands.org/national_conservation_lands" class="btn btn-primary" target="blank">MAP OF CONSERVATION LANDS</a>
     </div>
     <div class="col-md-12 col-lg-4">
-      <img src="<?php bloginfo('template_url'); ?>/img/whatarerightimage.png" alt="cactus and desert image" class="img-fluid">
+      <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/whatarerightimage.png" alt="cactus and desert image" class="img-fluid">
     </div>
   </div>
 </div>
@@ -41,7 +41,7 @@ Template Name: About
 <div class="container">
   <div class="row">
     <div class="col-md-12 col-lg-3">
-      <img class="clfc-logo" src="<?php bloginfo('template_url'); ?>/img/clfc-horizontal-logo.png" alt="Logo">
+      <img class="clfc-logo" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/clfc-horizontal-logo.png" alt="Logo">
     </div>
     <div class="col-md-12 col-lg-9">
       <h3>About Conservation Lands Foundation</h3>
@@ -52,7 +52,7 @@ Template Name: About
 <div class="container">
   <div class="row">
     <div class="col-md-12 col-lg-3">
-      <img class="blm-logo" src="<?php bloginfo('template_url'); ?>/img/blm-logo.png" alt="Bureau of Land Management Logo">
+      <img class="blm-logo" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/blm-logo.png" alt="Bureau of Land Management Logo">
     </div>
     <div class="col-md-12 col-lg-9">
       <h3>About the Bureau of Land Management</h3>
@@ -60,7 +60,7 @@ Template Name: About
     </div>
   </div>
 </div>
-<img class="waveabout" src="<?php bloginfo('template_url'); ?>/img/waveabout.png" alt="wave line">
+<img class="waveabout" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/waveabout.png" alt="wave line">
 </section>
 
 <!--LOGOS AND ABOUT -->
