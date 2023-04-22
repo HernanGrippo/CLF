@@ -12,9 +12,9 @@ p#hero {
   max-width: 281px;
   height: auto;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .logo {
-    padding-top: 0px;
+    padding-top: 20px;
   }
 }
 
@@ -32,9 +32,9 @@ p#hero {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .navbar-nav {
-    padding-top: 0px;
+    padding-top: 32px;
   }
 }
 @media (max-width: 992px) {
@@ -60,12 +60,15 @@ p#hero {
   border-bottom: 4px solid transparent;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .nav-link:hover {
     border-color: #F79721;
-    transition: all 500ms;
   }
 }
+.current {
+  border-color: #F79721 !important;
+}
+
 .line {
   position: relative;
   width: 100%;

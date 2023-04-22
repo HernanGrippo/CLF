@@ -8,7 +8,7 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://use.typekit.net/env8cis.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style_04202023.css" />
+  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style.css" />
 
   <?php wp_head(); ?>
 </head>
@@ -34,7 +34,7 @@
               <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" href="<?php echo get_site_url(); ?>/about">About</a>
+                    <a class="nav-link" href="<?php echo get_site_url(); ?>/about/">About</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="<?php echo get_site_url(); ?>/get-involved/">Get Involved</a>

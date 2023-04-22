@@ -10,8 +10,8 @@ p#hero {
 .logo {
     max-width: 281px;
     height: auto;
-    @media (min-width: 1200px) { 
-      padding-top: 0px;
+    @media (min-width: 1000px) { 
+      padding-top: 20px;
     }
   }
 
@@ -25,8 +25,8 @@ p#hero {
 .navbar-nav {
     padding-top: 10px;
     padding-bottom: 10px;
-    @media (min-width: 1200px) { 
-      padding-top: 0px;
+    @media (min-width: 1000px) { 
+      padding-top: 32px;
     }
     @media (max-width: 992px) { 
       background-image: url("../img/background-body.png");
@@ -49,11 +49,13 @@ p#hero {
   text-decoration: none;
   border-bottom: 4px solid transparent;
 }
-@media (min-width: 1200px) { 
-.nav-link:hover {
-    border-color:#F79721;
-    transition: all 500ms;
-  }
+@media (min-width: 1000px) { 
+  .nav-link:hover {
+      border-color:#F79721;
+    } 
+} 
+.current {
+    border-color:#F79721 !important;
 } 
 
 .line {
