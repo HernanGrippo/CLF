@@ -1,14 +1,9 @@
-// Get the container element
-var btnContainer = document.getElementById("navbar-nav");
-
-// Get all buttons with class="btn" inside the container
-var btns = btnContainer.getElementsByClassName("nav-item");
-
-// Loop through the buttons and add the active class to the current/clicked button
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
+var url = window.location.href.split("/");
+var navLinks = document.getElementsByClassName("nav-link");
+var currentPage = url[url.length - 2];
+for(i=0; i < navLinks.length; i++){
+  var lb = navLinks[i].href.split("/");
+  if(lb[lb.length-2] == currentPage) {
+    navLinks[i].classList.add("current");
+  }
 }

@@ -12,9 +12,9 @@ p#hero {
   max-width: 281px;
   height: auto;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .logo {
-    padding-top: 0px;
+    padding-top: 20px;
   }
 }
 
@@ -32,9 +32,9 @@ p#hero {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .navbar-nav {
-    padding-top: 0px;
+    padding-top: 32px;
   }
 }
 @media (max-width: 992px) {
@@ -50,7 +50,7 @@ p#hero {
   display: block;
   font-style: normal;
   font-weight: bold;
-  color: #269b39;
+  color: #9B3926;
   font-size: 26px;
   line-height: 31px;
   text-transform: uppercase;
@@ -62,9 +62,13 @@ p#hero {
 
 @media (min-width: 1000px) {
   .nav-link:hover {
-    border-color: #00ff84;
+    border-color: #F79721;
   }
 }
+.current {
+  border-color: #F79721 !important;
+}
+
 .line {
   position: relative;
   width: 100%;
