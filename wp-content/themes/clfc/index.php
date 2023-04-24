@@ -30,6 +30,21 @@ Template Name: Home
     </div>
   </section>
 
+<!-- Video --> 
+    <section id="video">
+    <div class="row">
+      <div class="col text-center">
+      <?php 
+        $image = get_field('video_image');
+        if( !empty( $image ) ): ?>
+            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+      <?php endif; ?>
+    </div>
+    </div>
+  </section>
+
+
+
   <!-- OUR CAMPAIGN -->
   <section id="campaign">
     <div class="row">
