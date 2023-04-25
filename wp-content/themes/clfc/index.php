@@ -10,13 +10,14 @@ Template Name: Home
 <section id="hero">
   <div class="row align-items-center">
       <div class="col-md-12 text-center">
-        <h1 class="text-center">Respect. Connect. Protect.</h1>
+        <h1 class="text-center">
+        <?php the_field('heading'); ?></h1>
       </div>
   </div>
     <div class="row">
       <div class="col-md-8 offset-md-2">
-        <p>Led by Conservation Lands Foundation, in partnership with the Bureau of Land Management and an array of local and Indigenous affiliate groups, “Respect. Connect. Protect.” is a campaign to encourage enthusiastic, respectful, and safe usage of National Conservation Lands.</p>
-        <a href="<?php echo get_site_url(); ?>/Get-involved/" class="btn">LEARN MORE</a>
+        <p><?php the_field('main_paragraph'); ?></p>
+        <a href="<?php the_field('learn_more_button'); ?>" class="btn" target="_blank"><?php the_field('cta_learn_more_button'); ?></a>
       </div>
     </div>
 </section> 
@@ -37,7 +38,7 @@ Template Name: Home
       <?php 
         $image = get_field('video_image');
         if( !empty( $image ) ): ?>
-            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+        <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
       <?php endif; ?>
     </div>
     </div>
@@ -47,31 +48,41 @@ Template Name: Home
   <section id="campaign">
     <div class="row">
       <div class="col-12 text-center">
-        <h2>How To</h2>
+        <h2><?php the_field('title_how_to'); ?></h2>
       </div>
     </div>
     
     <div class="row">
       <div class="col-md-10 offset-md-1">
-        <p>You won’t find a list of rules posted anywhere on America’s National Conservation Lands - but if you want to enjoy the most incredible outdoor experiences around, here are a few things you need to know. <b>Click the links below</b> to learn how you can RESPECT the awesome power of nature, CONNECT with the historic splendor of the land, and PROTECT the beauty of our outdoor spaces for future generations.</p>
+        <p>
+          <?php the_field('how_to_paragraph'); ?>
+        </p>
       </div>
     </div>
     
     <div class="row justify-content-center">
       <div class="col-md-3 col-sm-12 text-center">
       <a href="<?php echo get_site_url(); ?>/resources/#respect">
-        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/respect.png" alt="Respect" class="img-fluid rounded">
+        <?php 
+            $image = get_field('respect_icon');
+            if( !empty( $image ) ): ?>
+              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+        <?php endif; ?>
       </a>
       </div> 
       <div class="col-md-3 col-sm-12 text-center">
-        <a href="<?php echo get_site_url(); ?>/resources/#connect">
-        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/connect.png" alt="Respect" class="img-fluid rounded">
-        </a>
+      <?php 
+            $image = get_field('connect_icon');
+            if( !empty( $image ) ): ?>
+              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+        <?php endif; ?>
       </div>
       <div class="col-md-3 col-sm-12 text-center">
-      <a href="<?php echo get_site_url(); ?>/resources/#protect">
-        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/protect.png" alt="Pretect" class="img-fluid rounded">
-        </a>
+      <?php 
+            $image = get_field('protect_icon');
+            if( !empty( $image ) ): ?>
+              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+        <?php endif; ?>
       </div>
     </div>
   </section>
