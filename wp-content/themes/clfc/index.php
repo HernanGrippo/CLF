@@ -22,13 +22,13 @@ Template Name: Home
 </section> 
 
   <!-- Video --> 
-  <section id="video">
+  <!-- <section id="video">
     <div class="row">
       <div class="col text-center">
         <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/video.png" alt="Video" class="img-fluid rounded">
       </div>
     </div>
-  </section>
+  </section> -->
 
 <!-- Video --> 
     <section id="video">
@@ -42,8 +42,6 @@ Template Name: Home
     </div>
     </div>
   </section>
-
-
 
   <!-- OUR CAMPAIGN -->
   <section id="campaign">
