@@ -7,8 +7,8 @@ Template Name: About
 
 <!-- HERO -->
 <section id="hero-aboutus">
-    <div class="container">
-        <h1>About</h1>
+    <div class="container"> 
+        <h1><?php the_field('about_heading'); ?></h1>
     </div>
 </section>
 
@@ -17,20 +17,26 @@ Template Name: About
 <div class="container">
   <div class="row">
     <div class="col-md-12 col-lg-8">
-      <h2>What are National<br>Conservation Lands?</h2>
-      <p>As the country’s newest designation of protected public lands, National Conservation Lands are among the most essential and spectacular natural, cultural and archaeological places in the country.</p>
-      <p>Managed by the Bureau of Land Management, many of these protected lands are beyond and between the National Parks and include:</p>
+      <h2><?php the_field('national_lands_title'); ?></h2>
+      <p><?php the_field('national_lands_paragraph'); ?></p>
         <ul>
-         <li>National Monuments</li>
-         <li>National Conservation Areas</li>
-         <li>Wilderness Areas</li>
-         <li>Wild and Scenic Rivers</li>
-         <li>National Scenic and Historic Trails</li>
-        </ul> 
-        <a href="https://www.conservationlands.org/national_conservation_lands" class="btn btn-primary" target="blank">MAP OF CONSERVATION LANDS</a>
-    </div>
+         <li><?php the_field('bullet_list_1'); ?></li>
+         <li><?php the_field('bullet_list_2'); ?></li>
+         <li><?php the_field('bullet_list_3'); ?></li>
+         <li><?php the_field('bullet_list_4'); ?></li>
+         <li><?php the_field('bullet_list_5'); ?></li>
+        </ul>        
+        <a href="<?php the_field('map_of_conservation_button_link'); ?>" class="btn btn-primary" target="_blank"><?php the_field('map_of_conservation_label'); ?></a>
+      </a>
+
+    
+      </div>
     <div class="col-md-12 col-lg-4">
-      <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/whatarerightimage.png" alt="cactus and desert image" class="img-fluid">
+        <?php 
+            $image = get_field('map_of_conservation_image');
+            if( !empty( $image ) ): ?>
+            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="img-fluid" />
+        <?php endif; ?>
     </div>
   </div>
 </div>
@@ -40,23 +46,31 @@ Template Name: About
 <section id="logoabout">
 <div class="container">
   <div class="row">
-    <div class="col-md-12 col-lg-3">
-      <img class="clfc-logo" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/clfc-horizontal-logo.png" alt="Logo">
+    <div class="col-md-12 col-lg-3">    
+      <?php 
+            $image = get_field('conservation_icon');
+            if( !empty( $image ) ): ?>
+            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="clfc-logo"/>
+      <?php endif; ?>
     </div>
     <div class="col-md-12 col-lg-9">
-      <h3>About Conservation Lands Foundation</h3>
-      <p>We power a national network of community-led organizations to conserve the largest acreage of unprotected public lands in the country that are  necessary for healthy people, planet and our way of life.<br><br>For more than 15 years, we’ve been protecting, restoring and expanding America’s National Conservation Lands.</p>
+      <h3><?php the_field('about_conservation_title'); ?></h3>
+      <p><?php the_field('about_conservation_paragraph'); ?></p>
     </div>
   </div>
 </div>
 <div class="container">
   <div class="row">
     <div class="col-md-12 col-lg-3">
-      <img class="blm-logo" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/blm-logo.png" alt="Bureau of Land Management Logo">
+      <?php 
+            $image = get_field('about_bureau_icon');
+            if( !empty( $image ) ): ?>
+            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="blm-logo"/>
+      <?php endif; ?>
     </div>
     <div class="col-md-12 col-lg-9">
-      <h3>About the Bureau of Land Management</h3>
-      <p>An agency in the U.S. Department of the Interior, the Bureau of Land Management oversees the largest amount of public lands in the United States - nearly 250 million acres - and part of its mission is to protect and conserve these natural areas for future generations. This includes the National Conservation Lands, which currently feature over 900 units covering over 36 million acres designated by Congress and the President to conserve special features and scenic landscapes, from winding rivers to open ranges to mountain vistas.</p>
+      <h3><?php the_field('about_bureau_title'); ?></h3>
+      <p><?php the_field('about_bureau_paragraph'); ?></p>
     </div>
   </div>
 </div>
