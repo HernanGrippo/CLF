@@ -36,10 +36,15 @@ Template Name: Home
     <div class="row">
       <div class="col text-center">
       <?php 
-        $image = get_field('video_image');
-        if( !empty( $image ) ): ?>
-        <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-      <?php endif; ?>
+          $image = get_field('video_image');
+          if (!empty($image)) {
+          $url = get_field('home_video_url');
+          ?>
+          <a href="<?php echo $url; ?>" target="_blank"><img src="<?php 
+          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
+          echo $image['alt']; ?>" /></a>
+          <?php 
+      }?>
     </div>
     </div>
   </section>
@@ -63,26 +68,41 @@ Template Name: Home
     <div class="row justify-content-center">
       <div class="col-md-3 col-sm-12 text-center">
       <a href="<?php echo get_site_url(); ?>/resources/#respect">
-        <?php 
-            $image = get_field('respect_icon');
-            if( !empty( $image ) ): ?>
-              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-        <?php endif; ?>
+      <?php 
+          $image = get_field('respect_icon');
+          if (!empty($image)) {
+          $url = get_field('respect_icon_url');
+          ?>
+          <a href="<?php echo $url; ?>" target="_blank"><img src="<?php 
+          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
+          echo $image['alt']; ?>" /></a>
+          <?php 
+      }?>
       </a>
       </div> 
       <div class="col-md-3 col-sm-12 text-center">
       <?php 
-            $image = get_field('connect_icon');
-            if( !empty( $image ) ): ?>
-              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-        <?php endif; ?>
+          $image = get_field('connect_icon');
+          if (!empty($image)) {
+          $url = get_field('connect_icon_url');
+          ?>
+          <a href="<?php echo $url; ?>" target="_blank"><img src="<?php 
+          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
+          echo $image['alt']; ?>" /></a>
+          <?php 
+      }?>
       </div>
       <div class="col-md-3 col-sm-12 text-center">
       <?php 
-            $image = get_field('protect_icon');
-            if( !empty( $image ) ): ?>
-              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-        <?php endif; ?>
+          $image = get_field('protect_icon');
+          if (!empty($image)) {
+          $url = get_field('protect_icon_url');
+          ?>
+          <a href="<?php echo $url; ?>" target="_blank"><img src="<?php 
+          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
+          echo $image['alt']; ?>" /></a>
+          <?php 
+      }?>
       </div>
     </div>
   </section>

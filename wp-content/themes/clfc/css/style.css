@@ -1018,6 +1018,7 @@ body h2 {
   font-weight: 700;
   font-style: normal;
   cursor: pointer;
+  padding-top: 25px;
 }
 #joinspoke .btn:hover {
   color: #fff;
