@@ -92,7 +92,7 @@ Template Name: Resources
         <?php endif; ?>
         <div class="bottom-0 start-0 w-100 bg">
         <div class="boxedtext">
-          <a class="imagelink" href="https://www.blm.gov/outdoorethics" target="blank">Have minimal impact on<br>the land during your visit</a>
+          <a class="imagelink" href="<?php the_field('image_respect_left_url'); ?>" target="_blank"><?php the_field('image_respect_left_text'); ?></a>
         </div>
         </div>
       </div>
@@ -106,7 +106,7 @@ Template Name: Resources
         <?php endif; ?>
       <div class="bottom-0 start-0s w-100 bg">
         <div class="boxedtext">
-          <a class="imagelink" href="https://www.blm.gov/programs/recreation/know-before-you-go" target="blank">Keep you and your loved<br>ones safe out there</a>
+           <a class="imagelink" href="<?php the_field('image_respect_center_url'); ?>" target="_blank"><?php the_field('image_respect_center_text'); ?></a>
         </div>
         </div>
       </div>
@@ -120,7 +120,7 @@ Template Name: Resources
         <?php endif; ?>
       <div class="bottom-0 start-0 w-100 bg">
         <div class="boxedtext">
-          <a class="imagelink" href="https://www.aianta.org/leave-no-trace/" target="blank">Respect Indigenous<br>cultural sites</a>
+           <a class="imagelink" href="<?php the_field('image_respect_rigth_url'); ?>" target="_blank"><?php the_field('image_respect_right_text'); ?></a>
         </div>
         </div>
       </div>
@@ -164,7 +164,7 @@ Template Name: Resources
         <?php endif; ?>
       <div class="bottom-0 start-0 w-100 bg">
           <div class="boxedtext">
-            <a class="imagelink" href="https://www.recreation.gov/" target="blank">Explore destinations<br>and activities</a>
+            <a class="imagelink" href="<?php the_field('image_connect_left_url'); ?>" target="_blank"><?php the_field('image_connect_left_text'); ?></a>
           </div>
         </div>
       </div>
@@ -178,7 +178,7 @@ Template Name: Resources
         <?php endif; ?>
       <div class="bottom-0 start-0s w-100 bg">
         <div class="boxedtext">
-          <a class="imagelink" href="https://nativeamerica.travel/" target="blank">Understand Tribal Nations’<br>cultural connections</a>
+           <a class="imagelink" href="<?php the_field('image_connect_center_url'); ?>" target="_blank"><?php the_field('image_connect_right_text'); ?></a>
         </div>
         </div>
       </div>
@@ -192,7 +192,7 @@ Template Name: Resources
         <?php endif; ?>
       <div class="bottom-0 start-0 w-100 bg">
         <div class="boxedtext">
-          <a class="imagelink" href="https://native-land.ca/" target="blank">Identify historical and current<br>homelands of Tribal Nations</a>
+        <a class="imagelink" href="<?php the_field('image_connect_right_url'); ?>" target="_blank"><?php the_field('image_connect_right_text'); ?></a>
         </div>
         </div>
       </div>
@@ -236,7 +236,7 @@ Template Name: Resources
         <?php endif; ?>
       <div class="bottom-0 start-0 w-100 bg">
         <div class="boxedtext">
-          <a class="imagelink" href="https://www.conservationlands.org/take_action" target="blank">See which public lands<br>need protecting NOW</a>
+           <a class="imagelink" href="<?php the_field('image_protect_left_url'); ?>" target="_blank"><?php the_field('image_protect_left_text'); ?></a>
         </div>
         </div>
       </div>
@@ -250,7 +250,7 @@ Template Name: Resources
         <?php endif; ?>
       <div class="bottom-0 start-0s w-100 bg">
         <div class="boxedtext">
-          <a class="imagelink" href="https://www.blm.gov/get-involved" target="blank">Give back to<br>public lands</a>
+            <a class="imagelink" href="<?php the_field('image_protect_center_url'); ?>" target="_blank"><?php the_field('image_protect_center_text'); ?></a>
         </div>
         </div>
       </div>
@@ -265,7 +265,7 @@ Template Name: Resources
         <!-- <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/family.png" class="card-img-top" class="img-fluid" alt="..."> -->
         <div class="bottom-0 start-0 w-100 bg">
         <div class="boxedtext">
-          <a class="imagelink" href="https://www.togetheroutdoors.com/" target="blank">Make the outdoors<br>great for everyone</a>
+            <a class="imagelink" href="<?php the_field('image_protect_right_url'); ?>" target="_blank"><?php the_field('image_protect_right_text'); ?></a>
         </div>
         </div>
       </div>
