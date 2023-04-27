@@ -138,7 +138,11 @@ Template Name: Resources
   <div class="line"></div>
   <div class="row">
     <div class="col-md-3">
-      <img class="connecticon" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/connect2.png" alt="Logo">
+    <?php 
+            $image = get_field('connect_section_icon');
+            if( !empty( $image ) ): ?>
+            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="respecticon"/>
+      <?php endif; ?>
     </div>
     <div class="col-md-9">
       <h2>Connect.</h2>
@@ -206,7 +210,11 @@ Template Name: Resources
   <div class="line"></div>
   <div class="row">
     <div class="col-md-3">
-      <img class="protecticon" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/protect2.png" alt="Logo">
+    <?php 
+            $image = get_field('protect_section_icon');
+            if( !empty( $image ) ): ?>
+            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="respecticon"/>
+      <?php endif; ?>
     </div>
     <div class="col-md-9">
       <h2>Protect.</h2>
@@ -250,7 +258,7 @@ Template Name: Resources
     <div class="col-md-4">
       <div class="position-relative">
       <?php 
-              $image = get_field('image_protect_right');
+              $image = get_field('image_pro_right');
               if( !empty( $image ) ): ?>
               <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top" class="img-fluid"/>
         <?php endif; ?>
