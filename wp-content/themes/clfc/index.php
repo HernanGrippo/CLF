@@ -16,7 +16,7 @@ Template Name: Home
   </div>
     <div class="row">
       <div class="col-md-8 offset-md-2">
-        <p><?php the_field('main_paragraph'); ?></p>
+        <?php the_field('main_paragraph'); ?>
         <a href="<?php the_field('learn_more_button'); ?>" class="btn" target="_blank"><?php the_field('cta_learn_more_button'); ?></a>
       </div>
     </div>
