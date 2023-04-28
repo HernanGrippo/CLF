@@ -27,7 +27,7 @@ Template Name: Resources
           if (!empty($image)) {
           $url = get_field('resources_respect_icon_url');
           ?>
-          <a href="<?php echo $url; ?>" target="_blank"><img src="<?php 
+          <a href="<?php echo $url; ?>" ><img src="<?php 
           echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
           echo $image['alt']; ?>" /></a>
           <?php 
@@ -39,7 +39,7 @@ Template Name: Resources
           if (!empty($image)) {
           $url = get_field('resources_connect_icon_url');
           ?>
-          <a href="<?php echo $url; ?>" target="_blank"><img src="<?php 
+          <a href="<?php echo $url; ?>" ><img src="<?php 
           echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
           echo $image['alt']; ?>" /></a>
           <?php 
@@ -51,7 +51,7 @@ Template Name: Resources
           if (!empty($image)) {
           $url = get_field('resources_protect_icon_url');
           ?>
-          <a href="<?php echo $url; ?>" target="_blank"><img src="<?php 
+          <a href="<?php echo $url; ?>" ><img src="<?php 
           echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
           echo $image['alt']; ?>" /></a>
           <?php 
@@ -120,7 +120,7 @@ Template Name: Resources
         <?php endif; ?>
       <div class="bottom-0 start-0 w-100 bg">
         <div class="boxedtext">
-           <a class="imagelink" href="<?php the_field('image_respect_rigth_url'); ?>" target="_blank"><?php the_field('image_respect_right_text'); ?></a>
+           <a class="imagelink" href="<?php the_field('image_respect_right_url'); ?>" target="_blank"><?php the_field('image_respect_right_text'); ?></a>
         </div>
         </div>
       </div>
