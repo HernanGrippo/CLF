@@ -10,31 +10,52 @@ Template Name: Resources
   <section id="resources">
     <div class="row">
       <div class="col-12 text-center">
-        <h2>How To</h2>
+        <h2><?php the_field('resources_heading'); ?></h2>
       </div>
     </div>
     
     <div class="row">
       <div class="col-md-10 offset-md-1">
-        <p>You won’t find a list of rules posted anywhere on America’s National Conservation Lands - but if you want to enjoy the most incredible outdoor experiences around, here are a few things you need to know. <b>Click the links below</b> to learn how you can RESPECT the awesome power of nature, CONNECT with the historic splendor of the land, and PROTECT the beauty of our outdoor spaces for future generations.</p>
+        <?php the_field('resources_paragraph'); ?>
       </div>
     </div>
     
     <div class="row justify-content-center">
       <div class="col-md-3 col-sm-12 text-center">
-        <a href="<?php bloginfo('template_url'); ?>/resources/#respect">
-        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/respect.png" alt="Respect" class="img-fluid rounded">
-      </a>
+      <?php 
+          $image = get_field('resources_respect_icon');
+          if (!empty($image)) {
+          $url = get_field('resources_respect_icon_url');
+          ?>
+          <a href="<?php echo $url; ?>" target="_blank"><img src="<?php 
+          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
+          echo $image['alt']; ?>" /></a>
+          <?php 
+      }?>
+      </div> 
+      <div class="col-md-3 col-sm-12 text-center">
+      <?php 
+          $image = get_field('resources_connect_icon');
+          if (!empty($image)) {
+          $url = get_field('resources_connect_icon_url');
+          ?>
+          <a href="<?php echo $url; ?>" target="_blank"><img src="<?php 
+          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
+          echo $image['alt']; ?>" /></a>
+          <?php 
+      }?>
       </div>
       <div class="col-md-3 col-sm-12 text-center">
-      <a href="<?php bloginfo('template_url'); ?>/resources/#connect">
-        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/connect.png" alt="Respect" class="img-fluid rounded">
-        </a>
-      </div>
-      <div class="col-md-3 col-sm-12 text-center">
-      <a href="<?php bloginfo('template_url'); ?>/resources/#protect">
-        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/protect.png" alt="Pretect" class="img-fluid rounded">
-        </a>
+      <?php 
+          $image = get_field('resources_protect_icon');
+          if (!empty($image)) {
+          $url = get_field('resources_protect_icon_url');
+          ?>
+          <a href="<?php echo $url; ?>" target="_blank"><img src="<?php 
+          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
+          echo $image['alt']; ?>" /></a>
+          <?php 
+      }?>
       </div>
     </div>
   </section>
@@ -45,11 +66,15 @@ Template Name: Resources
   <div class="line"></div>
   <div class="row">
     <div class="col-md-3">
-      <img class="respecticon" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/respect2.png" alt="Logo">
+      <?php 
+            $image = get_field('respect_section_icon');
+            if( !empty( $image ) ): ?>
+            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="respecticon"/>
+      <?php endif; ?>
     </div>
     <div class="col-md-9">
-      <h2>Respect.</h2>
-      <p>When you visit National Conservation Lands, respect for nature’s unpredictability needs to be top of mind. You’d better come prepared, because in most instances it’s just you and the great outdoors. No bathrooms, no water fountains, no gas stations, no restaurants, no visitors centers, no cell coverage, no park rangers. We’re here with resources to help you plan, prepare, and visit accordingly.</p>
+      <h2><?php the_field('respect_title'); ?></h2>
+      <?php the_field('respect_paragraph'); ?>
     </div>
   </div>
 </div>
@@ -60,30 +85,42 @@ Template Name: Resources
   <div class="row">
     <div class="col-md-4">
       <div class="position-relative">
-        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/walking.png" class="card-img-top" class="img-fluid" alt="...">
+        <?php 
+              $image = get_field('image_respect_left');
+              if( !empty( $image ) ): ?>
+              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top" class="img-fluid"/>
+        <?php endif; ?>
         <div class="bottom-0 start-0 w-100 bg">
         <div class="boxedtext">
-          <a class="imagelink" href="https://www.blm.gov/outdoorethics" target="blank">Have minimal impact on<br>the land during your visit</a>
+          <a class="imagelink" href="<?php the_field('image_respect_left_url'); ?>" target="_blank"><?php the_field('image_respect_left_text'); ?></a>
         </div>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="position-relative">
-        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/tanka.png" class="card-img-top" class="img-fluid" alt="...">
-        <div class="bottom-0 start-0s w-100 bg">
+      <?php 
+              $image = get_field('image_respect_center');
+              if( !empty( $image ) ): ?>
+              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top" class="img-fluid"/>
+        <?php endif; ?>
+      <div class="bottom-0 start-0s w-100 bg">
         <div class="boxedtext">
-          <a class="imagelink" href="https://www.blm.gov/programs/recreation/know-before-you-go" target="blank">Keep you and your loved<br>ones safe out there</a>
+           <a class="imagelink" href="<?php the_field('image_respect_center_url'); ?>" target="_blank"><?php the_field('image_respect_center_text'); ?></a>
         </div>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="position-relative">
-        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/canyon.png" class="card-img-top" class="img-fluid" alt="...">
-        <div class="bottom-0 start-0 w-100 bg">
+      <?php 
+              $image = get_field('image_respect_right');
+              if( !empty( $image ) ): ?>
+              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top" class="img-fluid"/>
+        <?php endif; ?>
+      <div class="bottom-0 start-0 w-100 bg">
         <div class="boxedtext">
-          <a class="imagelink" href="https://www.aianta.org/leave-no-trace/" target="blank">Respect Indigenous<br>cultural sites</a>
+           <a class="imagelink" href="<?php the_field('image_respect_rigth_url'); ?>" target="_blank"><?php the_field('image_respect_right_text'); ?></a>
         </div>
         </div>
       </div>
@@ -101,7 +138,11 @@ Template Name: Resources
   <div class="line"></div>
   <div class="row">
     <div class="col-md-3">
-      <img class="connecticon" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/connect2.png" alt="Logo">
+    <?php 
+            $image = get_field('connect_section_icon');
+            if( !empty( $image ) ): ?>
+            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="respecticon"/>
+      <?php endif; ?>
     </div>
     <div class="col-md-9">
       <h2>Connect.</h2>
@@ -116,30 +157,42 @@ Template Name: Resources
   <div class="row">
     <div class="col-md-4">
       <div class="position-relative">
-        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/boat.png" class="card-img-top" class="img-fluid" alt="...">
-        <div class="bottom-0 start-0 w-100 bg">
+      <?php 
+              $image = get_field('image_connect_left');
+              if( !empty( $image ) ): ?>
+              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top" class="img-fluid"/>
+        <?php endif; ?>
+      <div class="bottom-0 start-0 w-100 bg">
           <div class="boxedtext">
-            <a class="imagelink" href="https://www.recreation.gov/" target="blank">Explore destinations<br>and activities</a>
+            <a class="imagelink" href="<?php the_field('image_connect_left_url'); ?>" target="_blank"><?php the_field('image_connect_left_text'); ?></a>
           </div>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="position-relative">
-        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/mountain.png" class="card-img-top" class="img-fluid" alt="...">
-        <div class="bottom-0 start-0s w-100 bg">
+      <?php 
+              $image = get_field('image_connect_center');
+              if( !empty( $image ) ): ?>
+              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top" class="img-fluid"/>
+        <?php endif; ?>
+      <div class="bottom-0 start-0s w-100 bg">
         <div class="boxedtext">
-          <a class="imagelink" href="https://nativeamerica.travel/" target="blank">Understand Tribal Nations’<br>cultural connections</a>
+           <a class="imagelink" href="<?php the_field('image_connect_center_url'); ?>" target="_blank"><?php the_field('image_connect_right_text'); ?></a>
         </div>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="position-relative">
-        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/map.png" class="card-img-top" class="img-fluid" alt="...">
-        <div class="bottom-0 start-0 w-100 bg">
+      <?php 
+              $image = get_field('image_connect_right');
+              if( !empty( $image ) ): ?>
+              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top" class="img-fluid"/>
+        <?php endif; ?>
+      <div class="bottom-0 start-0 w-100 bg">
         <div class="boxedtext">
-          <a class="imagelink" href="https://native-land.ca/" target="blank">Identify historical and current<br>homelands of Tribal Nations</a>
+        <a class="imagelink" href="<?php the_field('image_connect_right_url'); ?>" target="_blank"><?php the_field('image_connect_right_text'); ?></a>
         </div>
         </div>
       </div>
@@ -157,11 +210,15 @@ Template Name: Resources
   <div class="line"></div>
   <div class="row">
     <div class="col-md-3">
-      <img class="protecticon" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/protect2.png" alt="Logo">
+    <?php 
+            $image = get_field('protect_section_icon');
+            if( !empty( $image ) ): ?>
+            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="respecticon"/>
+      <?php endif; ?>
     </div>
     <div class="col-md-9">
       <h2>Protect.</h2>
-      <p>When you visit America’s public lands, you’re more than a tourist - you’re a steward of the land and a caretaker for the next generation of explorers. We’ll show you how to keep the land clean, in good health, and accessible. </p>
+      <p>When you visit America’s public lands, you’re more than a tourist - you’re a steward of the land and a caretaker for the next generation of explorers. We’ll show you how to keep the land clean, in good health, and accessible.</p>
     </div>
   </div>
 </div>
@@ -172,30 +229,43 @@ Template Name: Resources
   <div class="row">
     <div class="col-md-4">
       <div class="position-relative">
-        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/mountains2.png" class="card-img-top" class="img-fluid" alt="...">
-        <div class="bottom-0 start-0 w-100 bg">
+      <?php 
+              $image = get_field('image_protect_left');
+              if( !empty( $image ) ): ?>
+              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top" class="img-fluid"/>
+        <?php endif; ?>
+      <div class="bottom-0 start-0 w-100 bg">
         <div class="boxedtext">
-          <a class="imagelink" href="https://www.conservationlands.org/take_action" target="blank">See which public lands<br>need protecting NOW</a>
+           <a class="imagelink" href="<?php the_field('image_protect_left_url'); ?>" target="_blank"><?php the_field('image_protect_left_text'); ?></a>
         </div>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="position-relative">
-        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/wild.png" class="card-img-top" class="img-fluid" alt="...">
-        <div class="bottom-0 start-0s w-100 bg">
+      <?php 
+              $image = get_field('image_protect_center');
+              if( !empty( $image ) ): ?>
+              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top" class="img-fluid"/>
+        <?php endif; ?>
+      <div class="bottom-0 start-0s w-100 bg">
         <div class="boxedtext">
-          <a class="imagelink" href="https://www.blm.gov/get-involved" target="blank">Give back to<br>public lands</a>
+            <a class="imagelink" href="<?php the_field('image_protect_center_url'); ?>" target="_blank"><?php the_field('image_protect_center_text'); ?></a>
         </div>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="position-relative">
-        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/family.png" class="card-img-top" class="img-fluid" alt="...">
+      <?php 
+              $image = get_field('image_pro_right');
+              if( !empty( $image ) ): ?>
+              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top" class="img-fluid"/>
+        <?php endif; ?>
+        <!-- <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/family.png" class="card-img-top" class="img-fluid" alt="..."> -->
         <div class="bottom-0 start-0 w-100 bg">
         <div class="boxedtext">
-          <a class="imagelink" href="https://www.togetheroutdoors.com/" target="blank">Make the outdoors<br>great for everyone</a>
+            <a class="imagelink" href="<?php the_field('image_protect_right_url'); ?>" target="_blank"><?php the_field('image_protect_right_text'); ?></a>
         </div>
         </div>
       </div>
