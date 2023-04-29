@@ -64,6 +64,9 @@ wp-includes
 wp-content/index.php
 wp-content/themes/index.php
 wp-content/plugins/index.php
+wp-content/ai1wm-backups/
+wp-content/plugins/all-in-one-wp-migration/
+wp-content/plugins/contact-form-cfdb7/
 # Large/disallowed file types
 # a CDN should be used for these
 *.mp3
