@@ -19,7 +19,7 @@ Template Name: Home
         <div class="main-text">
           <?php the_field('main_paragraph'); ?>
         </div>
-        <a href="<?php the_field('learn_more_button'); ?>" class="btn" target="_blank"><?php the_field('cta_learn_more_button'); ?></a>
+        <a href="<?php the_field('learn_more_button'); ?>" class="btn"><?php the_field('cta_learn_more_button'); ?></a>
       </div>
     </div>
 </section>

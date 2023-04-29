@@ -104,17 +104,15 @@
     
 }
 #logoabout {
-    padding: 40px 0 0 0;
+    padding: 40px 0 186px 0;
     .row {
-    padding: 107px 0 0 0;
-    ;
+        padding: 107px 0 0 0;
+        ;
     }
     .blm-logo{
-        max-width: 291px;
         padding-top: 20px;
     }
     .clfc-logo{
-        max-width: 396px;
         padding-top: 10px;
     }
     h3{
@@ -130,12 +128,6 @@
         line-height: 36px;
         font-family: 'Inter', sans-serif;
         padding-left: 50px;
-    }
-    .waveabout{
-        padding: 86px 0 100px 0;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
     @media (max-width: 992px) { 
         .blm-logo{
