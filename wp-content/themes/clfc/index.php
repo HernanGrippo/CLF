@@ -16,20 +16,13 @@ Template Name: Home
   </div>
     <div class="row">
       <div class="col-md-8 offset-md-2">
-        <?php the_field('main_paragraph'); ?>
+        <div class="main-text">
+          <?php the_field('main_paragraph'); ?>
+        </div>
         <a href="<?php the_field('learn_more_button'); ?>" class="btn" target="_blank"><?php the_field('cta_learn_more_button'); ?></a>
       </div>
     </div>
-</section> 
-
-  <!-- Video --> 
-  <!-- <section id="video">
-    <div class="row">
-      <div class="col text-center">
-        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/video.png" alt="Video" class="img-fluid rounded">
-      </div>
-    </div>
-  </section> -->
+</section>
 
 <!-- Video --> 
     <section id="video">
