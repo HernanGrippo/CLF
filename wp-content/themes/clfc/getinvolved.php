@@ -70,7 +70,6 @@ Template Name: GetInvolved
         </div>
       </div>
       <div class="col-md-12 col-lg-8 text-center">
-      <img class="waveaboutspoke" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/waveabout.png" alt="wave line">
       <h2 class="text-center"><?php the_field('join_in_title'); ?></h2>
       </div>
       <div class="col-md-0 col-lg-2 text-center">

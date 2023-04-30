@@ -13,57 +13,11 @@ Template Name: Resources
         <h2><?php the_field('resources_heading'); ?></h2>
       </div>
     </div>
-    
-    <div class="row">
-      <div class="col-md-10 offset-md-1">
-        <?php the_field('resources_paragraph'); ?>
-      </div>
-    </div>
-    
-    <div class="row justify-content-center">
-      <div class="col-md-3 col-sm-12 text-center">
-      <?php 
-          $image = get_field('resources_respect_icon');
-          if (!empty($image)) {
-          $url = get_field('resources_respect_icon_url');
-          ?>
-          <a href="<?php echo $url; ?>" ><img src="<?php 
-          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
-          echo $image['alt']; ?>" /></a>
-          <?php 
-      }?>
-      </div> 
-      <div class="col-md-3 col-sm-12 text-center">
-      <?php 
-          $image = get_field('resources_connect_icon');
-          if (!empty($image)) {
-          $url = get_field('resources_connect_icon_url');
-          ?>
-          <a href="<?php echo $url; ?>" ><img src="<?php 
-          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
-          echo $image['alt']; ?>" /></a>
-          <?php 
-      }?>
-      </div>
-      <div class="col-md-3 col-sm-12 text-center">
-      <?php 
-          $image = get_field('resources_protect_icon');
-          if (!empty($image)) {
-          $url = get_field('resources_protect_icon_url');
-          ?>
-          <a href="<?php echo $url; ?>" ><img src="<?php 
-          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
-          echo $image['alt']; ?>" /></a>
-          <?php 
-      }?>
-      </div>
-    </div>
   </section>
   
 <!-- RESPECT -->
 <section id="respect">
   <div class="container">
-  <div class="line"></div>
   <div class="row">
     <div class="col-md-3">
       <?php 
