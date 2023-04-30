@@ -1,26 +1,51 @@
+<?php
+/*
+Template Name: Home
+*/
+?>
+
 <?php get_header();?>
 
  <!-- HERO -->
 <section id="hero">
   <div class="row align-items-center">
       <div class="col-md-12 text-center">
-        <h1 class="text-center">Respect. Connect. Protect.</h1>
+        <h1 class="text-center">
+        <?php the_field('heading'); ?></h1>
       </div>
   </div>
     <div class="row">
       <div class="col-md-8 offset-md-2">
-        <p>Led by Conservation Lands Foundation, the Bureau of Land Management, and an array of local and indigenous affiliate groups, “Respect. Connect. Protect.” is a campaign designed to encourage enthusiastic, respectful, and safe usage of National Conservation Lands.</p>
-        <a href="http://test.local/Get-involved/" class="btn">LEARN MORE</a>
+        <?php the_field('main_paragraph'); ?>
+        <a href="<?php the_field('learn_more_button'); ?>" class="btn" target="_blank"><?php the_field('cta_learn_more_button'); ?></a>
       </div>
     </div>
 </section> 
 
-  <!-- Video -->
-  <section id="video">
+  <!-- Video --> 
+  <!-- <section id="video">
     <div class="row">
       <div class="col text-center">
-        <img src="<?php bloginfo('template_url'); ?>/img/video.png" alt="Video" class="img-fluid rounded">
+        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/video.png" alt="Video" class="img-fluid rounded">
       </div>
+    </div>
+  </section> -->
+
+<!-- Video --> 
+    <section id="video">
+    <div class="row">
+      <div class="col text-center">
+      <?php 
+          $image = get_field('video_image');
+          if (!empty($image)) {
+          $url = get_field('home_video_url');
+          ?>
+          <a href="<?php echo $url; ?>" target="_blank"><img src="<?php 
+          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
+          echo $image['alt']; ?>" /></a>
+          <?php 
+      }?>
+    </div>
     </div>
   </section>
 
@@ -28,31 +53,56 @@
   <section id="campaign">
     <div class="row">
       <div class="col-12 text-center">
-        <h2>How To</h2>
+        <h2><?php the_field('title_how_to'); ?></h2>
       </div>
     </div>
     
     <div class="row">
       <div class="col-md-10 offset-md-1">
-        <p>You won’t find a list of rules posted anywhere on America’s National Conservation Lands - but if you want to enjoy the most incredible outdoor experiences around, here are a few things you need to know.<br><b>Click the links below</b> to learn how you can RESPECT the awesome power of nature, CONNECT with the historic splendor of the land, and PROTECT the beauty of our outdoor spaces for future generations.</p>
+        <p>
+          <?php the_field('how_to_paragraph'); ?>
+        </p>
       </div>
     </div>
     
     <div class="row justify-content-center">
       <div class="col-md-3 col-sm-12 text-center">
-      <a href="http://test.local/resources/#respect">
-        <img src="<?php bloginfo('template_url'); ?>/img/respect.png" alt="Respect" class="img-fluid rounded">
+      <a href="<?php echo get_site_url(); ?>/resources/#respect">
+      <?php 
+          $image = get_field('respect_icon');
+          if (!empty($image)) {
+          $url = get_field('respect_icon_url');
+          ?>
+          <a href="<?php echo $url; ?>" target="_blank"><img src="<?php 
+          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
+          echo $image['alt']; ?>" /></a>
+          <?php 
+      }?>
       </a>
+      </div> 
+      <div class="col-md-3 col-sm-12 text-center">
+      <?php 
+          $image = get_field('connect_icon');
+          if (!empty($image)) {
+          $url = get_field('connect_icon_url');
+          ?>
+          <a href="<?php echo $url; ?>" target="_blank"><img src="<?php 
+          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
+          echo $image['alt']; ?>" /></a>
+          <?php 
+      }?>
       </div>
       <div class="col-md-3 col-sm-12 text-center">
-        <a href="http://test.local/resources/#connect">
-        <img src="<?php bloginfo('template_url'); ?>/img/connect.png" alt="Respect" class="img-fluid rounded">
-        </a>
-      </div>
-      <div class="col-md-3 col-sm-12 text-center">
-      <a href="http://test.local/resources/#protect">
-        <img src="<?php bloginfo('template_url'); ?>/img/protect.png" alt="Pretect" class="img-fluid rounded">
-        </a>
+      <?php 
+          $image = get_field('protect_icon');
+          if (!empty($image)) {
+          $url = get_field('protect_icon_url');
+          ?>
+          <a href="<?php echo $url; ?>" target="_blank"><img src="<?php 
+          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
+          echo $image['alt']; ?>" /></a>
+          <?php 
+      }?>
       </div>
     </div>
   </section>
