@@ -10903,10 +10903,12 @@ body h1, body .h1 {
   font-style: bold;
   color: #FEFBEA;
   padding: 112px 0 0 100px;
+  text-align: left;
 }
 @media (max-width: 575px) {
   #contact-form .left h2, #contact-form .left .h2 {
     padding: 20px 0 40px 0;
+    text-align: center;
   }
 }
 #contact-form .left p {
@@ -10915,10 +10917,12 @@ body h1, body .h1 {
   font-weight: normal;
   color: #FEFBEA;
   padding: 0 0 0 100px;
+  text-align: left;
 }
 @media (max-width: 575px) {
   #contact-form .left p {
     padding: 0 0 40px 0;
+    text-align: center;
   }
 }
 #contact-form .right {
