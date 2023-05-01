@@ -35,9 +35,9 @@
         font-size: 65px;
         font-style: bold;
         color: #FEFBEA; 
-        padding: 112px 0px 40px 0px;
+        padding: 112px 0 0 100px;
           @media (max-width: 575px) { 
-            padding: 20px 0px 40px 0px;
+            padding: 20px 0 40px 0;
         }
       }
       p {
@@ -45,6 +45,7 @@
         font-size: 26;
         font-weight: normal;
         color: #FEFBEA;
+        padding: 0 0 0 100px;
         @media (max-width: 575px) { 
           padding: 0 0 40px 0;
       }

@@ -90,7 +90,7 @@ Template Name: About
     </div>
     <div class="row">
       <div class="col">
-        <div class="vertical-spacer-sm ">&nbsp;</div>
+        <div class="vertical-spacer-xs ">&nbsp;</div>
         <p class="text-center">Follow us <span>@conservationlands</span></p>
       </div>
     </div>
