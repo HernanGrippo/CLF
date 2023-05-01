@@ -16,23 +16,19 @@ Template Name: Home
   </div>
     <div class="row">
       <div class="col-md-8 offset-md-2">
-        <?php the_field('main_paragraph'); ?>
-        <a href="<?php the_field('learn_more_button'); ?>" class="btn" target="_blank"><?php the_field('cta_learn_more_button'); ?></a>
+        <div class="main-text">
+          <?php the_field('main_paragraph'); ?>
+        </div>
+        <a href="<?php the_field('learn_more_button'); ?>" class="btn"><?php the_field('cta_learn_more_button'); ?></a>
       </div>
     </div>
-</section> 
+</section>
 
-  <!-- Video --> 
-  <!-- <section id="video">
-    <div class="row">
-      <div class="col text-center">
-        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/video.png" alt="Video" class="img-fluid rounded">
-      </div>
-    </div>
-  </section> -->
+<div class="vertical-spacer-sm">&nbsp;</div>
 
 <!-- Video --> 
-    <section id="video">
+<section id="video">
+  <div class="container-md">
     <div class="row">
       <div class="col text-center">
       <?php 
@@ -44,10 +40,11 @@ Template Name: Home
           echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
           echo $image['alt']; ?>" /></a>
           <?php 
-      }?>
+        }?>
+      </div>
     </div>
     </div>
-  </section>
+</section>
 
   <!-- OUR CAMPAIGN -->
   <section id="campaign">
@@ -73,7 +70,7 @@ Template Name: Home
           if (!empty($image)) {
           $url = get_field('respect_icon_url');
           ?>
-          <a href="<?php echo $url; ?>" target="_blank"><img src="<?php 
+          <a href="<?php echo $url; ?>" target="_self"><img src="<?php 
           echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
           echo $image['alt']; ?>" /></a>
           <?php 
@@ -86,7 +83,7 @@ Template Name: Home
           if (!empty($image)) {
           $url = get_field('connect_icon_url');
           ?>
-          <a href="<?php echo $url; ?>" target="_blank"><img src="<?php 
+          <a href="<?php echo $url; ?>" target="_self"><img src="<?php 
           echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
           echo $image['alt']; ?>" /></a>
           <?php 
@@ -98,7 +95,7 @@ Template Name: Home
           if (!empty($image)) {
           $url = get_field('protect_icon_url');
           ?>
-          <a href="<?php echo $url; ?>" target="_blank"><img src="<?php 
+          <a href="<?php echo $url; ?>" target="_self"><img src="<?php 
           echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
           echo $image['alt']; ?>" /></a>
           <?php 
