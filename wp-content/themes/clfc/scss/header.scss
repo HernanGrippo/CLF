@@ -12,8 +12,8 @@ p#hero {
 .logo {
     max-width: 281px;
     height: auto;
-    @media (min-width: 1000px) { 
-      padding-top: 50px;
+    @media (min-width: 992px) { 
+      padding-top: 22px;
     }
   }
 
@@ -27,8 +27,8 @@ p#hero {
 .navbar-nav {
     padding-top: 10px;
     padding-bottom: 10px;
-    @media (min-width: 1000px) { 
-      padding-top: 70px;
+    @media (min-width: 992px) { 
+      padding-top: 25px;
     }
     @media (max-width: 992px) { 
       background-image: url("../img/background-body.png");
@@ -51,7 +51,7 @@ p#hero {
   text-decoration: none;
   border-bottom: 4px solid transparent;
 }
-@media (min-width: 1000px) { 
+@media (min-width: 992px) { 
   .nav-link:hover {
       border-color:#F79721;
     } 

@@ -1,25 +1,32 @@
 #resources {
 
     h2 {
-    padding: 100px 0 60px 0;
-    text-align: center;
+        padding: 50px 0;
+        @media (min-width: 992px) { 
+            padding: 100px 0 60px 0;
+            text-align: center;
+        }
+
     }
 
+
+
     p {
-    font-family: "interstate", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 26px;
-    line-height: 36px;
-    /* or 138% */
-    text-align: center;
-    color: #333333;
-    padding: 0 0 105px 0;
+        font-family: "interstate", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 26px;
+        line-height: 36px;
+        /* or 138% */
+        text-align: center;
+        color: #333333;
+        padding: 0 0 105px 0;
     }
 
     h3 {
-    padding: 20px 0;
+        padding: 20px 0;
     }
+
     @media (max-width: 576px) { 
         img {
             margin-bottom: 50px;
@@ -41,18 +48,6 @@
         line-height: 36px;
         font-family: 'Inter', sans-serif;
     }
-    .bg {
-        border-radius: 25px;
-        background-color:#406F84;
-        position: absolute;
-        height: 107px;
-        width: 100%;
-        opacity: 90%;
-        text-align: center;
-        @media (max-width: 992px) {
-            border-radius: 15px;
-        }
-    }
     h3 {
         font-family: "interstate", sans-serif;
         font-style: normal;
@@ -60,15 +55,7 @@
         font-size: 30px;
         line-height: 36px;
     }
-    a {
-        font-family: "interstate", sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 36px;
-        text-decoration-line: underline;
-        color: #FEFBEA;
-    }
+
 }
 
 
@@ -87,26 +74,39 @@
         padding-bottom: 6px;
     }
 }
-.imagelink{
-    &:hover{
-        opacity: 50%;
-    }
-    @media (max-width: 992px){
-        font-size: 18px;
-        line-height: 22px;
-    }
-    @media (max-width: 576px){
-        font-size: 22px;
-        line-height: 28px;
-    }
-}
+
 .boxedtext{
     padding: 15px;
     position: absolute;
     bottom: 0;
-      @media (max-width: 992px){
-         padding-top: 25px;
-       }
+
+    &.bg {
+        border-radius: 25px;
+        background-color:#406F84;
+        position: absolute;
+        height: 107px;
+        width: 100%;
+        opacity: 90%;
+        text-align: center;
+        @media (max-width: 992px) {
+            border-radius: 15px;
+        }
+    }
+
+    a {
+        font-family: "interstate", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        text-decoration-line: underline;
+        color: #FEFBEA;
+    }
+    
+
+    @media (max-width: 992px){
+        padding-top: 25px;
+    }
 }
 @media (max-width: 576px) {   
     .col-md-4{

@@ -1,6 +1,9 @@
 #hero {
-
-    padding: 176px 0 0 0;
+    padding: 50px 0;
+   
+    @media (min-width: 992px) { 
+        padding: 176px 0 0 0;
+    }
 
     h1 {
         font-family: "gelica", sans-serif;

@@ -20,17 +20,11 @@ Template Name: GetInvolved
 <section id="meet">
   <div class="container-md">
     <div class="row">
-      <div class="col-md-7">
+      <div class="col-md-12 col-lg-7">
         <h2><?php the_field('meet_spokespebble_title'); ?></h2>
         <?php the_field('meet_spokespebble_paragraph'); ?>
-          <!-- <ul>
-          <li><b>Favorite food:</b> Rock candy.</li>
-          <li><b>Favorite movie:</b> The Rock.</li>
-          <li><b>Favorite genre of comedy:</b> Rock puns.</li>
-          <li><b>Favorite music:</b> Smooth jazz. (Psych. It’s rock music.)</li>
-          </ul>  -->
       </div>
-      <div class="col-md-5">
+      <div class="col-md-12 col-lg-5">
         <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/rockyinvolved.png" alt="stone" class="img-fluid">
       </div>
     </div>
@@ -60,7 +54,7 @@ Template Name: GetInvolved
 </section>
 
   <!-- JOIN Spokespebble -->
-<section id="joinspoke">
+  <section id="joinspoke">
   <div class="container-md">
   <div class="row align-items-center">
 
@@ -74,7 +68,6 @@ Template Name: GetInvolved
     <div class="col-md-10 offset-md-1">
         <?php the_field('join_in_paragraph'); ?>
         <a href="<?php the_field('download_link'); ?>" class="btn" target="_blank"><?php the_field('cta_download_link'); ?></a>
-        <!-- <button class="btn">DOWNLOAD</button> -->
     </div>
   </div>
   </div>

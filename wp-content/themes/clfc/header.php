@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://use.typekit.net/env8cis.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style0430.css" />
+  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style0501.css" />
 
   <?php wp_head(); ?>
 </head>
@@ -21,7 +21,7 @@
             <div class="container-fluid">
               <!-- Logo -->
               <a class="navbar-brand" href="<?php echo get_site_url(); ?>">
-                <img class="logo" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/clfc-logo.png" alt="Conservation Lands Foundation Campaign logo">
+                <img class="logo" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/05/clf-logo.png" alt="Conservation Lands Foundation Campaign logo">
               </a>
 
               <!-- Toggle button for collapsed menu -->
