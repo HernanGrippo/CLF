@@ -1,15 +1,14 @@
 #resources {
 
-    h2 {
+    h1 {
         padding: 50px 0;
+        font-size: 65px;
         @media (min-width: 992px) { 
             padding: 100px 0 60px 0;
             text-align: center;
         }
 
     }
-
-
 
     p {
         font-family: "interstate", sans-serif;
@@ -36,12 +35,6 @@
         opacity: 50%;
     }
 
-    h2 {
-        font-size: 55px;
-        font-weight: 700;
-        line-height: 65px;
-        text-align: center;
-    }
     p {
         font-size: 26px;
         font-weight:400;
@@ -134,24 +127,30 @@
 
 }  
 
+h2 {
+    font-family: "gelica", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 55px;
+    line-height: 77px;
+}
+
 #respect {
+
     h2 {
         color:#598863;
-        text-align: left;
     }
 }
 
 #connect {
     h2 {
         color:#304C44;
-        text-align: left;
     }
 }
 
 #protect {
     h2 {
         color:#406F84;
-        text-align: left;
     }
 }
 

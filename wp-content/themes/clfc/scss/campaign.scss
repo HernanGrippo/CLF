@@ -1,14 +1,24 @@
 #campaign {
-        padding: 0 0 62px 0;
+    
+    padding: 0 0 62px 0;
     h2 {
-        padding: 0 0 60px 0;
+      color: #9B3926;
+      font-family: "gelica", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 65px;
+      line-height: 77px;
+      padding: 0 0 60px 0;
+      text-align: center;
     }
-    img{
+    img {
       padding: 0 0 66px 0;
     }
-    img:hover{
+
+    img:hover {
       opacity: 50%;
     }
+
     p {
         font-family: "interstate", sans-serif;
         font-weight: 400;

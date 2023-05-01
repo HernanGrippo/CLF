@@ -10636,14 +10636,6 @@ body h1, body .h1 {
   text-align: center;
   color: #9B3926;
 }
-body h2, body .h2 {
-  font-family: "gelica", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 65px;
-  line-height: 77px;
-  color: #9B3926;
-}
 
 .vertical-spacer-sm {
   padding: 60px 0 0 0;
@@ -10839,7 +10831,14 @@ body h2, body .h2 {
   padding: 0 0 62px 0;
 }
 #campaign h2, #campaign .h2 {
+  color: #9B3926;
+  font-family: "gelica", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 77px;
   padding: 0 0 60px 0;
+  text-align: center;
 }
 #campaign img {
   padding: 0 0 66px 0;
@@ -11049,6 +11048,14 @@ body h2, body .h2 {
 #whatare {
   padding: 0 50px 0;
 }
+#whatare h2, #whatare .h2 {
+  color: #9B3926;
+  font-family: "gelica", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 77px;
+}
 @media (max-width: 768px) {
   #whatare {
     padding: 0;
@@ -11179,12 +11186,25 @@ body h2, body .h2 {
 #instagram-embed {
   padding: 0 0 80px 0;
 }
+#instagram-embed p {
+  color: #333333;
+  font-family: Interstate;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+#instagram-embed p span {
+  color: #9B3926;
+}
 
-#resources h2, #resources .h2 {
+#resources h1, #resources .h1 {
   padding: 50px 0;
+  font-size: 65px;
 }
 @media (min-width: 992px) {
-  #resources h2, #resources .h2 {
+  #resources h1, #resources .h1 {
     padding: 100px 0 60px 0;
     text-align: center;
   }
@@ -11210,12 +11230,6 @@ body h2, body .h2 {
 }
 #resources img:hover {
   opacity: 50%;
-}
-#resources h2, #resources .h2 {
-  font-size: 55px;
-  font-weight: 700;
-  line-height: 65px;
-  text-align: center;
 }
 #resources p {
   font-size: 26px;
@@ -11304,19 +11318,24 @@ body h2, body .h2 {
     margin-left: 15px;
   }
 }
+h2, .h2 {
+  font-family: "gelica", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 77px;
+}
+
 #respect h2, #respect .h2 {
   color: #598863;
-  text-align: left;
 }
 
 #connect h2, #connect .h2 {
   color: #304C44;
-  text-align: left;
 }
 
 #protect h2, #protect .h2 {
   color: #406F84;
-  text-align: left;
 }
 
 #hero-get-involved {

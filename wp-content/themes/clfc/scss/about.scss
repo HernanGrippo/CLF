@@ -21,6 +21,14 @@
 
 #whatare{
 
+    h2 {
+        color: #9B3926;
+        font-family: "gelica", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 55px;
+        line-height: 77px;
+    }
     padding: 0 50px 0;
     @media (max-width: 768px) { 
         padding: 0;
@@ -151,5 +159,20 @@
 }
 #instagram-embed{
     padding: 0 0 80px 0;
+
+    p {
+        color: #333333;
+        font-family: Interstate;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: center;
+        
+        span {
+            color: #9B3926;
+        }
+    }
+
 }
 
