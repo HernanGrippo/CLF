@@ -10596,6 +10596,11 @@ p#hero {
   margin: 0 auto;
 }
 
+.container-md {
+  max-width: 1274px;
+  margin: 0 auto;
+}
+
 i {
   font-size: 24px;
   color: #000;
@@ -10637,7 +10642,6 @@ body h2, body .h2 {
   font-style: normal;
   font-size: 65px;
   line-height: 77px;
-  text-align: center;
   color: #9B3926;
 }
 
@@ -10701,12 +10705,23 @@ body h2, body .h2 {
     font-size: 22px;
   }
 }
+#footer p {
+  padding: 0;
+  margin: 0;
+}
+#footer p.copyright {
+  padding: 30px 0 0 0;
+}
 #footer .contact-links {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 #footer .contact-links p {
   font-size: 20px;
+}
+#footer .contact-links .social-icons {
+  padding: 9px 0 0 0;
+  margin-left: -10px;
 }
 #footer .contact-links a {
   font-family: "interstate", sans-serif;
@@ -11007,13 +11022,6 @@ body h2, body .h2 {
   height: 466px;
   width: 100%;
   margin: 50px 0 50px 0;
-}
-@media (max-width: 992px) {
-  #hero-aboutus {
-    height: 200px;
-  }
-}
-#hero-aboutus .container {
   background-image: url(../img/aboutushero.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -11021,25 +11029,25 @@ body h2, body .h2 {
   min-height: 364px;
 }
 @media (max-width: 992px) {
-  #hero-aboutus .container {
-    min-height: 200px;
+  #hero-aboutus {
+    height: 200px;
   }
 }
-#hero-aboutus .container h1, #hero-aboutus .container .h1 {
+#hero-aboutus h1, #hero-aboutus .h1 {
   padding-top: 150px;
 }
 @media (max-width: 992px) {
-  #hero-aboutus .container h1, #hero-aboutus .container .h1 {
+  #hero-aboutus h1, #hero-aboutus .h1 {
     padding-top: 60px;
   }
 }
 @media (max-width: 576px) {
-  #hero-aboutus .container h1, #hero-aboutus .container .h1 {
+  #hero-aboutus h1, #hero-aboutus .h1 {
     padding-top: 140px;
   }
 }
 @media (max-width: 576px) {
-  #hero-aboutus .container {
+  #hero-aboutus {
     background: url(../img/mountainresponsive.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -11055,8 +11063,13 @@ body h2, body .h2 {
   }
 }
 
-#whatare h2, #whatare .h2 {
-  text-align: left;
+#whatare {
+  padding: 0 50px 0;
+}
+@media (max-width: 768px) {
+  #whatare {
+    padding: 0;
+  }
 }
 #whatare p {
   padding-left: 10px;
@@ -11067,7 +11080,7 @@ body h2, body .h2 {
   margin-right: 20px;
 }
 #whatare ul {
-  padding: 10px 0 0 60px;
+  padding: 10px 0 0 80px;
   font-size: 26px;
   font-weight: 400;
   line-height: 36px;
@@ -11089,7 +11102,7 @@ body h2, body .h2 {
   color: #fff;
   background-color: #9B3926;
 }
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   #whatare img {
     padding: 80px 0 0 100px;
   }
@@ -11186,6 +11199,7 @@ body h2, body .h2 {
 
 #resources h2, #resources .h2 {
   padding: 100px 0 60px 0;
+  text-align: center;
 }
 #resources p {
   font-family: "interstate", sans-serif;
@@ -11209,24 +11223,19 @@ body h2, body .h2 {
 #resources img:hover {
   opacity: 50%;
 }
-
-h2, .h2 {
+#resources h2, #resources .h2 {
   font-size: 55px;
   font-weight: 700;
   line-height: 65px;
-  padding-left: 50px;
-  text-align: left;
+  text-align: center;
 }
-
-p {
+#resources p {
   font-size: 26px;
   font-weight: 400;
   line-height: 36px;
   font-family: "Inter", sans-serif;
-  padding-left: 50px;
 }
-
-.bg {
+#resources .bg {
   border-radius: 25px;
   background-color: #406F84;
   position: absolute;
@@ -11236,20 +11245,18 @@ p {
   text-align: center;
 }
 @media (max-width: 992px) {
-  .bg {
+  #resources .bg {
     border-radius: 15px;
   }
 }
-
-h3, .h3 {
+#resources h3, #resources .h3 {
   font-family: "interstate", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
 }
-
-a {
+#resources a {
   font-family: "interstate", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -11340,66 +11347,55 @@ a {
   text-align: left;
 }
 
-#hero-getinvolved {
-  height: 604px;
+#hero-get-involved {
+  height: 466px;
   width: 100%;
   margin: 50px 0 50px 0;
-  background-image: url(../img/getinvolvedhero.png);
+  background-image: url(../img/hero-get-involved.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 604px;
-  padding-top: 60px;
-}
-#hero-getinvolved p {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 26px;
-  line-height: 36px;
-  text-align: center;
-  color: #9B3926;
-  padding: 0 300px 0 300px;
-  padding-top: 52px;
-}
-@media (max-width: 1548px) {
-  #hero-getinvolved {
-    background-image: none;
-  }
+  min-height: 364px;
 }
 @media (max-width: 992px) {
-  #hero-getinvolved {
-    width: 100%;
-    height: auto;
-    background-image: none;
-  }
-  #hero-getinvolved p {
-    font-size: 26px;
-    padding: 50px 20px 0 20px;
-    text-align: center;
+  #hero-get-involved {
+    height: 200px;
   }
 }
-@media (max-width: 992px) and (max-width: 576px) {
-  #hero-getinvolved {
-    width: 100%;
-    height: auto;
-    background-image: none;
+#hero-get-involved h1, #hero-get-involved .h1 {
+  padding-top: 150px;
+}
+@media (max-width: 992px) {
+  #hero-get-involved h1, #hero-get-involved .h1 {
+    padding-top: 60px;
   }
-  #hero-getinvolved p {
-    font-size: 20px;
-    padding: 50px 20px 0 20px;
-    text-align: left;
+}
+@media (max-width: 576px) {
+  #hero-get-involved h1, #hero-get-involved .h1 {
+    padding-top: 140px;
+  }
+}
+@media (max-width: 576px) {
+  #hero-get-involved {
+    background: url(../img/mountainresponsive.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 380px;
+  }
+}
+@media (max-width: 576px) {
+  #hero-get-involved {
+    height: 400px;
+    width: 100%;
+    margin: 50px 0 50px 0;
   }
 }
 
-#meet {
-  padding-top: 100px;
-}
 #meet h2, #meet .h2 {
   text-align: left;
 }
 #meet p {
-  padding-left: 10px;
   font-size: 26px;
   font-weight: 400;
   line-height: 36px;
@@ -11407,7 +11403,8 @@ a {
   margin-right: 20px;
 }
 #meet ul {
-  padding: 50px 0 100px 60px;
+  padding: 30px 0 0 0;
+  margin: 0;
   font-size: 26px;
   font-weight: 400;
   line-height: 36px;

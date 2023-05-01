@@ -9,7 +9,7 @@ Template Name: Resources
 
 <section id="resources">
   <div class="row">
-    <div class="col-12 text-center">
+    <div class="col-12 text-center align-middle">
       <h2><?php the_field('resources_heading'); ?></h2>
     </div>
   </div>
@@ -17,7 +17,7 @@ Template Name: Resources
   
 <!-- RESPECT -->
 <section id="respect">
-  <div class="container">
+  <div class="container-md">
     <div class="row">
       <div class="col-md-3 col-sm-12">
         <?php 
@@ -81,7 +81,7 @@ Template Name: Resources
 
 <!-- CONNECT -->
 <section id="connect">
-  <div class="container">
+  <div class="container-md">
     <div class="row">
       <div class="col-md-3">
       <?php 
@@ -145,7 +145,7 @@ Template Name: Resources
 
 <!-- PROTECT -->
 <section id="protect">
-  <div class="container">
+  <div class="container-md">
     <div class="row">
       <div class="col-md-3 col-sm-12">
       <?php 

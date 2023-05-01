@@ -7,16 +7,20 @@ Template Name: About
 
 <!-- HERO -->
 <section id="hero-aboutus">
-    <div class="container"> 
+  <div class="container"> 
+    <div class="row">
+      <div class="col-md-12">
         <h1><?php the_field('about_heading'); ?></h1>
+      </div>
     </div>
+  </div>
 </section>
 
 <!-- WHAT ARE NATIONAL SECTION --> 
 <section id="whatare">
 <div class="container">
   <div class="row">
-    <div class="col-md-12 col-lg-8">
+    <div class="col-md-12 col-lg-7 text-left">
       <h2><?php the_field('national_lands_title'); ?></h2>
       <p><?php the_field('national_lands_paragraph'); ?></p>
         <ul>
@@ -31,7 +35,7 @@ Template Name: About
 
     
       </div>
-    <div class="col-md-12 col-lg-4">
+    <div class="col-md-12 col-lg-5">
         <?php 
             $image = get_field('map_of_conservation_image');
             if( !empty( $image ) ): ?>

@@ -2,27 +2,28 @@
     height: 466px;
     width: 100%;
     margin: 50px 0 50px 0;
+    background-image: url(../img/aboutushero.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 364px;
+
     @media (max-width: 992px) { 
         height: 200px;
     }
-    .container{
-        background-image: url(../img/aboutushero.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        min-height: 364px;
-        @media (max-width: 992px) { 
-            min-height: 200px;
-        }    
-    h1{
+
+    h1 {
+
         padding-top: 150px;
-            @media (max-width: 992px) { 
-                padding-top: 60px;
-            }
-            @media (max-width: 576px) { 
-                padding-top: 140px;
-            }
+
+        @media (max-width: 992px) { 
+            padding-top: 60px;
+        }
+        @media (max-width: 576px) { 
+            padding-top: 140px;
+        }
     }
+
     @media (max-width: 576px) { 
     background: url(../img/mountainresponsive.png);
     background-size: contain;
@@ -30,17 +31,20 @@
     background-position: center;
     min-height: 380px;
     }
-    }
     @media (max-width: 576px) { 
-        height:400px;
+        height: 400px;
         width: 100%;
         margin: 50px 0 50px 0;
-        }
-}
-#whatare{
-    h2{
-        text-align: left;
     }
+}
+
+#whatare{
+
+    padding: 0 50px 0;
+    @media (max-width: 768px) { 
+        padding: 0;
+    }
+
     p{
         padding-left: 10px;
         font-size: 26px;
@@ -50,7 +54,7 @@
         margin-right: 20px;
     }
     ul{
-        padding: 10px 0 0 60px;
+        padding: 10px 0 0 80px;
         font-size: 26px;
         font-weight:400;
         line-height: 36px;
@@ -72,7 +76,7 @@
         color: #fff;
         background-color: #9B3926;
     }
-    @media (max-width: 992px) { 
+    @media (max-width: 768px) { 
         img{
             padding: 80px 0 0 100px;
         }

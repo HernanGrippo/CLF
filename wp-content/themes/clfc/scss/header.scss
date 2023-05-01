@@ -73,6 +73,11 @@ p#hero {
   margin: 0 auto;
 }
 
+.container-md {
+  max-width: 1274px;
+  margin: 0 auto;
+}
+
 i {
   font-size: 24px;
   color: #000;
@@ -115,7 +120,6 @@ h2 {
     font-style: normal;
     font-size: 65px;
     line-height: 77px;
-    text-align: center;
     color: #9B3926;
   }
 }    

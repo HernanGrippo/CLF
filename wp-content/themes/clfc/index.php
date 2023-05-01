@@ -24,8 +24,11 @@ Template Name: Home
     </div>
 </section>
 
+<div class="vertical-spacer-sm">&nbsp;</div>
+
 <!-- Video --> 
-    <section id="video">
+<section id="video">
+  <div class="container-md">
     <div class="row">
       <div class="col text-center">
       <?php 
@@ -37,10 +40,11 @@ Template Name: Home
           echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
           echo $image['alt']; ?>" /></a>
           <?php 
-      }?>
+        }?>
+      </div>
     </div>
     </div>
-  </section>
+</section>
 
   <!-- OUR CAMPAIGN -->
   <section id="campaign">
