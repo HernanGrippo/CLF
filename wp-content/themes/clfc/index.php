@@ -66,7 +66,7 @@ Template Name: Home
           if (!empty($image)) {
           $url = get_field('respect_icon_url');
           ?>
-          <a href="<?php echo $url; ?>" target="_blank"><img src="<?php 
+          <a href="<?php echo $url; ?>" target="_self"><img src="<?php 
           echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
           echo $image['alt']; ?>" /></a>
           <?php 
@@ -79,7 +79,7 @@ Template Name: Home
           if (!empty($image)) {
           $url = get_field('connect_icon_url');
           ?>
-          <a href="<?php echo $url; ?>" target="_blank"><img src="<?php 
+          <a href="<?php echo $url; ?>" target="_self"><img src="<?php 
           echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
           echo $image['alt']; ?>" /></a>
           <?php 
@@ -91,7 +91,7 @@ Template Name: Home
           if (!empty($image)) {
           $url = get_field('protect_icon_url');
           ?>
-          <a href="<?php echo $url; ?>" target="_blank"><img src="<?php 
+          <a href="<?php echo $url; ?>" target="_self"><img src="<?php 
           echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
           echo $image['alt']; ?>" /></a>
           <?php 
