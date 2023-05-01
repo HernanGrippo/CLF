@@ -19,21 +19,21 @@ Template Name: Resources
 <section id="respect">
   <div class="container">
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-3 col-sm-12">
         <?php 
               $image = get_field('respect_section_icon');
               if( !empty( $image ) ): ?>
-              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="respecticon"/>
+              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="img-fluid"/>
         <?php endif; ?>
       </div>
-      <div class="col-md-9">
+      <div class="col-md-9 col-sm-12">
         <h2><?php the_field('respect_title'); ?></h2>
         <?php the_field('respect_paragraph'); ?>
       </div>
     </div>
     <div class="vertical-spacer-sm">&nbsp;</div>
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-12">
         <div class="position-relative">
           <?php 
                 $image = get_field('image_respect_left');
@@ -45,7 +45,7 @@ Template Name: Resources
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-12">
         <div class="position-relative">
           <?php 
                 $image = get_field('image_respect_center');
@@ -57,7 +57,7 @@ Template Name: Resources
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-12">
         <div class="position-relative">
           <?php 
                 $image = get_field('image_respect_right');
@@ -147,7 +147,7 @@ Template Name: Resources
 <section id="protect">
   <div class="container">
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-3 col-sm-12">
       <?php 
             $image = get_field('protect_section_icon');
             if( !empty( $image ) ): ?>
@@ -173,7 +173,7 @@ Template Name: Resources
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-12">
         <div class="position-relative">
           <?php 
                 $image = get_field('image_protect_center');
@@ -185,7 +185,7 @@ Template Name: Resources
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-12">
         <div class="position-relative">
           <?php 
                 $image = get_field('image_pro_right');
