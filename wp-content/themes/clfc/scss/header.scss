@@ -1,7 +1,9 @@
+header, #footer {
+  background-color: #fff;
+}
 .background {
   background-image: url("../img/background-body.png");
   background-repeat: repeat;
-  overflow-x: hidden;
 }
 p#hero {
   font-size: 24px;
@@ -117,3 +119,15 @@ h2 {
     color: #9B3926;
   }
 }    
+
+.vertical-spacer-sm {
+  padding: 60px 0 0 0;
+}
+
+.vertical-spacer-md {
+  padding: 80px 0 0 0;
+}
+
+.vertical-spacer-lg {
+  padding: 100px 0 0 0;
+}

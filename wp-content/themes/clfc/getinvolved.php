@@ -86,6 +86,14 @@ Template Name: GetInvolved
       </div>
     </div>
 
+    <div class="row">
+    <div class="col-md-12 col-lg-8 offset-lg-2">
+      <!-- CONTACT FORM -->
+      <p>&nbsp;</p>
+      <? get_template_part( 'components/contactform' ); ?>
+    </div>
+    </div>
+
   </section>
 
 

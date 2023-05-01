@@ -8,11 +8,11 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://use.typekit.net/env8cis.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style0429c.css" />
+  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style0430.css" />
 
   <?php wp_head(); ?>
 </head>
-<body>
+<body class="background">
   <!-- Navbar -->
   <header>
     <div class="container">
@@ -57,4 +57,4 @@
 
   <div class="line"></div>
 
-  <div class="container background">
+  <div class="container">
