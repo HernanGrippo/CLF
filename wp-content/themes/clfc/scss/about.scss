@@ -1,18 +1,27 @@
 #hero-aboutus {
-    background: none;
 
-    @media (min-width: 992px) { 
-        height: 466px;
-        width: 100%;
-        margin: 50px 0 50px 0;
-        background-image: url('../img/aboutushero.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
+    .hero {
+        
+        @media (min-width: 992px) { 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 364px;
+            width: 100%;
+            margin: 50px 0 50px 0;
+            background-image: url('../img/aboutushero.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            h1 {
+                text-align: center;
+            }
+        }
     }
 
     h1{
-        padding-top: 150px;
+        // padding-top: 150px;
         @media (max-width: 992px) { 
             padding-top: 0px;
         }

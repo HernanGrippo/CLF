@@ -2,7 +2,10 @@
     background: none;
 
     @media (min-width: 992px) { 
-        height: 466px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 364px;
         width: 100%;
         margin: 50px 0 50px 0;
         background-image: url('../img/hero-get-involved.png');
@@ -12,7 +15,7 @@
     }
 
     h1{
-        padding-top: 150px;
+        text-align: center;
         @media (max-width: 992px) { 
             padding-top: 0px;
         }
@@ -22,6 +25,8 @@
 
     h2 {
         text-align: left;
+        color:#9B3926;
+
     }
     p {
         font-size: 26px;

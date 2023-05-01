@@ -11031,12 +11031,12 @@ body h1, body .h1 {
   padding: 110px 0 0 0;
 }
 
-#hero-aboutus {
-  background: none;
-}
 @media (min-width: 992px) {
-  #hero-aboutus {
-    height: 466px;
+  #hero-aboutus .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 364px;
     width: 100%;
     margin: 50px 0 50px 0;
     background-image: url("../img/aboutushero.png");
@@ -11044,9 +11044,9 @@ body h1, body .h1 {
     background-repeat: no-repeat;
     background-position: center;
   }
-}
-#hero-aboutus h1, #hero-aboutus .h1 {
-  padding-top: 150px;
+  #hero-aboutus .hero h1, #hero-aboutus .hero .h1 {
+    text-align: center;
+  }
 }
 @media (max-width: 992px) {
   #hero-aboutus h1, #hero-aboutus .h1 {
@@ -11352,7 +11352,10 @@ h2, .h2 {
 }
 @media (min-width: 992px) {
   #hero-get-involved {
-    height: 466px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 364px;
     width: 100%;
     margin: 50px 0 50px 0;
     background-image: url("../img/hero-get-involved.png");
@@ -11362,7 +11365,7 @@ h2, .h2 {
   }
 }
 #hero-get-involved h1, #hero-get-involved .h1 {
-  padding-top: 150px;
+  text-align: center;
 }
 @media (max-width: 992px) {
   #hero-get-involved h1, #hero-get-involved .h1 {
@@ -11372,6 +11375,7 @@ h2, .h2 {
 
 #meet h2, #meet .h2 {
   text-align: left;
+  color: #9B3926;
 }
 #meet p {
   font-size: 26px;
