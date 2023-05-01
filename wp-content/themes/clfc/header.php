@@ -13,9 +13,29 @@
 <body class="background">
   <!-- Navbar -->
   <header>
+    <!-- MOBILE NAVIGATION -->
+    <div id="nav-modal">
+      <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/05/RCP-logo.png">
+      <span id="close-modal">
+        <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M29.3848 28.0676L1.00043 2.80245" stroke="#9B3926" stroke-width="3"/>
+          <path d="M1.75781 28.8701L28.6279 2.00006" stroke="#9B3926" stroke-width="3"/>
+        </svg>
+      </span>
+      <div class="clearfix"></div>
+      <div class="modal-body">
+        <ul>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">GET INVOLVED</a></li>
+          <li><a href="#">RESOURCES</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
     <div class="container">
       <div class="row">
         <div class="col">
+          <!-- DESKTOP NAVIGATION -->
           <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
               <!-- Logo -->
@@ -24,9 +44,14 @@
               </a>
 
               <!-- Toggle button for collapsed menu -->
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+              <span id="hamburguer-menu">
+              <svg width="38" height="36" viewBox="0 0 38 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M38 2L0 2" stroke="#9B3926" stroke-width="3"/>
+                <path d="M38 18L0 18" stroke="#9B3926" stroke-width="3"/>
+                <path d="M38 34L0 34" stroke="#9B3926" stroke-width="3"/>
+                </svg>
+              </span>
+
 
               <!-- Menu items -->
               <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -47,6 +72,7 @@
               </div>
             </div>
           </nav>
+
         </div>
       </div>
     </div>
