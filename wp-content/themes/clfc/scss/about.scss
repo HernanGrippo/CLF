@@ -1,46 +1,48 @@
 #hero-aboutus {
-    height: 466px;
-    width: 100%;
-    margin: 50px 0 50px 0;
-    @media (max-width: 992px) { 
-        height: 200px;
-    }
-    .container{
-        background-image: url(../img/aboutushero.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        min-height: 364px;
-        @media (max-width: 992px) { 
-            min-height: 200px;
-        }    
-    h1{
-        padding-top: 150px;
-            @media (max-width: 992px) { 
-                padding-top: 60px;
+
+    .hero {
+        
+        @media (min-width: 992px) { 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 364px;
+            width: 100%;
+            margin: 50px 0 50px 0;
+            background-image: url('../img/aboutushero.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            h1 {
+                text-align: center;
             }
-            @media (max-width: 576px) { 
-                padding-top: 140px;
-            }
-    }
-    @media (max-width: 576px) { 
-    background: url(../img/mountainresponsive.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 380px;
-    }
-    }
-    @media (max-width: 576px) { 
-        height:400px;
-        width: 100%;
-        margin: 50px 0 50px 0;
         }
-}
-#whatare{
-    h2{
-        text-align: left;
     }
+
+    h1{
+        // padding-top: 150px;
+        @media (max-width: 992px) { 
+            padding-top: 0px;
+        }
+    }
+}
+
+#whatare{
+
+    h2 {
+        color: #9B3926;
+        font-family: "gelica", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 55px;
+        line-height: 77px;
+    }
+    padding: 0 50px 0;
+    @media (max-width: 768px) { 
+        padding: 0;
+    }
+
     p{
         padding-left: 10px;
         font-size: 26px;
@@ -50,7 +52,7 @@
         margin-right: 20px;
     }
     ul{
-        padding: 10px 0 0 60px;
+        padding: 10px 0 0 80px;
         font-size: 26px;
         font-weight:400;
         line-height: 36px;
@@ -72,7 +74,7 @@
         color: #fff;
         background-color: #9B3926;
     }
-    @media (max-width: 992px) { 
+    @media (max-width: 768px) { 
         img{
             padding: 80px 0 0 100px;
         }
@@ -104,17 +106,15 @@
     
 }
 #logoabout {
-    padding: 40px 0 0 0;
+    padding: 40px 0 186px 0;
     .row {
-    padding: 107px 0 0 0;
-    ;
+        padding: 107px 0 0 0;
+        ;
     }
     .blm-logo{
-        max-width: 291px;
         padding-top: 20px;
     }
     .clfc-logo{
-        max-width: 396px;
         padding-top: 10px;
     }
     h3{
@@ -130,12 +130,6 @@
         line-height: 36px;
         font-family: 'Inter', sans-serif;
         padding-left: 50px;
-    }
-    .waveabout{
-        padding: 86px 0 100px 0;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
     @media (max-width: 992px) { 
         .blm-logo{
@@ -174,5 +168,20 @@
 }
 #instagram-embed{
     padding: 0 0 80px 0;
+
+    p {
+        color: #333333;
+        font-family: Interstate;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: center;
+        
+        span {
+            color: #9B3926;
+        }
+    }
+
 }
 
