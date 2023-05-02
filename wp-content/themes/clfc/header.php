@@ -2,7 +2,7 @@
 <html <?php language_attributes(); ?>>
 
 <head>
-  <title>Conservation Lands Foundation Campaign</title>
+  <title><?php bloginfo('name'); ?></title>
   <meta charset="<?php bloginfo('charset'); ?>" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://use.typekit.net/env8cis.css">
