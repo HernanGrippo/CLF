@@ -11495,17 +11495,6 @@ body h1, body .h1 {
     text-align: center;
   }
 }
-#resources p {
-  font-family: "interstate", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 26px;
-  line-height: 36px;
-  /* or 138% */
-  text-align: center;
-  color: #333333;
-  padding: 0 0 105px 0;
-}
 #resources h3, #resources .h3 {
   padding: 20px 0;
 }
@@ -11615,13 +11604,43 @@ h2, .h2 {
 #respect h2, #respect .h2 {
   color: #598863;
 }
+#respect p {
+  font-family: "interstate", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 36px;
+  /* or 138% */
+  text-align: left;
+  color: #000000;
+}
 
 #connect h2, #connect .h2 {
   color: #304C44;
 }
+#connect p {
+  font-family: "interstate", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 36px;
+  /* or 138% */
+  text-align: left;
+  color: #000000;
+}
 
 #protect h2, #protect .h2 {
   color: #406F84;
+}
+#protect p {
+  font-family: "interstate", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 36px;
+  /* or 138% */
+  text-align: left;
+  color: #000000;
 }
 
 #hero-get-involved {
