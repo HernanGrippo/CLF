@@ -6,7 +6,7 @@
   <meta charset="<?php bloginfo('charset'); ?>" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://use.typekit.net/env8cis.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style0501.css" />
+  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style0502.css" />
 
   <?php wp_head(); ?>
 </head>
@@ -25,10 +25,10 @@
       <div class="clearfix"></div>
       <div class="modal-body">
         <ul>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">GET INVOLVED</a></li>
-          <li><a href="#">RESOURCES</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="<?php echo get_site_url(); ?>/about/">ABOUT</a></li>
+          <li><a href="<?php echo get_site_url(); ?>/get-involved/">GET INVOLVED</a></li>
+          <li><a href="<?php echo get_site_url(); ?>/resources/">RESOURCES</a></li>
+          <li><a href="<?php echo get_site_url(); ?>/contact-us/">CONTACT</a></li>
         </ul>
       </div>
     </div>
