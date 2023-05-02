@@ -10751,7 +10751,7 @@ header, #footer {
   opacity: 97%;
   position: absolute;
   height: 100vh;
-  z-index: 1000;
+  z-index: 10000;
 }
 #nav-modal img {
   float: left;
@@ -10931,15 +10931,34 @@ body h1, body .h1 {
 }
 
 #footer {
-  padding: 82px 0 20px 0;
+  padding: 50px 0 20px 0;
+}
+@media (max-width: 576px) {
+  #footer {
+    padding-top: 0;
+  }
+}
+#footer .me-3 {
+  max-width: 461px;
+}
+@media (max-width: 576px) {
+  #footer .me-3 {
+    max-width: 234px;
+    padding-top: 80px;
+  }
 }
 #footer .me-3b {
   max-width: 234px;
 }
 @media (max-width: 576px) {
   #footer .me-3b {
-    max-width: 234px;
-    padding-top: 30px;
+    max-width: 110px;
+    padding: 30px 0 0 40px;
+  }
+}
+@media (max-width: 996px) {
+  #footer .me-3b {
+    padding: 50px 0 0 0;
   }
 }
 #footer .me-4 {
@@ -10954,6 +10973,11 @@ body h1, body .h1 {
   padding: 0;
   margin: 0;
 }
+@media (max-width: 576px) {
+  #footer ul {
+    padding-top: 30px;
+  }
+}
 #footer ul li a {
   font-family: "interstate", sans-serif;
   font-weight: 700;
@@ -10967,15 +10991,21 @@ body h1, body .h1 {
   color: #631000;
 }
 @media (max-width: 992px) {
+  #footer ul li {
+    padding: 0 0 0 50px;
+  }
   #footer ul li a {
-    font-size: 18px;
     font-size: 22px;
+    line-height: 26px;
   }
 }
 @media (max-width: 576px) {
+  #footer ul li {
+    padding: 0 0 0 0;
+  }
   #footer ul li a {
     font-size: 18px;
-    font-size: 22px;
+    line-height: 22px;
   }
 }
 #footer p {
@@ -11299,8 +11329,8 @@ body h1, body .h1 {
     max-width: 50%;
     height: auto;
     display: block;
-    left: 200px;
-    bottom: -90px;
+    left: 232px;
+    bottom: -115px;
   }
 }
 
