@@ -10,7 +10,7 @@ Template Name: Resources
 <section id="resources">
   <div class="row">
     <div class="col-12 text-center align-middle">
-      <h2><?php the_field('resources_heading'); ?></h2>
+      <h1><?php the_field('resources_heading'); ?></h1>
     </div>
   </div>
 </section>

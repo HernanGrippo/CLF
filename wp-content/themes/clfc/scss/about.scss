@@ -1,18 +1,27 @@
 #hero-aboutus {
-    background: none;
 
-    @media (min-width: 992px) { 
-        height: 466px;
-        width: 100%;
-        margin: 50px 0 50px 0;
-        background-image: url('../img/aboutushero.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
+    .hero {
+        
+        @media (min-width: 992px) { 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 364px;
+            width: 100%;
+            margin: 50px 0 50px 0;
+            background-image: url('../img/aboutushero.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            h1 {
+                text-align: center;
+            }
+        }
     }
 
     h1{
-        padding-top: 150px;
+        // padding-top: 150px;
         @media (max-width: 992px) { 
             padding-top: 0px;
         }
@@ -21,6 +30,14 @@
 
 #whatare{
 
+    h2 {
+        color: #9B3926;
+        font-family: "gelica", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 55px;
+        line-height: 77px;
+    }
     padding: 0 50px 0;
     @media (max-width: 768px) { 
         padding: 0;
@@ -151,5 +168,20 @@
 }
 #instagram-embed{
     padding: 0 0 80px 0;
+
+    p {
+        color: #333333;
+        font-family: Interstate;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: center;
+        
+        span {
+            color: #9B3926;
+        }
+    }
+
 }
 

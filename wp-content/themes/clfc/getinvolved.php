@@ -9,8 +9,10 @@ Template Name: GetInvolved
 <section id="hero-get-involved">
   <div class="container"> 
     <div class="row">
-      <div class="col-md-12 text-center">
-      <h1 class="text-center"><?php the_field('get_involved_heading'); ?></h1>
+      <div class="col">
+        <div class="hero">
+          <h1><?php the_field('get_involved_heading'); ?></h1>
+        </div>
       </div>
     </div>
   </div>

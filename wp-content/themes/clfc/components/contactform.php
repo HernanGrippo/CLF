@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col">
         <div class="container">
-          <div class="left text-center">
+          <div class="left">
             <h2>Get Involved.</h2>
             <p>Sign up for our mailing list.</p>
           </div>

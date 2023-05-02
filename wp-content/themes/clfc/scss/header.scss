@@ -1,6 +1,76 @@
 header, #footer {
   background-color: #fff;
 }
+
+#hamburguer-menu {
+  display: inline;
+  width: 50px;
+  height: 50px;
+  @media (min-width: 992px) { 
+    display: none;
+  }
+}
+
+#navbarNav {
+  @media (max-width: 992px) { 
+    display: none;
+  }
+}
+
+#nav-modal {
+  background-color: #FEFBEA;
+  display: none;
+  width: 100%;
+  opacity: 97%;
+  position: absolute;
+  height: 100vh;
+  z-index: 1000;
+
+  img {
+    float: left;
+    padding: 37px 0 0px 23px;
+  }
+  span {
+    float: right;
+    padding: 82px 40px 0 0;
+  }
+
+  .modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+
+    ul {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 80%;
+
+      margin: 0;
+      padding: 0;
+      list-style: none;
+  
+      li {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+  
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+        a {
+          color: #9B3926;
+        }
+      }
+    }
+  }
+}
+
 .background {
   background-image: url("../img/background-body.png");
   background-repeat: repeat;
@@ -104,25 +174,20 @@ body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   
-h1 {
-      font-family: "gelica", sans-serif;
-      font-weight: 700;
-      font-style: normal;
-      font-size: 75px;
-      line-height: 89px;
-      text-align: center;
-      color: #9B3926;
-}
-
-h2 {
-    font-family: "gelica", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 65px;
-    line-height: 77px;
-    color: #9B3926;
+  h1 {
+        font-family: "gelica", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 75px;
+        line-height: 89px;
+        text-align: center;
+        color: #9B3926;
   }
 }    
+
+.vertical-spacer-xs {
+  padding: 30px 0 0 0;
+}
 
 .vertical-spacer-sm {
   padding: 60px 0 0 0;
