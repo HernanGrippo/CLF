@@ -2,11 +2,11 @@
 <html <?php language_attributes(); ?>>
 
 <head>
-  <title><?php bloginfo('name'); ?></title>
+  <title><?php bloginfo('name'); ?></title> 
   <meta charset="<?php bloginfo('charset'); ?>" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://use.typekit.net/env8cis.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style0502.css" />
+  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style.css" />
   <link rel="icon" type="image/x-icon" href="<?php bloginfo('template_url'); ?>/img/rcp-favicon.png">
 
   <!-- Meta Pixel Code -->
