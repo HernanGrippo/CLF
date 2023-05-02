@@ -178,17 +178,17 @@ h2 {
 }
 
 
-// @media (max-width: 576px) {   
-//     .connecticon{
-//         padding: 0 0 0 100px;
-//     }
-//     .protecticon {
-//         padding: 0 0 0 100px;
-//     }
-//     .respecticon{
-//         padding: 0 0 0 100px;
-//     }
-// }
+@media (max-width: 576px) {   
+    .connecticon{
+        padding: 0 0 0 100px;
+    }
+    .protecticon {
+        padding: 0 0 0 100px;
+    }
+    .respecticon{
+        padding: 0 0 0 100px;
+    }
+}
 
 // @media (max-width: 992px) { 
 //     .connecticon{

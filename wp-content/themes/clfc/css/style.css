@@ -11673,6 +11673,17 @@ h2, .h2 {
   color: #000000;
 }
 
+@media (max-width: 576px) {
+  .connecticon {
+    padding: 0 0 0 100px;
+  }
+  .protecticon {
+    padding: 0 0 0 100px;
+  }
+  .respecticon {
+    padding: 0 0 0 100px;
+  }
+}
 #hero-get-involved {
   background: none;
 }
