@@ -1,5 +1,5 @@
   <!-- CONTACT FORM -->
-  <section id="contact-form">
+  <section id="contact-form2">
     <div class="row">
       <div class="col">
         <div class="container">
