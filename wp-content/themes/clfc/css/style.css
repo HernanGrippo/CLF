@@ -11261,6 +11261,12 @@ body h1, body .h1 {
   padding: 112px 0 0 100px;
   text-align: left;
 }
+@media (max-width: 992px) {
+  #contact-form .left h2, #contact-form .left .h2 {
+    padding: 20px 0 20px 0;
+    text-align: left;
+  }
+}
 @media (max-width: 575px) {
   #contact-form .left h2, #contact-form .left .h2 {
     padding: 20px 0 40px 0;
@@ -11293,7 +11299,7 @@ body h1, body .h1 {
     max-width: 100%;
     height: auto;
     display: block;
-    margin-top: 120px;
+    margin-top: -30px;
   }
 }
 #contact-form .right .form {
@@ -12000,6 +12006,34 @@ h2, .h2 {
 
 #videoinvolved img:hover {
   opacity: 80%;
+}
+
+#contactpage {
+  padding: 50px 0 0 0;
+}
+@media (min-width: 992px) {
+  #contactpage {
+    padding: 176px 0 0 0;
+  }
+}
+#contactpage h1, #contactpage .h1 {
+  font-family: "gelica", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 75px;
+  line-height: 89px;
+  text-align: center;
+  color: #9B3926;
+}
+#contactpage .main-text {
+  padding: 60px 0 0 0;
+}
+#contactpage p {
+  font-family: "interstate", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 26px;
 }
 
 /*# sourceMappingURL=style.css.map */
