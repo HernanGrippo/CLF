@@ -10,18 +10,6 @@
 
     }
 
-    p {
-        font-family: "interstate", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 26px;
-        line-height: 36px;
-        /* or 138% */
-        text-align: center;
-        color: #333333;
-        padding: 0 0 105px 0;
-    }
-
     h3 {
         padding: 20px 0;
     }
@@ -140,17 +128,65 @@ h2 {
     h2 {
         color:#598863;
     }
+    p {
+        font-family: "interstate", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 26px;
+        line-height: 36px;
+        /* or 138% */
+        text-align: left;
+        color: #000000;
+        // padding: 0 0 105px 0;
+    }    
 }
 
 #connect {
     h2 {
         color:#304C44;
     }
+    p {
+        font-family: "interstate", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 26px;
+        line-height: 36px;
+        /* or 138% */
+        text-align: left;
+        color: #000000;
+        // padding: 0 0 105px 0;
+    }
+    
 }
 
 #protect {
     h2 {
         color:#406F84;
+    }
+    p {
+        font-family: "interstate", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 26px;
+        line-height: 36px;
+        /* or 138% */
+        text-align: left;
+        color: #000000;
+        // padding: 0 0 105px 0;
+    }
+    
+}
+
+
+@media (max-width: 576px) {   
+    .connecticon{
+        padding: 0 0 0 100px;
+    }
+    .protecticon {
+        padding: 0 0 0 100px;
+    }
+    .respecticon{
+        padding: 0 0 0 100px;
     }
 }
 
@@ -165,16 +201,5 @@ h2 {
 //         margin: 80px 0 0 0;
 //     }
 
-// }
-// @media (max-width: 576px) {   
-//     .connecticon{
-//         padding: 0 0 0 66px;
-//     }
-//     .protecticon {
-//         padding: 0 0 0 66px;
-//     }
-//     .respecticon{
-//         padding: 0 0 0 66px;
-//     }
 // }
 

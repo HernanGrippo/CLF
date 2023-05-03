@@ -23,12 +23,16 @@
     h1{
         // padding-top: 150px;
         @media (max-width: 992px) { 
-            padding-top: 0px;
+           padding: 60px 0 60px 0;
         }
     }
 }
 
 #whatare{
+    padding: 0 50px 0;
+    @media (max-width: 768px) { 
+        padding: 0;
+    }
 
     h2 {
         color: #9B3926;
@@ -37,10 +41,6 @@
         font-style: normal;
         font-size: 55px;
         line-height: 77px;
-    }
-    padding: 0 50px 0;
-    @media (max-width: 768px) { 
-        padding: 0;
     }
 
     p{
@@ -74,13 +74,14 @@
         color: #fff;
         background-color: #9B3926;
     }
-    @media (max-width: 768px) { 
+    @media (max-width: 992px) { 
         img{
-            padding: 80px 0 0 100px;
+            padding: 80px 0 0 180px;
         }
         .btn {
-            margin: 50px 0 0 136px;
+            margin: 50px 0 0 200px;
         }
+        
     }
     @media (max-width: 576px) { 
         h2{
@@ -88,7 +89,76 @@
         }
         p{
             font-size: 26px;
-            padding: 50px 0 0 0;
+            padding: 20px 0 0 0;
+            margin-right: 0px;
+        }
+        .btn{
+            height: 110px;
+            width: 365px;
+            margin: 50px 0 50px 0;
+            @media (max-width: 576px) { 
+            margin: 20px 0 50px 50px;
+            }
+        }
+        ul{
+            padding: 35px 0 0 20px;
+        }
+        img{
+            padding: 0 0 0 0;
+        }
+    }
+    
+}
+
+#aboutthecampaign {
+    padding: 140px 50px 0 0;
+        @media (max-width: 992px) { 
+            padding: 0;
+        }
+
+    h2 {
+        color: #9B3926;
+        font-family: "gelica", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 55px;
+        line-height: 77px;
+    }
+ 
+    p{
+        padding-left: 10px;
+        font-size: 26px;
+        font-weight:400;
+        line-height: 36px;
+        font-family: 'Inter', sans-serif;
+        margin-right: 20px;
+    }
+    ul{
+        padding: 10px 0 0 80px;
+        font-size: 26px;
+        font-weight:400;
+        line-height: 36px;
+        font-family: 'Inter', sans-serif;
+    }
+
+    @media (max-width: 992px) { 
+        img{
+            padding: 50px 0 0 30px;
+        }
+        h2{
+            font-size: 60px;
+            padding: 80px 0 0 0;
+        }
+
+    }
+    @media (max-width: 576px) { 
+        h2{
+            font-size: 60px;
+            padding: 80px 0 0 0;
+        }
+        p{
+            font-size: 26px;
+            padding: 20px 0 0 0;
             margin-right: 0px;
         }
         .btn{
@@ -105,8 +175,13 @@
     }
     
 }
+
+
 #logoabout {
     padding: 40px 0 186px 0;
+    @media (max-width: 576px) { 
+        padding: 40px 0 80px 0;
+    }
     .row {
         padding: 107px 0 0 0;
         ;
@@ -141,11 +216,23 @@
             max-width: 400px;
             padding: 0 0 50px 53px;
         }
+        h3{
+            line-height: 34px;
+            padding: 0 20px 0 30px;
+            text-align: left;
+        }
+        p{
+            font-size: 26px;
+            font-weight:400;
+            line-height: 32px;
+            font-family: 'Inter', sans-serif;
+            padding: 0 20px 0 20px;
+        }        
     }
     @media (max-width: 576px) { 
         .blm-logo{
             max-width: 150px;
-            margin-left: 110px;
+            margin-left: 140px;
             padding: 0 0 30px 0;
         }
         .clfc-logo{
@@ -181,6 +268,11 @@
         span {
             color: #9B3926;
         }
+    }
+    .about-wave {
+        max-width: 200px;
+        height: auto;  
+        padding: 0 0 95px 0;
     }
 
 }
