@@ -48,6 +48,26 @@ Template Name: About
 </div>
 </section>
 
+<!-- ABOUT THE CAMPAIGN SECTION --> 
+<section id="aboutthecampaign">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 col-lg-7 text-left">
+      <h2><?php the_field('about_the_campaign_title'); ?></h2>
+      <p><?php the_field('about_the_campaign_paragraph'); ?></p>
+    </div>
+    <div class="col-md-12 col-lg-5">
+        <?php 
+            $image = get_field('about_the_campaign_image');
+            if( !empty( $image ) ): ?>
+            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="img-fluid" />
+        <?php endif; ?>
+    </div>
+  </div>
+</div>
+</section>
+
+
 <!--LOGOS AND ABOUT -->
 <section id="logoabout">
   <div class="container">
@@ -86,6 +106,11 @@ Template Name: About
 <section id="instagram-embed">
   <div class="container">
     <div class="row align-items-center">
+          <?php 
+                $image = get_field('about_wave');
+                if( !empty( $image ) ): ?>
+                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="about-wave mx-auto d-block"/>
+          <?php endif; ?>
         <div class="col-md-10 offset-md-1">
             <iframe src="https://www.instagram.com/conservationlands/embed" width="100%" height="530" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
         </div>

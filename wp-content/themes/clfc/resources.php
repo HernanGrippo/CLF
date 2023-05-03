@@ -23,12 +23,12 @@ Template Name: Resources
         <?php 
               $image = get_field('respect_section_icon');
               if( !empty( $image ) ): ?>
-              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="img-fluid"/>
+              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="respecticon"/>
         <?php endif; ?>
       </div>
       <div class="col-md-9 col-sm-12">
         <h2><?php the_field('respect_title'); ?></h2>
-        <?php the_field('respect_paragraph'); ?>
+        <p><?php the_field('respect_paragraph'); ?>
       </div>
     </div>
     <div class="vertical-spacer-sm">&nbsp;</div>

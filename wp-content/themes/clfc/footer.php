@@ -7,7 +7,7 @@
   <footer class="footer">
     <div class="row justify-content-left">
       <div class="col-md-6 align-items-left">
-        <a href="https://www.conservationlands.org/" target="_blank"><img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/logo-footer.png" alt="conservation lands foundation logo" class="me-3" style="max-width: 461px;"></a> 
+        <a href="https://www.conservationlands.org/" target="_blank"><img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/logo-footer.png" alt="conservation lands foundation logo" class="me-3"></a>  
         <a href="https://www.blm.gov/" target="_blank"><img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/national.png" alt="in partnership with the national system of public lands" class="me-3b"></a>
         <div class="d-flex align-items-center">
           <div class="contact-links">
