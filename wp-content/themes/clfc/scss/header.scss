@@ -180,6 +180,10 @@ i {
 body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
+
+  &.modal-open {
+    overflow: hidden;
+  }
   
   h1 {
         font-family: "gelica", sans-serif;
