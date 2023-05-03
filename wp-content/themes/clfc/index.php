@@ -133,7 +133,7 @@ Template Name: Home
     -->
 
     <!-- PARTNERS SECTION -->
-    <section id="campaign">
+    <section id="partners">
     <div class="row">
       <div class="col-12 text-center">
         <h2><?php the_field('partners_title'); ?></h2>
@@ -146,7 +146,7 @@ Template Name: Home
           $image = get_field('partner1');
           if (!empty($image)) {
           $url = get_field('partner1_url');?>
-          <a href="<?php echo $url; ?>" target="_self"><img src="<?php 
+          <a href="<?php echo $url; ?>" target="_self"><img class="partner1" src="<?php 
           echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
           echo $image['alt']; ?>" /></a>
           <?php 
@@ -159,7 +159,7 @@ Template Name: Home
           if (!empty($image)) {
           $url = get_field('partner2_url');
           ?>
-          <a href="<?php echo $url; ?>" target="_self"><img src="<?php 
+          <a href="<?php echo $url; ?>" target="_self"><img class="partner2" src="<?php 
           echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
           echo $image['alt']; ?>" /></a>
           <?php 
@@ -171,7 +171,7 @@ Template Name: Home
           if (!empty($image)) {
           $url = get_field('partner3_url');
           ?>
-          <a href="<?php echo $url; ?>" target="_self"><img src="<?php 
+          <a href="<?php echo $url; ?>" target="_self"><img class="partner3" src="<?php 
           echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
           echo $image['alt']; ?>" /></a>
           <?php 

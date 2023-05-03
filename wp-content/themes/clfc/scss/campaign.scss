@@ -36,3 +36,47 @@
       }
        
 }
+
+#partners {
+    padding: 0 0 120px 0;
+  h2 {
+    color: #9B3926;
+    font-family: "gelica", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 77px;
+    padding: 0 0 60px 0;
+    text-align: center;
+
+        @media (max-width: 576px) { 
+          padding-top: 80px;
+        }
+  }
+  img:hover {
+    opacity: 50%;
+  }
+
+  .partner1 {
+    padding-top: 30px;
+    @media (max-width: 576px) { 
+      max-width: 300px;
+      padding-bottom: 50px;
+   }
+  }
+
+  .partner2 {
+    @media (max-width: 576px) { 
+      max-width: 300px;
+      padding-bottom: 50px;
+    }
+  }
+
+  .partner3 {
+    padding-top: 15px;
+    @media (max-width: 576px) { 
+      max-width: 300px;
+      padding-bottom: 50px;
+    }
+  }          
+}
