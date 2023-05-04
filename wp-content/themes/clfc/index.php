@@ -103,7 +103,7 @@ Template Name: Home
       </div>
     </div>
   </section>
-
+  
   <!-- CONTACT FORM -->
   <? get_template_part( 'components/contactform' ); ?>
   
@@ -131,5 +131,54 @@ Template Name: Home
       </div>
     </section>
     -->
+
+    <!-- PARTNERS SECTION -->
+    <section id="partners">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2><?php the_field('partners_title'); ?></h2>
+      </div>
+    </div>    
+    <div class="row justify-content-center">
+      <div class="col-md-3 col-sm-12 text-center">
+      <a href="<?php echo get_site_url(); ?>/resources/#respect">
+      <?php 
+          $image = get_field('partner1');
+          if (!empty($image)) {
+          $url = get_field('partner1_url');?>
+          <a href="<?php echo $url; ?>" target="_self"><img class="partner1" src="<?php 
+          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
+          echo $image['alt']; ?>" /></a>
+          <?php 
+      }?>
+      </a>
+      </div> 
+      <div class="col-md-3 col-sm-12 text-center">
+      <?php 
+          $image = get_field('partner2');
+          if (!empty($image)) {
+          $url = get_field('partner2_url');
+          ?>
+          <a href="<?php echo $url; ?>" target="_self"><img class="partner2" src="<?php 
+          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
+          echo $image['alt']; ?>" /></a>
+          <?php 
+      }?>
+      </div>
+      <div class="col-md-3 col-sm-12 text-center">
+      <?php 
+          $image = get_field('partner3');
+          if (!empty($image)) {
+          $url = get_field('partner3_url');
+          ?>
+          <a href="<?php echo $url; ?>" target="_self"><img class="partner3" src="<?php 
+          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
+          echo $image['alt']; ?>" /></a>
+          <?php 
+      }?>
+      </div>
+    </div>
+  </section>
+
 
 <?php get_footer();?> 
