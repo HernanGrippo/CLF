@@ -75,5 +75,9 @@ Template Name: GetInvolved
   </div>
 </section>
 
+ <!-- CONTACT FORM -->
+ <div class="contactpad">
+<? get_template_part( 'components/contactform3' ); ?>
+</div>
 
 <?php get_footer();?> 

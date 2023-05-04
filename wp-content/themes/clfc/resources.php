@@ -23,7 +23,7 @@ Template Name: Resources
         <?php 
               $image = get_field('respect_section_icon');
               if( !empty( $image ) ): ?>
-              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="respecticon"/>
+              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="mx-auto d-block"/>
         <?php endif; ?>
       </div>
       <div class="col-md-9 col-sm-12">
@@ -87,7 +87,7 @@ Template Name: Resources
       <?php 
             $image = get_field('connect_section_icon');
             if( !empty( $image ) ): ?>
-            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="connecticon"/>
+            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="mx-auto d-block"/>
       <?php endif; ?>
       </div>
       <div class="col-md-9">
@@ -151,7 +151,7 @@ Template Name: Resources
       <?php 
             $image = get_field('protect_section_icon');
             if( !empty( $image ) ): ?>
-            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="protecticon"/>
+            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="mx-auto d-block"/>
       <?php endif; ?>
       </div>
       <div class="col-md-9">
