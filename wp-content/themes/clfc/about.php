@@ -60,7 +60,7 @@ Template Name: About
         <?php 
             $image = get_field('about_the_campaign_image');
             if( !empty( $image ) ): ?>
-            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="img-fluid" />
+            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="mx-auto d-block" />
         <?php endif; ?>
     </div>
   </div>
@@ -76,7 +76,7 @@ Template Name: About
         <?php 
               $image = get_field('conservation_icon');
               if( !empty( $image ) ): ?>
-              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="clfc-logo img-fluid"/>
+              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="clfc-logo mx-auto d-block"/>
         <?php endif; ?>
       </div>
       <div class="col-md-12 col-lg-8">
@@ -91,7 +91,7 @@ Template Name: About
         <?php 
               $image = get_field('about_bureau_icon');
               if( !empty( $image ) ): ?>
-              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="blm-logo img-fluid"/>
+              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="blm-logo mx-auto d-block"/>
         <?php endif; ?>
       </div>
       <div class="col-md-12 col-lg-9">
@@ -112,7 +112,7 @@ Template Name: About
                 <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="about-wave mx-auto d-block"/>
           <?php endif; ?>
         <div class="col-md-10 offset-md-1">
-            <iframe src="https://www.instagram.com/conservationlands/embed" width="100%" height="530" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+            <iframe src="https://www.instagram.com/conservationlands/embed" width="100%" height="600" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
         </div>
     </div>
     <div class="row">

@@ -1,0 +1,30 @@
+#contactpage {
+    padding: 50px 0 0 0;
+   
+    @media (min-width: 992px) { 
+        padding: 176px 0 0 0;
+    }
+
+    h1 {
+        font-family: "gelica", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 75px;
+        line-height: 89px;
+        text-align: center;
+        color: #9B3926; 
+    }
+
+    .main-text {
+        padding: 60px 0 80px 0;
+    }
+    
+    p {
+        font-family: "interstate", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        font-size: 26px;
+    }
+    
+}

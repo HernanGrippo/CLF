@@ -59,21 +59,32 @@
 
   .partner1 {
     padding-top: 30px;
+    @media (max-width: 992px) { 
+      max-width: 250px;
+   }
     @media (max-width: 576px) { 
       max-width: 300px;
-      padding-bottom: 50px;
+      padding-bottom: 60px;
    }
   }
 
   .partner2 {
+    @media (max-width: 992px) { 
+      max-width: 150px;
+   }
+
     @media (max-width: 576px) { 
       max-width: 300px;
-      padding-bottom: 50px;
+      padding-bottom: 60px;
     }
   }
 
   .partner3 {
     padding-top: 15px;
+    @media (max-width: 992px) { 
+      max-width: 250px;
+   }
+
     @media (max-width: 576px) { 
       max-width: 300px;
       padding-bottom: 50px;
