@@ -25,6 +25,16 @@
     }
 }
 #meet{
+    .rockydisappearsonmobile {
+        @media (max-width: 992px) { 
+            display: none;
+        }    
+    }
+    .rockydisappearsondesktop {
+        @media (min-width: 992px) { 
+            display: none;
+        }    
+    }
 
     h2 {
         text-align: left;

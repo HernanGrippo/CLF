@@ -12279,6 +12279,16 @@ h2, .h2 {
   }
 }
 
+@media (max-width: 992px) {
+  #meet .rockydisappearsonmobile {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  #meet .rockydisappearsondesktop {
+    display: none;
+  }
+}
 #meet h2, #meet .h2 {
   text-align: left;
   color: #9B3926;

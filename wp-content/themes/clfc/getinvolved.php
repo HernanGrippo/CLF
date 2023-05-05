@@ -24,9 +24,12 @@ Template Name: GetInvolved
     <div class="row">
       <div class="col-md-12 col-lg-7">
         <h2><?php the_field('meet_spokespebble_title'); ?></h2>
+        <div class="rockydisappearsondesktop col-md-12 col-lg-5">
+            <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/rockyinvolved.png" alt="stone" class="img-fluid">
+        </div>
         <?php the_field('meet_spokespebble_paragraph'); ?>
       </div>
-      <div class="col-md-12 col-lg-5">
+      <div class="rockydisappearsonmobile col-md-12 col-lg-5">
         <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/rockyinvolved.png" alt="stone" class="img-fluid">
       </div>
     </div>
