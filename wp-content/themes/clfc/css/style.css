@@ -10749,14 +10749,12 @@ header, #footer {
   display: none;
   width: 100%;
   opacity: 97%;
-  position: absolute;
-  height: 100%;
-  overflow: hidden;
-  z-index: 10000;
+  position: fixed;
+  height: 100vh;
+  z-index: 100000;
 }
 #nav-modal img {
-  float: left;
-  padding: 37px 0 0px 23px;
+  margin: 33px 0 0px 24px;
 }
 #nav-modal span {
   float: right;

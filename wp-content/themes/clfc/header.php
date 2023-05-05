@@ -32,9 +32,9 @@
 <body class="background">
   <!-- Navbar -->
   <header>
-    <!-- MOBILE NAVIGATION -->
+    <!-- MOBILE NAVIGATION --> 
     <div id="nav-modal">
-      <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/05/RCP-logo.png">
+      <img class="logo" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/05/RCP-logo.png">
       <span id="close-modal">
         <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M29.3848 28.0676L1.00043 2.80245" stroke="#9B3926" stroke-width="3"/>
@@ -59,7 +59,7 @@
             <div class="container-fluid">
               <!-- Logo -->
               <a class="navbar-brand" href="<?php echo get_site_url(); ?>">
-                <img class="logo" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/05/clf-logo.png" alt="Conservation Lands Foundation Campaign logo">
+                <img class="logo" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/05/RCP-logo.png" alt="Conservation Lands Foundation Campaign logo">
               </a>
 
               <!-- Toggle button for collapsed menu -->
