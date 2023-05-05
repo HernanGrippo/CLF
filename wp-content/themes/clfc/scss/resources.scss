@@ -19,6 +19,7 @@
             margin-bottom: 50px;
         }
     }
+
     img:hover{
         opacity: 50%;
     }
@@ -93,6 +94,10 @@
             font-size: 20px;
         } 
     }
+    a:hover {
+        opacity: 50%;
+    }
+
     
 
     @media (max-width: 992px){
@@ -149,6 +154,11 @@ h2 {
         color: #000000;
         // padding: 0 0 105px 0;
     }    
+    
+    // img:hover{
+    //     opacity: 50%;
+    // }
+
 }
 
 #connect {
@@ -166,7 +176,10 @@ h2 {
         color: #000000;
         // padding: 0 0 105px 0;
     }
-    
+
+    // img:hover{
+    //     opacity: 50%;
+    // }  
 }
 
 #protect {
@@ -185,6 +198,9 @@ h2 {
         // padding: 0 0 105px 0;
     }
     
+    // img:hover{
+    //     opacity: 50%;
+    // }
 }
 
 

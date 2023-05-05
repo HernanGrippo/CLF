@@ -12148,6 +12148,9 @@ body h1, body .h1 {
     font-size: 20px;
   }
 }
+.boxedtext a:hover {
+  opacity: 50%;
+}
 @media (max-width: 992px) {
   .boxedtext {
     padding-top: 25px;
