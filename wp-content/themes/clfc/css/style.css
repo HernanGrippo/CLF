@@ -11857,11 +11857,17 @@ body h1, body .h1 {
   background-color: #9B3926;
 }
 @media (max-width: 992px) {
-  #whatare img {
-    padding: 80px 0 0 180px;
+  #whatare .centerbutton {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 40px 0;
   }
-  #whatare .btn {
-    margin: 50px 0 0 200px;
+}
+@media (max-width: 576px) {
+  #whatare .centerbutton {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 80px 0;
   }
 }
 @media (max-width: 576px) {
@@ -11878,22 +11884,10 @@ body h1, body .h1 {
     padding: 20px 0 0 0;
   }
   #whatare .btn {
-    height: 110px;
-    width: 365px;
-    margin: 50px 0 50px 0;
-  }
-}
-@media (max-width: 576px) and (max-width: 576px) {
-  #whatare .btn {
-    transform: translateX(10%);
-    max-width: 365px;
+    max-width: 350px;
     height: auto;
-    margin: 50px 0 50px 0;
-    font-size: 20px;
-    padding-bottom: 20px;
+    padding: 5px 5px 5px 5px;
   }
-}
-@media (max-width: 576px) {
   #whatare ul {
     padding: 0 0 0 50px;
     line-height: 36px;
@@ -11944,13 +11938,16 @@ body h1, body .h1 {
   line-height: 36px;
   font-family: "Inter", sans-serif;
 }
+#aboutthecampaign img {
+  padding: 0 0 0 80px;
+}
 @media (max-width: 992px) {
   #aboutthecampaign img {
-    padding: 50px 0 0 30px;
+    padding: 80px 0 0 120px;
   }
   #aboutthecampaign h2, #aboutthecampaign .h2 {
     font-size: 60px;
-    padding: 80px 0 0 0;
+    padding: 120px 0 0 0;
   }
 }
 @media (max-width: 576px) {
@@ -12105,10 +12102,12 @@ body h1, body .h1 {
   opacity: 50%;
 }
 #resources p {
-  font-size: 26px;
+  font-family: "interstate", sans-serif;
   font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 26px;
   line-height: 36px;
-  font-family: "Inter", sans-serif;
 }
 #resources h3, #resources .h3 {
   font-family: "interstate", sans-serif;

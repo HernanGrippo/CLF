@@ -31,17 +31,17 @@ Template Name: About
          <li><?php the_field('bullet_list_3'); ?></li>
          <li><?php the_field('bullet_list_4'); ?></li>
          <li><?php the_field('bullet_list_5'); ?></li>
-        </ul>        
+        </ul>
+        <div class="centerbutton">        
         <a href="<?php the_field('map_of_conservation_button_link'); ?>" class="btn btn-primary" target="_blank"><?php the_field('map_of_conservation_label'); ?></a>
-      </a>
-
+        </div>
     
       </div>
     <div class="col-md-12 col-lg-5">
         <?php 
             $image = get_field('map_of_conservation_image');
             if( !empty( $image ) ): ?>
-            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="img-fluid" />
+            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="img-fluid mx-auto d-block"/>
         <?php endif; ?>
     </div>
   </div>
@@ -58,7 +58,7 @@ Template Name: About
             <?php 
                 $image = get_field('about_the_campaign_image');
                 if( !empty( $image ) ): ?>
-                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="mx-auto d-block" />
+                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="img-fluid mx-auto d-block" />
             <?php endif; ?>
         </div>
       <p><?php the_field('about_the_campaign_paragraph'); ?></p>
@@ -67,7 +67,7 @@ Template Name: About
         <?php 
             $image = get_field('about_the_campaign_image');
             if( !empty( $image ) ): ?>
-            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="mx-auto d-block" />
+            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="img-fluid mx-auto d-block" />
         <?php endif; ?>
     </div>
   </div>
