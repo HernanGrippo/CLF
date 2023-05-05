@@ -54,9 +54,16 @@ Template Name: About
   <div class="row">
     <div class="col-md-12 col-lg-7 text-left">
       <h2><?php the_field('about_the_campaign_title'); ?></h2>
+        <div class="rockydisappearsondesktop col-md-12 col-lg-5">
+            <?php 
+                $image = get_field('about_the_campaign_image');
+                if( !empty( $image ) ): ?>
+                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="mx-auto d-block" />
+            <?php endif; ?>
+        </div>
       <p><?php the_field('about_the_campaign_paragraph'); ?></p>
     </div>
-    <div class="col-md-12 col-lg-5">
+    <div class="rockydisappearsonmobile col-md-12 col-lg-5">
         <?php 
             $image = get_field('about_the_campaign_image');
             if( !empty( $image ) ): ?>

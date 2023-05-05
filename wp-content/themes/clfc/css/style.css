@@ -11086,6 +11086,7 @@ body h1, body .h1 {
   font-style: normal;
   text-align: center;
   font-size: 26px;
+  line-height: 36px;
 }
 #hero img {
   width: 200px;
@@ -11093,7 +11094,7 @@ body h1, body .h1 {
   position: relative;
 }
 #hero .line-height-333333 {
-  line-height: 33.3333px;
+  line-height: 3.33333px;
 }
 #hero .btn {
   color: #000; /* added to set text color to black */
@@ -11868,7 +11869,12 @@ body h1, body .h1 {
     font-size: 60px;
   }
   #whatare p {
+    font-family: "interstate", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
     font-size: 26px;
+    line-height: 36px;
     padding: 20px 0 0 0;
   }
   #whatare .btn {
@@ -11879,15 +11885,18 @@ body h1, body .h1 {
 }
 @media (max-width: 576px) and (max-width: 576px) {
   #whatare .btn {
-    transform: translateX(8%);
+    transform: translateX(10%);
     max-width: 365px;
     height: auto;
-    margin: 30px 0 50px 0;
+    margin: 50px 0 50px 0;
+    font-size: 20px;
+    padding-bottom: 20px;
   }
 }
 @media (max-width: 576px) {
   #whatare ul {
-    padding: 0 0 0 30px;
+    padding: 0 0 0 50px;
+    line-height: 36px;
   }
   #whatare img {
     padding: 0 0 0 0;
@@ -11896,6 +11905,16 @@ body h1, body .h1 {
 
 #aboutthecampaign {
   padding: 140px 50px 0 0;
+}
+@media (max-width: 992px) {
+  #aboutthecampaign .rockydisappearsonmobile {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  #aboutthecampaign .rockydisappearsondesktop {
+    display: none;
+  }
 }
 @media (max-width: 992px) {
   #aboutthecampaign {
@@ -11940,9 +11959,13 @@ body h1, body .h1 {
     padding: 80px 0 0 0;
   }
   #aboutthecampaign p {
+    font-family: "interstate", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
     font-size: 26px;
+    line-height: 36px;
     padding: 20px 0 0 0;
-    margin-right: 0px;
   }
   #aboutthecampaign .btn {
     height: 110px;
@@ -11950,10 +11973,11 @@ body h1, body .h1 {
     margin: 50px 0 50px 0;
   }
   #aboutthecampaign ul {
-    padding: 35px 0 0 20px;
+    padding: 35px 0 0 50px;
+    line-height: 36px;
   }
   #aboutthecampaign img {
-    padding: 0 0 0 0;
+    padding: 50px 0 0 0;
     max-width: 350px;
   }
 }
@@ -12028,11 +12052,13 @@ body h1, body .h1 {
     text-align: center;
   }
   #logoabout p {
-    font-size: 26px;
+    font-family: "interstate", sans-serif;
     font-weight: 400;
-    line-height: 32px;
-    font-family: "Inter", sans-serif;
-    padding: 20px 0 0 10px;
+    font-style: normal;
+    text-align: center;
+    font-size: 26px;
+    line-height: 36px;
+    padding: 20px 0 0 0;
   }
 }
 
