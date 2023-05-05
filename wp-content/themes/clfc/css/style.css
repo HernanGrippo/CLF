@@ -11330,6 +11330,26 @@ body h1, body .h1 {
     margin-top: 100px;
   }
 }
+#contact-form .right .form .wpcf7-response-output {
+  color: #FEFBEA;
+  margin: 0 0 60px 0;
+  font-size: 22px;
+  padding: 0 200px 0 50px;
+  text-align: left;
+}
+@media (max-width: 992px) {
+  #contact-form .right .form .wpcf7-response-output {
+    padding: 35px 50px 35px 50px;
+  }
+}
+@media (max-width: 575px) {
+  #contact-form .right .form .wpcf7-response-output {
+    padding: 35px 50px 35px 50px;
+  }
+}
+#contact-form .right .form .wpcf7-not-valid-tip {
+  color: #FEFBEA;
+}
 #contact-form .right .form input {
   width: 463px;
   height: 91px;
@@ -11397,6 +11417,7 @@ body h1, body .h1 {
 @media (max-width: 992px) {
   #contact-form .right img {
     left: 120px;
+    bottom: -150px;
   }
 }
 @media (max-width: 575px) {
