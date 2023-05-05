@@ -30,7 +30,8 @@ header, #footer {
   width: 100%;
   opacity: 97%;
   position: absolute;
-  height: 100vh;
+  height: 100%;
+  overflow: hidden;
   z-index: 10000;
 
   img {
