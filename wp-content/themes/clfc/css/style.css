@@ -11319,7 +11319,7 @@ body h1, body .h1 {
     max-width: 100%;
     height: auto;
     display: block;
-    margin-top: 0;
+    margin-top: -30px;
   }
 }
 #contact-form .right .form {
@@ -11456,13 +11456,16 @@ body h1, body .h1 {
 }
 @media (max-width: 992px) {
   #contact-form2 .left h2, #contact-form2 .left .h2 {
+    font-size: 55px;
     padding: 50px 0 0 50px;
     text-align: left;
   }
 }
 @media (max-width: 575px) {
   #contact-form2 .left h2, #contact-form2 .left .h2 {
-    padding: 20px 0 40px 0;
+    font-size: 45px;
+    line-height: 55px;
+    padding: 60px 0 60px 0;
     text-align: center;
   }
 }
@@ -11792,14 +11795,6 @@ body h1, body .h1 {
   }
 }
 
-#whatare {
-  padding: 0 50px 0;
-}
-@media (max-width: 768px) {
-  #whatare {
-    padding: 0;
-  }
-}
 #whatare h2, #whatare .h2 {
   color: #9B3926;
   font-family: "gelica", sans-serif;
@@ -11854,7 +11849,6 @@ body h1, body .h1 {
   #whatare p {
     font-size: 26px;
     padding: 20px 0 0 0;
-    margin-right: 0px;
   }
   #whatare .btn {
     height: 110px;
@@ -11864,12 +11858,15 @@ body h1, body .h1 {
 }
 @media (max-width: 576px) and (max-width: 576px) {
   #whatare .btn {
-    margin: 20px 0 50px 50px;
+    transform: translateX(8%);
+    max-width: 365px;
+    height: auto;
+    margin: 30px 0 50px 0;
   }
 }
 @media (max-width: 576px) {
   #whatare ul {
-    padding: 35px 0 0 20px;
+    padding: 0 0 0 30px;
   }
   #whatare img {
     padding: 0 0 0 0;
@@ -11936,6 +11933,7 @@ body h1, body .h1 {
   }
   #aboutthecampaign img {
     padding: 0 0 0 0;
+    max-width: 350px;
   }
 }
 
@@ -12148,14 +12146,6 @@ body h1, body .h1 {
     text-align: center;
     padding-left: 0;
     padding-bottom: 30px;
-  }
-}
-@media (max-width: 992px) {
-  p {
-    margin-left: 15px;
-  }
-  h2, .h2 {
-    margin-left: 15px;
   }
 }
 h2, .h2 {
