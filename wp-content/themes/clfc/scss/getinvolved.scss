@@ -45,7 +45,7 @@
         font-size: 26px;
         font-weight:400;
         line-height: 36px;
-        font-family: 'Inter', sans-serif;
+        font-family: "interstate", sans-serif;
         margin-right: 20px;
     }
     ul {
@@ -54,7 +54,7 @@
         font-size: 26px;
         font-weight:400;
         line-height: 36px;
-        font-family: 'Inter', sans-serif;
+        font-family: "interstate", sans-serif;
         list-style: none;
     }
     .btn {
@@ -82,10 +82,14 @@
 
         }
         p{
+            font-family: "interstate", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-align: center;
             font-size: 26px;
-            padding: 50px 20px 0 20px;
-            text-align:center;
-        }
+            line-height: 36px;
+            padding-top: 60px;
+            }
         ul{
             font-size: 26px;
             list-style: circle;
@@ -101,14 +105,23 @@
             font-size: 40px;
         }
         p{
-            font-size: 20px;
-            padding: 50px 20px 0 30px;
-            text-align:left;
-        }
+            padding: 50px 0 0 0;
+            font-family: "interstate", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-align: center;
+            font-size: 26px;
+            line-height: 36px;
+            }
         ul{
-            font-size: 20px;
+            font-family: "interstate", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-align: left;
+            font-size: 26px;
+            line-height: 36px;
             list-style: circle;
-            padding: 50px 20px 100px 20px;
+            padding: 50px 20px 100px 60px;
         }
         img{
             max-width: 100%;
@@ -184,9 +197,13 @@
             line-height: 57px;
         }
         p{
-            font-size: 20px;
+            font-family: "interstate", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-align: center;
+            font-size: 26px;
+            line-height: 36px;
             padding: 50px 20px 80px 20px;
-            text-align:left;
         }
     }    
 }
