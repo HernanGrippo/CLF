@@ -46,7 +46,7 @@ Template Name: GetInvolved
           <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/05/spokespebble-video.png" alt="Thumbnail Image" id="thumbnail" />
 <!-- Video -->
       <div id="videoContainer" style="display: none;">
-            <iframe width="1211" height="674" src="https://www.youtube.com/embed/jqS44UH7Nrs?&autoplay=1" frameborder="0" allowfullscreen></iframe>
+            <iframe width="1211" height="674" src="https://www.youtube.com/embed/jqS44UH7Nrs?autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
 </div>

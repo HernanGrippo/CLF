@@ -40,7 +40,6 @@ Template Name: Home
 </div>
 </section>
 
-
   <!-- OUR CAMPAIGN -->
   <section id="campaign">
     <div class="row">

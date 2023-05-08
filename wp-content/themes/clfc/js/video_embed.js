@@ -16,5 +16,17 @@ thumbnail.addEventListener('click', function() {
 
     // Show the video container
     videoContainer.style.display = 'block';
-  }, 500); // Adjust the duration of the animation (in milliseconds) as needed
+
+    // Get the iframe element
+    const iframe = videoContainer.querySelector('iframe');
+
+    // Get the current src attribute value of the iframe
+    const currentSrc = iframe.src;
+
+    // Replace the current autoplay value (0) with autoplay=1
+    const newSrc = currentSrc.replace('autoplay=0', 'autoplay=1') + '&mute=1';
+
+    // Set the new src attribute value of the iframe
+    iframe.src = newSrc;
+  }, 100); // Adjust the duration of the animation (in milliseconds) as needed
 });
