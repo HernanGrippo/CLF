@@ -38,24 +38,18 @@ Template Name: GetInvolved
 
 <div class="vertical-spacer-sm">&nbsp;</div>
 
-<!-- Video -->
-<section id="videoinvolved">
-  <div class="container-md">
+<!-- Video Embed --> 
+<!-- Image -->
+<section id="video_embed">
     <div class="row">
-      <div class="col text-center">
-      <?php 
-          $image = get_field('get_involved_video_image');
-          if (!empty($image)) {
-          $url = get_field('video_url');
-          ?>
-          <a href="<?php echo $url; ?>" target="_blank"><img src="<?php 
-          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
-          echo $image['alt']; ?>" /></a>
-          <?php 
-      }?>
-      </div>
+      <div class="col-12 text-center">
+          <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/05/spokespebble-video.png" alt="Thumbnail Image" id="thumbnail" />
+<!-- Video -->
+      <div id="videoContainer" style="display: none;">
+            <iframe width="1211" height="674" src="https://www.youtube.com/embed/jqS44UH7Nrs?&autoplay=1" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
+</div>
 </section>
 
   <!-- JOIN Spokespebble -->

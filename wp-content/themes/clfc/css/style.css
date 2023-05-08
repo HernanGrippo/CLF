@@ -11118,10 +11118,10 @@ body h1, body .h1 {
   background-color: #9B3926;
 }
 
-#video {
+#video_embed {
   padding: 18px 0 98px 0;
 }
-#video img:hover {
+#video_embed img:hover {
   opacity: 80%;
 }
 
