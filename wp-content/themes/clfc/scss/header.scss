@@ -29,13 +29,13 @@ header, #footer {
   display: none;
   width: 100%;
   opacity: 97%;
-  position: absolute;
+  position: fixed;
   height: 100vh;
-  z-index: 10000;
-
+  z-index: 100000;
+  
   img {
-    float: left;
-    padding: 37px 0 0px 23px;
+    // float: left;
+    margin: 33px 0 0px 24px;
   }
   span {
     float: right;
