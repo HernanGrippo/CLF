@@ -46,7 +46,7 @@ Template Name: GetInvolved
       <?php 
           $image = get_field('get_involved_video_image');
           if( !empty( $image ) ): ?>
-              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" alt="Thumbnail Image" id="thumbnail"/>
+              <img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" alt="Thumbnail Image" id="thumbnail"/>
       <?php endif; ?>
 <!-- Video -->
         <div id="videoContainer" style="display: none;">

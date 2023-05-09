@@ -34,39 +34,38 @@ Template Name: Home
       <?php 
           $image = get_field('video_image');
           if( !empty( $image ) ): ?>
-              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" alt="Thumbnail Image" id="thumbnail"/>
+              <img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" alt="Thumbnail Image" id="thumbnail"/>
       <?php endif; ?>
 <!-- Video -->
         <div id="videoContainer" style="display: none;">
-            <?php
+        <?php
+        // Load value.
+        $iframe = get_field('video_embed_url');
 
-            // Load value.
-            $iframe = get_field('video_embed_url');
+        // Use preg_match to find iframe src.
+        preg_match('/src="(.+?)"/', $iframe, $matches);
+        $src = $matches[1];
 
-            // Use preg_match to find iframe src.
-            preg_match('/src="(.+?)"/', $iframe, $matches);
-            $src = $matches[1];
+        // Add extra parameters to src and replace HTML.
+        $params = array(
+            'controls'  => 1,
+            'hd'        => 1,
+            'autohide'  => 1,
+            'autoplay'=> 1,
+        );
+        $new_src = add_query_arg($params, $src);
+        $iframe = str_replace($src, $new_src, $iframe);
 
-            // Add extra parameters to src and replace HTML.
-            $params = array(
-                'controls'  => 1,
-                'hd'        => 1,
-                'autohide'  => 1,
-                'autoplay'=> 1,
-            );
-            $new_src = add_query_arg($params, $src);
-            $iframe = str_replace($src, $new_src, $iframe);
+        // Add extra attributes to iframe HTML.
+        $attributes = 'frameborder="0"';
+        $iframe = str_replace('></iframe>', ' ' . $attributes . '></iframe>', $iframe);
 
-            // Add extra attributes to iframe HTML.
-            $attributes = 'frameborder="0"';
-            $iframe = str_replace('></iframe>', ' ' . $attributes . '></iframe>', $iframe);
-
-            // Display customized HTML.
-            echo $iframe;
-            ?>
-      </div>
+        // Display customized HTML.
+        echo $iframe;
+        ?>
     </div>
   </div>
+</div>
 </section>
 
   <!-- OUR CAMPAIGN -->
