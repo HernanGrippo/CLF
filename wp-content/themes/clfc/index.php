@@ -86,7 +86,6 @@ Template Name: Home
     
     <div class="row justify-content-center">
       <div class="col-md-3 col-sm-12 text-center">
-      <a href="<?php echo get_site_url(); ?>/resources/#respect">
       <?php 
           $image = get_field('respect_icon');
           if (!empty($image)) {
@@ -163,7 +162,6 @@ Template Name: Home
     </div>    
     <div class="row justify-content-center">
       <div class="col-md-3 col-sm-12 text-center">
-      <a href="<?php echo get_site_url(); ?>/resources/#respect">
       <?php 
           $image = get_field('partner1');
           if (!empty($image)) {
