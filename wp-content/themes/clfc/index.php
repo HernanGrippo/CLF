@@ -92,7 +92,7 @@ Template Name: Home
           $url = get_field('respect_icon_url');
           ?>
           <a href="<?php echo $url; ?>" target="_self"><img src="<?php 
-          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
+          echo $image['url']; ?>" alt="respect_icon" class="img-fluid rounded<?php 
           echo $image['alt']; ?>" /></a>
           <?php 
       }?>
@@ -105,7 +105,7 @@ Template Name: Home
           $url = get_field('connect_icon_url');
           ?>
           <a href="<?php echo $url; ?>" target="_self"><img src="<?php 
-          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
+          echo $image['url']; ?>" alt="connect_icon" class="img-fluid rounded<?php 
           echo $image['alt']; ?>" /></a>
           <?php 
       }?>
@@ -117,7 +117,7 @@ Template Name: Home
           $url = get_field('protect_icon_url');
           ?>
           <a href="<?php echo $url; ?>" target="_self"><img src="<?php 
-          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
+          echo $image['url']; ?>" alt="protect_icon" class="img-fluid rounded<?php 
           echo $image['alt']; ?>" /></a>
           <?php 
       }?>
@@ -167,7 +167,7 @@ Template Name: Home
           if (!empty($image)) {
           $url = get_field('partner1_url');?>
           <a href="<?php echo $url; ?>" target="_self"><img class="partner1" src="<?php 
-          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
+          echo $image['url']; ?>" alt="partner1" class="img-fluid rounded<?php 
           echo $image['alt']; ?>" /></a>
           <?php 
       }?>
@@ -180,7 +180,7 @@ Template Name: Home
           $url = get_field('partner2_url');
           ?>
           <a href="<?php echo $url; ?>" target="_self"><img class="partner2" src="<?php 
-          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
+          echo $image['url']; ?>" alt="partner2" class="img-fluid rounded<?php 
           echo $image['alt']; ?>" /></a>
           <?php 
       }?>
@@ -192,7 +192,7 @@ Template Name: Home
           $url = get_field('partner3_url');
           ?>
           <a href="<?php echo $url; ?>" target="_self"><img class="partner3" src="<?php 
-          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
+          echo $image['url']; ?>" alt="partner3" class="img-fluid rounded<?php 
           echo $image['alt']; ?>" /></a>
           <?php 
       }?>
