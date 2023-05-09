@@ -43,13 +43,42 @@ Template Name: GetInvolved
 <section id="video_embed">
     <div class="row">
       <div class="col-12 text-center">
-          <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/05/spokespebble-video.png" alt="Thumbnail Image" id="thumbnail" />
+      <?php 
+          $image = get_field('get_involved_video_image');
+          if( !empty( $image ) ): ?>
+              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" alt="Thumbnail Image" id="thumbnail"/>
+      <?php endif; ?>
 <!-- Video -->
-      <div id="videoContainer" style="display: none;">
-            <iframe width="1211" height="674" src="https://www.youtube.com/embed/jqS44UH7Nrs?autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe>
+        <div id="videoContainer" style="display: none;">
+            <?php
+
+            // Load value.
+            $iframe = get_field('video_embed_url');
+
+            // Use preg_match to find iframe src.
+            preg_match('/src="(.+?)"/', $iframe, $matches);
+            $src = $matches[1];
+
+            // Add extra parameters to src and replace HTML.
+            $params = array(
+                'controls'  => 1,
+                'hd'        => 1,
+                'autohide'  => 1,
+                'autoplay'=> 1,
+            );
+            $new_src = add_query_arg($params, $src);
+            $iframe = str_replace($src, $new_src, $iframe);
+
+            // Add extra attributes to iframe HTML.
+            $attributes = 'frameborder="0"';
+            $iframe = str_replace('></iframe>', ' ' . $attributes . '></iframe>', $iframe);
+
+            // Display customized HTML.
+            echo $iframe;
+            ?>
+      </div>
     </div>
   </div>
-</div>
 </section>
 
   <!-- JOIN Spokespebble -->
