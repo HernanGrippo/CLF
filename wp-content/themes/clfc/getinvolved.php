@@ -38,21 +38,44 @@ Template Name: GetInvolved
 
 <div class="vertical-spacer-sm">&nbsp;</div>
 
-<!-- Video -->
-<section id="videoinvolved">
-  <div class="container-md">
+<!-- Video Embed --> 
+<!-- Image -->
+<section id="video_embed">
     <div class="row">
-      <div class="col text-center">
+      <div class="col-12 text-center">
       <?php 
           $image = get_field('get_involved_video_image');
-          if (!empty($image)) {
-          $url = get_field('video_url');
-          ?>
-          <a href="<?php echo $url; ?>" target="_blank"><img src="<?php 
-          echo $image['url']; ?>" alt="Video" class="img-fluid rounded<?php 
-          echo $image['alt']; ?>" /></a>
-          <?php 
-      }?>
+          if( !empty( $image ) ): ?>
+              <img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" alt="Thumbnail Image" id="thumbnail"/>
+      <?php endif; ?>
+<!-- Video -->
+        <div id="videoContainer" style="display: none;">
+            <?php
+
+            // Load value.
+            $iframe = get_field('video_embed_url');
+
+            // Use preg_match to find iframe src.
+            preg_match('/src="(.+?)"/', $iframe, $matches);
+            $src = $matches[1];
+
+            // Add extra parameters to src and replace HTML.
+            $params = array(
+                'controls'  => 1,
+                'hd'        => 1,
+                'autohide'  => 1,
+                'autoplay'=> 1,
+            );
+            $new_src = add_query_arg($params, $src);
+            $iframe = str_replace($src, $new_src, $iframe);
+
+            // Add extra attributes to iframe HTML.
+            $attributes = 'frameborder="0"';
+            $iframe = str_replace('></iframe>', ' ' . $attributes . '></iframe>', $iframe);
+
+            // Display customized HTML.
+            echo $iframe;
+            ?>
       </div>
     </div>
   </div>

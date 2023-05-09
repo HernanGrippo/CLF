@@ -73,9 +73,25 @@
 
 }
 
-#video {
+#video_embed {
        padding: 18px 0 98px 0; 
     img:hover {
         opacity: 80%;
     }
+    iframe{
+        width: 1211px;
+        height: 674px;
+        
+        @media (max-width: 992px) { 
+            display:flex;
+            max-width: 100%;
+            max-height: auto;
+            }
+        @media (max-width: 576px) {
+            display:flex;
+            max-width: 100%;
+            max-height: auto;
+            }
+    }
 }
+

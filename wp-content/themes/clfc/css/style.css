@@ -11118,11 +11118,29 @@ body h1, body .h1 {
   background-color: #9B3926;
 }
 
-#video {
+#video_embed {
   padding: 18px 0 98px 0;
 }
-#video img:hover {
+#video_embed img:hover {
   opacity: 80%;
+}
+#video_embed iframe {
+  width: 1211px;
+  height: 674px;
+}
+@media (max-width: 992px) {
+  #video_embed iframe {
+    display: flex;
+    max-width: 100%;
+    max-height: auto;
+  }
+}
+@media (max-width: 576px) {
+  #video_embed iframe {
+    display: flex;
+    max-width: 100%;
+    max-height: auto;
+  }
 }
 
 #sponsors {
