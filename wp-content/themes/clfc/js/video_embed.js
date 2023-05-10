@@ -24,7 +24,7 @@ thumbnail.addEventListener('click', function() {
     const currentSrc = iframe.src;
 
     // Replace the current autoplay value (0) with autoplay=1
-    const newSrc = `${currentSrc.replace('autoplay=0', 'autoplay=1')}&mute=1`;
+    const newSrc = currentSrc.replace('autoplay=0', 'autoplay=1') + '&mute=1';
 
     // Set the new src attribute value of the iframe
     iframe.src = newSrc;
