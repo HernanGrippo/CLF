@@ -34,7 +34,7 @@ Template Name: Home
       <?php 
           $image = get_field('video_image');
           if( !empty( $image ) ): ?>
-              <img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" alt="Thumbnail Image" id="thumbnail"/>
+              <img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" id="thumbnail"/>
       <?php endif; ?>
 <!-- Video -->
         <div id="videoContainer" style="display: none;">
@@ -92,8 +92,7 @@ Template Name: Home
           $url = get_field('respect_icon_url');
           ?>
           <a href="<?php echo $url; ?>" target="_self"><img src="<?php 
-          echo $image['url']; ?>" alt="respect_icon" class="img-fluid rounded<?php 
-          echo $image['alt']; ?>" /></a>
+          echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-fluid rounded" /></a>
           <?php 
       }?>
       </a>
@@ -105,8 +104,7 @@ Template Name: Home
           $url = get_field('connect_icon_url');
           ?>
           <a href="<?php echo $url; ?>" target="_self"><img src="<?php 
-          echo $image['url']; ?>" alt="connect_icon" class="img-fluid rounded<?php 
-          echo $image['alt']; ?>" /></a>
+          echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-fluid rounded" /></a>
           <?php 
       }?>
       </div>
@@ -117,8 +115,7 @@ Template Name: Home
           $url = get_field('protect_icon_url');
           ?>
           <a href="<?php echo $url; ?>" target="_self"><img src="<?php 
-          echo $image['url']; ?>" alt="protect_icon" class="img-fluid rounded<?php 
-          echo $image['alt']; ?>" /></a>
+          echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-fluid rounded" /></a>
           <?php 
       }?>
       </div>
@@ -128,32 +125,7 @@ Template Name: Home
   <!-- CONTACT FORM -->
   <? get_template_part( 'components/contactform' ); ?>
   
-    <!-- SPONSORS
-    <section id="sponsors">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h2>Sponsors</h2>
-        </div>
-      </div>
-      
-      <div class="row justify-content-center">
-        <div class="col-md-3 col-sm-12 text-center">
-          <img src="https://dummyimage.com/180x190/ccc/fff" alt="Image 1" class="img-fluid">
-          <h3>Sponsor 1</h3>
-        </div>
-        <div class="col-md-3 col-sm-12 text-center">
-          <img src="https://dummyimage.com/180x190/ccc/fff" alt="Image 2" class="img-fluid">
-          <h3>Sponsor 2</h3>
-        </div>
-        <div class="col-md-3 col-sm-12 text-center">
-          <img src="https://dummyimage.com/180x190/ccc/fff" alt="Image 3" class="img-fluid">
-          <h3>Sponsor 3</h3>
-        </div>
-      </div>
-    </section>
-    -->
-
-    <!-- PARTNERS SECTION -->
+ <!-- PARTNERS SECTION -->
     <section id="partners">
     <div class="row">
       <div class="col-12 text-center">
@@ -167,8 +139,7 @@ Template Name: Home
           if (!empty($image)) {
           $url = get_field('partner1_url');?>
           <a href="<?php echo $url; ?>" target="_self"><img class="partner1" src="<?php 
-          echo $image['url']; ?>" alt="partner1" class="img-fluid rounded<?php 
-          echo $image['alt']; ?>" /></a>
+          echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-fluid rounded"/></a>
           <?php 
       }?>
       </a>
@@ -180,9 +151,8 @@ Template Name: Home
           $url = get_field('partner2_url');
           ?>
           <a href="<?php echo $url; ?>" target="_self"><img class="partner2" src="<?php 
-          echo $image['url']; ?>" alt="partner2" class="img-fluid rounded<?php 
-          echo $image['alt']; ?>" /></a>
-          <?php 
+          echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-fluid rounded" /></a>
+          <?php
       }?>
       </div>
       <div class="col-md-3 col-sm-12 text-center">
@@ -192,8 +162,7 @@ Template Name: Home
           $url = get_field('partner3_url');
           ?>
           <a href="<?php echo $url; ?>" target="_self"><img class="partner3" src="<?php 
-          echo $image['url']; ?>" alt="partner3" class="img-fluid rounded<?php 
-          echo $image['alt']; ?>" /></a>
+          echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-fluid rounded" /></a>
           <?php 
       }?>
       </div>
