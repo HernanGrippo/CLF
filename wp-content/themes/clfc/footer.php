@@ -13,13 +13,13 @@
           <div class="contact-links">
             <p><a href="mailto:info@conservationlands.org">info@conservationlands.org</a></p>
             <div class="social-icons">
-            <a href="https://www.facebook.com/conservationlands/" target="_blank"> <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/facebook.png" alt="facebook" class="me-4" style="max-width: 20px;"></a> 
-            <a href="https://twitter.com/ConservationLF" target="_blank"> <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/twitter.png" alt="twitter" class="me-4" style="max-width: 34px;"></a> 
-            <a href="https://www.instagram.com/conservationlands/" target="_blank"> <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/instagram.png" alt="instagram" class="me-4" style="max-width: 30px;"></a> 
-            <a href="https://www.youtube.com/user/ConservationLF" target="_blank"> <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/youtube.png" alt="youtube" class="me-4" style="max-width: 44px;"></a> 
-            <a href="https://www.linkedin.com/company/conservation-lands-foundation/" target="_blank"> <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/linkedin.png" alt="linkedin" class="me-4" style="max-width: 30px;"></a> 
-            <a href="https://www.flickr.com/photos/conservationlands" target="_blank"> <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/vector.png" alt="flickr" class="me-4" style="max-width: 29px;"></a> 
-            <a href="https://www.tiktok.com/@conservationlands" target="_blank"> <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/tiktok.png" alt="tiktok" class="me-4" style="max-width: 30px;"></a> 
+            <a href="https://www.facebook.com/conservationlands/" target="_blank"> <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/facebook.png" alt="facebook logo" class="me-4" style="max-width: 20px;"></a> 
+            <a href="https://twitter.com/ConservationLF" target="_blank"> <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/twitter.png" alt="twitter logo" class="me-4" style="max-width: 34px;"></a> 
+            <a href="https://www.instagram.com/conservationlands/" target="_blank"> <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/instagram.png" alt="instagram logo" class="me-4" style="max-width: 30px;"></a> 
+            <a href="https://www.youtube.com/user/ConservationLF" target="_blank"> <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/youtube.png" alt="youtube logo" class="me-4" style="max-width: 44px;"></a> 
+            <a href="https://www.linkedin.com/company/conservation-lands-foundation/" target="_blank"> <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/linkedin.png" alt="linkedin logo" class="me-4" style="max-width: 30px;"></a> 
+            <a href="https://www.flickr.com/photos/conservationlands" target="_blank"> <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/vector.png" alt="flickr logo" class="me-4" style="max-width: 29px;"></a> 
+            <a href="https://www.tiktok.com/@conservationlands" target="_blank"> <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/tiktok.png" alt="tiktok logo" class="me-4" style="max-width: 30px;"></a> 
             </div>
           </div>
         </div>

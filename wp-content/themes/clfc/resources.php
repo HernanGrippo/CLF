@@ -38,7 +38,7 @@ Template Name: Resources
           <?php 
                 $image = get_field('image_respect_left');
                 if( !empty( $image ) ): ?>
-                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top" class="img-fluid"/>
+                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top img-fluid"/>
           <?php endif; ?>
           <div class="boxedtext bg">
             <a class="imagelink" href="<?php the_field('image_respect_left_url'); ?>" target="_blank"><?php the_field('image_respect_left_text'); ?></a>
@@ -50,7 +50,7 @@ Template Name: Resources
           <?php 
                 $image = get_field('image_respect_center');
                 if( !empty( $image ) ): ?>
-                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top" class="img-fluid"/>
+                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top img-fluid"/>
           <?php endif; ?>
           <div class="boxedtext bg">
             <a class="imagelink" href="<?php the_field('image_respect_center_url'); ?>" target="_blank"><?php the_field('image_respect_center_text'); ?></a>
@@ -62,7 +62,7 @@ Template Name: Resources
           <?php 
                 $image = get_field('image_respect_right');
                 if( !empty( $image ) ): ?>
-                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top" class="img-fluid"/>
+                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top img-fluid"/>
           <?php endif; ?>
           <div class="boxedtext bg">
             <a class="imagelink" href="<?php the_field('image_respect_right_url'); ?>" target="_blank"><?php the_field('image_respect_right_text'); ?></a>
@@ -102,7 +102,7 @@ Template Name: Resources
           <?php 
                 $image = get_field('image_connect_left');
                 if( !empty( $image ) ): ?>
-                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top" class="img-fluid"/>
+                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top img-fluid"/>
           <?php endif; ?>
           <div class="boxedtext bg">
             <a class="imagelink" href="<?php the_field('image_connect_left_url'); ?>" target="_blank"><?php the_field('image_connect_left_text'); ?></a>
@@ -114,7 +114,7 @@ Template Name: Resources
           <?php 
                 $image = get_field('image_connect_center');
                 if( !empty( $image ) ): ?>
-                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top" class="img-fluid"/>
+                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top img-fluid"/>
           <?php endif; ?>
           <div class="boxedtext bg">
             <a class="imagelink" href="<?php the_field('image_connect_center_url'); ?>" target="_blank"><?php the_field('image_connect_center_text'); ?></a>
@@ -126,7 +126,7 @@ Template Name: Resources
           <?php 
                 $image = get_field('image_connect_right');
                 if( !empty( $image ) ): ?>
-                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top" class="img-fluid"/>
+                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top img-fluid"/>
           <?php endif; ?>
           <div class="boxedtext bg">
             <a class="imagelink" href="<?php the_field('image_connect_right_url'); ?>" target="_blank"><?php the_field('image_connect_right_text'); ?></a>
@@ -166,7 +166,7 @@ Template Name: Resources
           <?php 
                 $image = get_field('image_protect_left');
                 if( !empty( $image ) ): ?>
-                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top" class="img-fluid"/>
+                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top img-fluid"/>
           <?php endif; ?>
           <div class="boxedtext bg">
             <a class="imagelink" href="<?php the_field('image_protect_left_url'); ?>" target="_blank"><?php the_field('image_protect_left_text'); ?></a>
@@ -178,7 +178,7 @@ Template Name: Resources
           <?php 
                 $image = get_field('image_protect_center');
                 if( !empty( $image ) ): ?>
-                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top" class="img-fluid"/>
+                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top img-fluid"/>
           <?php endif; ?>
           <div class="boxedtext bg">
             <a class="imagelink" href="<?php the_field('image_protect_center_url'); ?>" target="_blank"><?php the_field('image_protect_center_text'); ?></a>
@@ -190,7 +190,7 @@ Template Name: Resources
           <?php 
                 $image = get_field('image_pro_right');
                 if( !empty( $image ) ): ?>
-                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top" class="img-fluid"/>
+                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="card-img-top img-fluid"/>
           <?php endif; ?>
           <div class="boxedtext bg">
             <a class="imagelink" href="<?php the_field('image_protect_right_url'); ?>" target="_blank"><?php the_field('image_protect_right_text'); ?></a>
