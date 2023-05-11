@@ -34,7 +34,7 @@
   <header>
     <!-- MOBILE NAVIGATION --> 
     <div id="nav-modal">
-      <img class="logo" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/05/RCP-logo.png" alt="Respect Connect Protect Logo">
+      <img tabindex="0" class="logo" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/05/RCP-logo.png" alt="Respect Connect Protect Logo">
       <span id="close-modal">
         <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M29.3848 28.0676L1.00043 2.80245" stroke="#9B3926" stroke-width="3"/>
@@ -44,10 +44,10 @@
       <div class="clearfix"></div>
       <div class="modal-body">
         <ul>
-          <li><a href="<?php echo get_site_url(); ?>/about/">ABOUT</a></li>
-          <li><a href="<?php echo get_site_url(); ?>/get-involved/">GET INVOLVED</a></li>
-          <li><a href="<?php echo get_site_url(); ?>/resources/">RESOURCES</a></li>
-          <li><a href="<?php echo get_site_url(); ?>/contact-us/">CONTACT</a></li>
+          <li tabindex="1"><a href="<?php echo get_site_url(); ?>/about/">ABOUT</a></li>
+          <li tabindex="2"><a href="<?php echo get_site_url(); ?>/get-involved/">GET INVOLVED</a></li>
+          <li tabindex="3"><a href="<?php echo get_site_url(); ?>/resources/">RESOURCES</a></li>
+          <li tabindex="4"><a href="<?php echo get_site_url(); ?>/contact-us/">CONTACT</a></li>
         </ul>
       </div>
     </div>
@@ -55,11 +55,11 @@
       <div class="row">
         <div class="col">
           <!-- DESKTOP NAVIGATION -->
-          <nav class="navbar navbar-expand-lg navbar-light">
+          <nav tabindex="1" class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
               <!-- Logo -->
               <a class="navbar-brand" href="<?php echo get_site_url(); ?>">
-                <img class="logo" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/05/RCP-logo.png" alt="Conservation Lands Foundation Campaign logo">
+                <img tabindex="2" class="logo" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/05/RCP-logo.png" alt="Conservation Lands Foundation Campaign logo">
               </a>
 
               <!-- Toggle button for collapsed menu -->
@@ -75,16 +75,16 @@
               <!-- Menu items -->
               <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
-                  <li class="nav-item">
+                  <li tabindex="3" class="nav-item">
                     <a class="nav-link" href="<?php echo get_site_url(); ?>/about/">About</a>
                   </li>
-                  <li class="nav-item">
+                  <li tabindex="4" class="nav-item">
                     <a class="nav-link" href="<?php echo get_site_url(); ?>/get-involved/">Get Involved</a>
                   </li>
-                  <li class="nav-item">
+                  <li tabindex="5" class="nav-item">
                     <a class="nav-link" href="<?php echo get_site_url(); ?>/resources/">Resources</a>
                   </li>
-                  <li class="nav-item">
+                  <li tabindex="6" class="nav-item">
                     <a class="nav-link" href="<?php echo get_site_url(); ?>/contact-us/">Contact</a>
                   </li>
                 </ul>

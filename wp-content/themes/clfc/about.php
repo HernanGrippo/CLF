@@ -11,7 +11,7 @@ Template Name: About
     <div class="row">
       <div class="col">
         <div class="hero">
-          <h1><?php the_field('about_heading'); ?></h1>
+          <h1 tabindex="7"><?php the_field('about_heading'); ?></h1>
         </div>
       </div>
     </div>
@@ -23,17 +23,17 @@ Template Name: About
 <div class="container">
   <div class="row">
     <div class="col-md-12 col-lg-7 text-left">
-      <h2><?php the_field('national_lands_title'); ?></h2>
-      <p><?php the_field('national_lands_paragraph'); ?></p>
+      <h2 tabindex="8"><?php the_field('national_lands_title'); ?></h2>
+      <p  tabindex="9"><?php the_field('national_lands_paragraph'); ?></p>
         <ul>
-         <li><?php the_field('bullet_list_1'); ?></li>
-         <li><?php the_field('bullet_list_2'); ?></li>
-         <li><?php the_field('bullet_list_3'); ?></li>
-         <li><?php the_field('bullet_list_4'); ?></li>
-         <li><?php the_field('bullet_list_5'); ?></li>
+         <li tabindex="10"><?php the_field('bullet_list_1'); ?></li>
+         <li tabindex="11"><?php the_field('bullet_list_2'); ?></li>
+         <li tabindex="12"><?php the_field('bullet_list_3'); ?></li>
+         <li tabindex="13"><?php the_field('bullet_list_4'); ?></li>
+         <li tabindex="14"><?php the_field('bullet_list_5'); ?></li>
         </ul>
         <div class="centerbutton">        
-        <a href="<?php the_field('map_of_conservation_button_link'); ?>" class="btn btn-primary" target="_blank"><?php the_field('map_of_conservation_label'); ?></a>
+        <a tabindex="15" href="<?php the_field('map_of_conservation_button_link'); ?>" class="btn btn-primary" target="_blank"><?php the_field('map_of_conservation_label'); ?></a>
         </div>
     
       </div>
@@ -41,7 +41,7 @@ Template Name: About
         <?php 
             $image = get_field('map_of_conservation_image');
             if( !empty( $image ) ): ?>
-            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="img-fluid mx-auto d-block"/>
+            <img tabindex="16" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="img-fluid mx-auto d-block"/>
         <?php endif; ?>
     </div>
   </div>
@@ -53,21 +53,21 @@ Template Name: About
 <div class="container">
   <div class="row">
     <div class="col-md-12 col-lg-7 text-left">
-      <h2><?php the_field('about_the_campaign_title'); ?></h2>
+      <h2 tabindex="17"><?php the_field('about_the_campaign_title'); ?></h2>
         <div class="rockydisappearsondesktop col-md-12 col-lg-5">
             <?php 
                 $image = get_field('about_the_campaign_image');
                 if( !empty( $image ) ): ?>
-                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="img-fluid mx-auto d-block" />
+                <img tabindex="18" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="img-fluid mx-auto d-block" />
             <?php endif; ?>
         </div>
-      <p><?php the_field('about_the_campaign_paragraph'); ?></p>
+      <p tabindex="18"><?php the_field('about_the_campaign_paragraph'); ?></p>
     </div>
     <div class="rockydisappearsonmobile col-md-12 col-lg-5">
         <?php 
             $image = get_field('about_the_campaign_image');
             if( !empty( $image ) ): ?>
-            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="img-fluid mx-auto d-block" />
+            <img tabindex="20" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="img-fluid mx-auto d-block" />
         <?php endif; ?>
     </div>
   </div>
@@ -83,12 +83,12 @@ Template Name: About
         <?php 
               $image = get_field('conservation_icon');
               if( !empty( $image ) ): ?>
-              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="clfc-logo mx-auto d-block"/>
+              <img tabindex="21" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="clfc-logo mx-auto d-block"/>
         <?php endif; ?>
       </div>
       <div class="col-md-12 col-lg-8">
-        <h3><?php the_field('about_conservation_title'); ?></h3>
-        <p><?php the_field('about_conservation_paragraph'); ?></p>
+        <h3 tabindex="22"><?php the_field('about_conservation_title'); ?></h3>
+        <p tabindex="23"><?php the_field('about_conservation_paragraph'); ?></p>
       </div>
     </div>
   </div>
@@ -98,12 +98,12 @@ Template Name: About
         <?php 
               $image = get_field('about_bureau_icon');
               if( !empty( $image ) ): ?>
-              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="blm-logo mx-auto d-block"/>
+              <img tabindex="24" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="blm-logo mx-auto d-block"/>
         <?php endif; ?>
       </div>
       <div class="col-md-12 col-lg-9">
-        <h3><?php the_field('about_bureau_title'); ?></h3>
-        <p><?php the_field('about_bureau_paragraph'); ?></p>
+        <h3 tabindex="25"><?php the_field('about_bureau_title'); ?></h3>
+        <p tabindex="26"><?php the_field('about_bureau_paragraph'); ?></p>
       </div>
     </div>
   </div>
@@ -116,10 +116,10 @@ Template Name: About
           <?php 
                 $image = get_field('about_wave');
                 if( !empty( $image ) ): ?>
-                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="about-wave mx-auto d-block"/>
+                <img tabindex="27" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="about-wave mx-auto d-block"/>
           <?php endif; ?>
         <div class="col-md-10 offset-md-1">
-            <iframe src="https://www.instagram.com/conservationlands/embed" width="100%" height="600" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+            <iframe tabindex="28" src="https://www.instagram.com/conservationlands/embed" width="100%" height="600" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
         </div>
     </div>
     <div class="row">
