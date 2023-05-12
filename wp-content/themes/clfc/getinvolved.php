@@ -11,7 +11,7 @@ Template Name: GetInvolved
     <div class="row">
       <div class="col">
         <div class="hero">
-          <h1><?php the_field('get_involved_heading'); ?></h1>
+          <h1 tabindex="7"><?php the_field('get_involved_heading'); ?></h1>
         </div>
       </div>
     </div>
@@ -23,14 +23,16 @@ Template Name: GetInvolved
   <div class="container-md">
     <div class="row">
       <div class="col-md-12 col-lg-7">
-        <h2><?php the_field('meet_spokespebble_title'); ?></h2>
+        <h2 tabindex="8"><?php the_field('meet_spokespebble_title'); ?></h2>
         <div class="rockydisappearsondesktop col-md-12 col-lg-5">
-            <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/rockyinvolved.png" alt="a draw of a happy stone with a red dialog balloon saying Hey There!" class="img-fluid">
+            <img tabindex="9" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/rockyinvolved.png" alt="a draw of a happy stone with a red dialog balloon saying Hey There!" class="img-fluid">
         </div>
+        <div tabindex="10">
         <?php the_field('meet_spokespebble_paragraph'); ?>
+        </div>
       </div>
       <div class="rockydisappearsonmobile col-md-12 col-lg-5">
-        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/rockyinvolved.png" alt="a draw of a happy stone with a red dialog balloon saying Hey There!" class="img-fluid">
+        <img tabindex="11" src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/rockyinvolved.png" alt="a draw of a happy stone with a red dialog balloon saying Hey There!" class="img-fluid">
       </div>
     </div>
   </div>
@@ -46,7 +48,7 @@ Template Name: GetInvolved
       <?php 
           $image = get_field('get_involved_video_image');
           if( !empty( $image ) ): ?>
-              <img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" id="thumbnail"/>
+              <img tabindex="12" class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" id="thumbnail"/>
       <?php endif; ?>
 <!-- Video -->
         <div id="videoContainer" style="display: none;">
@@ -87,15 +89,15 @@ Template Name: GetInvolved
   <div class="row align-items-center">
 
     <div class="col-md-12 text-center">
-    <h2 class="text-center"><?php the_field('join_in_title'); ?></h2>
+    <h2 tabindex="13" class="text-center"><?php the_field('join_in_title'); ?></h2>
     </div>
 
   </div>
 
   <div class="row">
-    <div class="col-md-10 offset-md-1">
+    <div tabindex="14" class="col-md-10 offset-md-1">
         <?php the_field('join_in_paragraph'); ?>
-        <a href="<?php the_field('download_link'); ?>" class="btn" target="_blank"><?php the_field('cta_download_link'); ?></a>
+        <a tabindex="15" href="<?php the_field('download_link'); ?>" class="btn" target="_blank"><?php the_field('cta_download_link'); ?></a>
     </div>
   </div>
   </div>
