@@ -24,7 +24,7 @@ Template Name: About
   <div class="row">
     <div class="col-md-12 col-lg-7 text-left">
       <h2 tabindex="8"><?php the_field('national_lands_title'); ?></h2>
-      <p  tabindex="9"><?php the_field('national_lands_paragraph'); ?></p>
+      <div tabindex="9"><p><?php the_field('national_lands_paragraph'); ?></p></div>
         <ul>
          <li tabindex="10"><?php the_field('bullet_list_1'); ?></li>
          <li tabindex="11"><?php the_field('bullet_list_2'); ?></li>
