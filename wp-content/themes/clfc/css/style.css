@@ -11591,6 +11591,7 @@ body h1, body .h1 {
   font-family: "Inter", sans-serif;
   font-size: 26px;
   font-weight: 400;
+  color: #FEFBEA;
 }
 #contact-form2 .right .form .wpcf7-submit {
   font-weight: bold;
@@ -11602,7 +11603,7 @@ body h1, body .h1 {
   color: #213A45;
 }
 #contact-form2 .right .form .wpcf7-submit:hover {
-  color: #fff;
+  color: #FEFBEA;
   background-color: #9B3926;
   border: 2px solid #9B3926;
 }
@@ -11764,6 +11765,7 @@ body h1, body .h1 {
   font-family: "Inter", sans-serif;
   font-size: 26px;
   font-weight: 400;
+  color: #FEFBEA;
 }
 #contact-form3 .right .form .wpcf7-submit {
   font-weight: bold;

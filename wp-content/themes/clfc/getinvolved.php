@@ -25,12 +25,12 @@ Template Name: GetInvolved
       <div class="col-md-12 col-lg-7">
         <h2><?php the_field('meet_spokespebble_title'); ?></h2>
         <div class="rockydisappearsondesktop col-md-12 col-lg-5">
-            <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/rockyinvolved.png" alt="stone" class="img-fluid">
+            <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/rockyinvolved.png" alt="a draw of a happy stone with a red dialog balloon saying Hey There!" class="img-fluid">
         </div>
         <?php the_field('meet_spokespebble_paragraph'); ?>
       </div>
       <div class="rockydisappearsonmobile col-md-12 col-lg-5">
-        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/rockyinvolved.png" alt="stone" class="img-fluid">
+        <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/rockyinvolved.png" alt="a draw of a happy stone with a red dialog balloon saying Hey There!" class="img-fluid">
       </div>
     </div>
   </div>
@@ -46,7 +46,7 @@ Template Name: GetInvolved
       <?php 
           $image = get_field('get_involved_video_image');
           if( !empty( $image ) ): ?>
-              <img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" alt="Thumbnail Image" id="thumbnail"/>
+              <img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" id="thumbnail"/>
       <?php endif; ?>
 <!-- Video -->
         <div id="videoContainer" style="display: none;">
@@ -64,7 +64,7 @@ Template Name: GetInvolved
                 'controls'  => 1,
                 'hd'        => 1,
                 'autohide'  => 1,
-                'autoplay'=> 1,
+                'autoplay'=> 0,
             );
             $new_src = add_query_arg($params, $src);
             $iframe = str_replace($src, $new_src, $iframe);
