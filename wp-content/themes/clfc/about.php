@@ -61,7 +61,7 @@ Template Name: About
                 <img tabindex="18" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="img-fluid mx-auto d-block" />
             <?php endif; ?>
         </div>
-      <p tabindex="18"><?php the_field('about_the_campaign_paragraph'); ?></p>
+      <div tabindex="18"><p><?php the_field('about_the_campaign_paragraph'); ?></p></div>
     </div>
     <div class="rockydisappearsonmobile col-md-12 col-lg-5">
         <?php 
