@@ -11266,6 +11266,9 @@ body h1, body .h1 {
   padding: 0;
   border-radius: 25px;
 }
+#contact-form .container ul {
+  display: none;
+}
 @media (max-width: 575px) {
   #contact-form .container {
     max-width: 100%;
