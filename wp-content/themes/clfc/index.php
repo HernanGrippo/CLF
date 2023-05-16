@@ -33,7 +33,7 @@ Template Name: Home
   <div class="row">
     <div class="container">
       <div class="list-group">
-        <h3>MORE VIDEOS</h3>
+        <h3>MORE VIDEOS</h>
         <button class="list-group-item list-group-item-action d-flex align-items-center" onclick="playVideo('LvYehnKonDA')">
           <img src="<?php bloginfo('template_url'); ?>/img/mountainplayer.png" alt="Image 1" class="img-fluid mr-3">
           <div class="flex-grow-1">
