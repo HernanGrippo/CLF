@@ -125,6 +125,7 @@ Template Name: Home
   <!-- CONTACT FORM -->
   <? get_template_part( 'components/contactform' ); ?>
   
+  
  <!-- PARTNERS SECTION -->
     <section id="partners">
     <div class="row">

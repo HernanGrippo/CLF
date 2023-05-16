@@ -10,15 +10,20 @@
       background-size: cover;
       background-repeat: no-repeat;
       padding: 0;
-      border-radius: 25px; 
-      @media (max-width: 575px) { 
-        max-width: 100%;
-        height: auto;
-        background-image: url('../img/contactbackresponsive.png');
-        background-size: contain;
-        display: block;
-        justify-content: center;
+      border-radius: 25px;
+      
+      ul{
+        display: none;
       }
+      
+        @media (max-width: 575px) { 
+          max-width: 100%;
+          height: auto;
+          background-image: url('../img/contactbackresponsive.png');
+          background-size: contain;
+          display: block;
+          justify-content: center;
+        }
       
 
     }
