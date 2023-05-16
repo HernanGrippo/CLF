@@ -11,13 +11,13 @@ Template Name: Contact
  <section id="contactpage">
   <div class="row align-items-center">
       <div class="col-md-12 text-center">
-        <h1 class="text-center">
+        <h1 tabindex="7" class="text-center">
         <?php the_field('contact_title'); ?></h1>
       </div>
   </div>
     <div class="row">
       <div class="col-md-12 text-center">
-        <div class="main-text">
+        <div tabindex="8" class="main-text">
           <?php the_field('contact_paragraph'); ?>
         </div>
       </div>
