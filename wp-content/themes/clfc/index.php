@@ -26,7 +26,7 @@ Template Name: Home
 
 <div class="vertical-spacer-sm">&nbsp;</div>
 
-<!-- Video Embed --> 
+<!-- VIDEO EMBED --> 
 <!-- Image -->
 <section id="video_embed">
     <div class="row">
