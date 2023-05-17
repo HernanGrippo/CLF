@@ -27,51 +27,6 @@ Template Name: Home
 <div class="vertical-spacer-sm">&nbsp;</div>
 
 <!-- VIDEO EMBED --> 
-
-<!-- SUPER PLAYER --> 
-<section id="superplayer">
-  <div class="row">
-    <div class="container">
-      <div class="list-group">
-        <h3>MORE VIDEOS</h>
-        <button class="list-group-item list-group-item-action d-flex align-items-center" onclick="playVideo('LvYehnKonDA')">
-          <img src="<?php bloginfo('template_url'); ?>/img/mountainplayer.png" alt="Image 1" class="img-fluid mr-3">
-          <div class="flex-grow-1">
-            <p class="mb-0">It's On You | Respect. Connect. Protect.</p>
-          </div>
-        </button>
-        <button class="list-group-item list-group-item-action d-flex align-items-center" onclick="playVideo('D02Hp2c2qTU')">
-          <img src="<?php bloginfo('template_url'); ?>/img/mountainplayer.png" alt="Image 2" class="img-fluid mr-3">
-          <div class="flex-grow-1">
-            <p class="mb-0">Protect What Matters: Conservation Lands Foundation</p>
-          </div>
-        </button>
-        <button class="list-group-item list-group-item-action d-flex align-items-center" onclick="playVideo('eOBDOZH3nns')">
-          <img src="<?php bloginfo('template_url'); ?>/img/mountainplayer.png" alt="Image 3" class="img-fluid mr-3">
-          <div class="flex-grow-1">
-            <p class="mb-0">Respect. Connect. Protect. | Conserve Public Lands</p>
-          </div>
-        </button>
-        <button class="list-group-item list-group-item-action d-flex align-items-center" onclick="playVideo('jqS44UH7Nrs')">
-          <img src="<?php bloginfo('template_url'); ?>/img/mountainplayer.png" alt="Image 4" class="img-fluid mr-3">
-          <div class="flex-grow-1">
-            <p class="mb-0">Respect. Connect. Protect. A Word from Spokespebble</p>
-          </div>
-        </button>
-        <button class="list-group-item list-group-item-action d-flex align-items-center" onclick="playVideo('-29icN6oAJ0')">
-          <img src="<?php bloginfo('template_url'); ?>/img/mountainplayer.png" alt="Image 5" class="img-fluid mr-3">
-          <div class="flex-grow-1">
-            <p class="mb-0">President Biden Honors Avi Kwa Ame</p>
-          </div>
-        </button>
-      </div>
-      <div class="video-player d-flex align-items-center justify-content-center">
-        <div id="youtubePlayer"></div>
-      </div>
-    </div>
-  </div>
-</section>  
-
 <!-- Image -->
 <section id="video_embed">
     <div class="row">
