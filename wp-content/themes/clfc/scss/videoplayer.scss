@@ -59,31 +59,32 @@
       .overlay-image{
         cursor:pointer;
       } 
-    
+      .btn {
+        position: relative;
+        border-top: 5px solid #9B3926;
+        border-bottom: 5px solid #9B3926;
+        border-left: 5px solid #9B3926;
+        border-right: none;
+        background-color: #FEFBEA;
+        padding: 16px 15px 15px 20px;
+        width: 420px;
 
-.btn {
-    position: relative;
-    background: #FEFBEA;
-    border: 5px solid #9B3926;
-    width: 420px;
-    padding: 16px 15px 15px 20px;
-}
-.btn:before {
-    left: 100%;
-    top: 50%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none;
-}
+      }
+      .btn::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: -41px; /* Ajusta este valor según el tamaño del rombo */
+        transform: translateY(-50%) rotate(45deg);
+        width: 81px; /* Ajusta este valor según el tamaño del rombo */
+        height: 81px; /* Ajusta este valor según el tamaño del rombo */
+        border-top: 5px solid #9B3926;
+        border-right: 5px solid #9B3926;
+        border-left: none;
+        border-bottom: none;
+        background-color: #FEFBEA;
+      }
 
-.btn:before {
-    border-color: rgba(194, 225, 245, 0);
-    border-left-color: #9B3926;
-    border-width: 60px;
-    margin-top: -60px;
-}     
-}
+                        
+      }
 
