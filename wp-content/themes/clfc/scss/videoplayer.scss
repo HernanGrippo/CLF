@@ -74,17 +74,15 @@
         content: "";
         position: absolute;
         top: 50%;
-        right: -41px; /* Ajusta este valor según el tamaño del rombo */
+        right: -41px; 
         transform: translateY(-50%) rotate(45deg);
-        width: 81px; /* Ajusta este valor según el tamaño del rombo */
-        height: 81px; /* Ajusta este valor según el tamaño del rombo */
+        width: 81px; 
+        height: 81px; 
         border-top: 5px solid #9B3926;
         border-right: 5px solid #9B3926;
         border-left: none;
         border-bottom: none;
         background-color: #FEFBEA;
       }
-
-                        
-      }
+}
 
