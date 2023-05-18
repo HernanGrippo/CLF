@@ -47,32 +47,32 @@ Template Name: GetInvolved
       <div class="col-lg-4">
         <div class="spacesforline">
         <div class="list-group">
-          <h3>MORE VIDEOS</h3>
-          <button class="list-group-item list-group-item-action d-flex align-items-center" onclick="playVideo('LvYehnKonDA')">
+          <h3>MORE VIDEOS</h3> 
+          <button class="btnline list-group-item list-group-item-action d-flex align-items-center" onclick="playVideo('LvYehnKonDA')">
             <img src="<?php bloginfo('template_url'); ?>/img/videolist1.png" alt="Image 1" class="img-fluid mr-3">
             <div class="flex-grow-1">
               <p class="mb-0">It's On You | Respect. Connect. Protect.</p>
             </div>
           </button>
-          <button class="list-group-item list-group-item-action d-flex align-items-center" onclick="playVideo('D02Hp2c2qTU')">
+          <button class="btnline list-group-item list-group-item-action d-flex align-items-center" onclick="playVideo('D02Hp2c2qTU')">
             <img src="<?php bloginfo('template_url'); ?>/img/videolist2.png" alt="Image 2" class="img-fluid mr-3">
             <div class="flex-grow-1">
               <p class="mb-0">Protect What Matters: Conservation Lands Foundation</p>
             </div>
           </button>
-          <button class="list-group-item list-group-item-action d-flex align-items-center" onclick="playVideo('eOBDOZH3nns')">
+          <button class="btnline list-group-item list-group-item-action d-flex align-items-center" onclick="playVideo('eOBDOZH3nns')">
             <img src="<?php bloginfo('template_url'); ?>/img/videolist3.png" alt="Image 3" class="img-fluid mr-3">
             <div class="flex-grow-1">
               <p class="mb-0">Respect. Connect. Protect. | Conserve Public Lands</p>
             </div>
           </button>
-          <button class="list-group-item list-group-item-action d-flex align-items-center" onclick="playVideo('jqS44UH7Nrs')">
+          <button class="btnline list-group-item list-group-item-action d-flex align-items-center" onclick="playVideo('jqS44UH7Nrs')">
             <img src="<?php bloginfo('template_url'); ?>/img/videolist4.png" alt="Image 4" class="img-fluid mr-3">
             <div class="flex-grow-1">
               <p class="mb-0">Respect. Connect. Protect. A Word from Spokespebble</p>
             </div>
           </button>
-          <button class="list-group-item list-group-item-action d-flex align-items-center" onclick="playVideo('-29icN6oAJ0')">
+          <button class="btnline list-group-item list-group-item-action d-flex align-items-center" onclick="playVideo('-29icN6oAJ0')">
             <img src="<?php bloginfo('template_url'); ?>/img/videolist5.png" alt="Image 5" class="img-fluid mr-3">
             <div class="flex-grow-1">
               <p class="mb-0">President Biden Honors Avi Kwa Ame</p>
@@ -92,8 +92,6 @@ Template Name: GetInvolved
     </div>
   </div>
 </section>
-
-
   <!-- JOIN Spokespebble -->
   <section id="joinspoke">
   <div class="container-md">

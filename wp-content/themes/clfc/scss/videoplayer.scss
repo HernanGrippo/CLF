@@ -27,6 +27,10 @@
       button:hover{
         opacity: 50%;
       }
+    .btnline{
+      border-top: #C97B62 2px solid;
+      margin-top: -3px;
+    }  
     .container {
         max-width: 1194px;
         background-color: #FEFBEA;
@@ -35,7 +39,6 @@
       }
       .list-group-item {
         align-items: center;
-        border-top: #C97B62 2px solid;
       }
       .list-group-item img {
         margin-right: 16px;
@@ -55,7 +58,32 @@
       }
       .overlay-image{
         cursor:pointer;
-      }
-      
+      } 
+    
+
+.btn {
+    position: relative;
+    background: #FEFBEA;
+    border: 5px solid #9B3926;
+    width: 420px;
+    padding: 16px 15px 15px 20px;
+}
+.btn:before {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.btn:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-left-color: #9B3926;
+    border-width: 60px;
+    margin-top: -60px;
+}     
 }
 

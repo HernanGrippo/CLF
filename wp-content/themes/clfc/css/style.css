@@ -12552,6 +12552,10 @@ h2, .h2 {
 #superplayer button:hover {
   opacity: 50%;
 }
+#superplayer .btnline {
+  border-top: #C97B62 2px solid;
+  margin-top: -3px;
+}
 #superplayer .container {
   max-width: 1194px;
   background-color: #FEFBEA;
@@ -12560,7 +12564,6 @@ h2, .h2 {
 }
 #superplayer .list-group-item {
   align-items: center;
-  border-top: #C97B62 2px solid;
 }
 #superplayer .list-group-item img {
   margin-right: 16px;
@@ -12580,6 +12583,29 @@ h2, .h2 {
 }
 #superplayer .overlay-image {
   cursor: pointer;
+}
+#superplayer .btn {
+  position: relative;
+  background: #FEFBEA;
+  border: 5px solid #9B3926;
+  width: 420px;
+  padding: 16px 15px 15px 20px;
+}
+#superplayer .btn:before {
+  left: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+#superplayer .btn:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-left-color: #9B3926;
+  border-width: 60px;
+  margin-top: -60px;
 }
 
 /*# sourceMappingURL=style.css.map */
