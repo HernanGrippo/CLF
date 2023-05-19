@@ -45,9 +45,10 @@
 <script src="https://www.youtube.com/iframe_api"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/highlightmenu.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/navigation.js"></script>
-<script src="<?php bloginfo('template_url'); ?>/js/video_embed.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/superplayer.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/superplayerarrow.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/video_embed.js"></script>
+
 
 
 

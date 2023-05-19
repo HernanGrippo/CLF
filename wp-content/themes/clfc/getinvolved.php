@@ -40,8 +40,51 @@ Template Name: GetInvolved
 
 <div class="vertical-spacer-sm">&nbsp;</div>
 
+<!-- VIDEO EMBED --> 
+<!-- Image -->
+<section id="video_embed">
+    <div class="row">
+      <div class="col-12 text-center">
+      <?php 
+          $image = get_field('get_involved_video_image');
+          if( !empty( $image ) ): ?>
+              <img tabindex="10" class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" id="thumbnail"/>
+      <?php endif; ?>
+<!-- Video -->
+        <div id="videoContainer" style="display: none;">
+        <?php
+        // Load value.
+        $iframe = get_field('video_embed_url');
+
+        // Use preg_match to find iframe src.
+        preg_match('/src="(.+?)"/', $iframe, $matches);
+        $src = $matches[1];
+
+        // Add extra parameters to src and replace HTML.
+        $params = array(
+            'controls'  => 1,
+            'hd'        => 1,
+            'autohide'  => 1,
+            'autoplay'=> 0,
+        );
+        $new_src = add_query_arg($params, $src);
+        $iframe = str_replace($src, $new_src, $iframe);
+
+        // Add extra attributes to iframe HTML.
+        $attributes = 'frameborder="0"';
+        $iframe = str_replace('></iframe>', ' ' . $attributes . '></iframe>', $iframe);
+
+        // Display customized HTML.
+        echo $iframe;
+        ?>
+    </div>
+  </div>
+</div>
+</section>
+
+
 <!-- SUPER PLAYER --> 
-<section id="superplayer">
+<!-- <section id="superplayer">
   <div class="container">
     <div class="row">
       <div class="col-lg-4">
@@ -103,7 +146,7 @@ Template Name: GetInvolved
       </div>
       <div class="col-lg-8">
         <div class="video-player d-flex align-items-center justify-content-center">
-        <div tabindex="18" id="imageOverlay">
+        <div id="imageOverlay" tabindex="18">
             <?php 
               $image = get_field('main_video_image');
               if( !empty( $image ) ): ?>
@@ -115,7 +158,10 @@ Template Name: GetInvolved
       </div>
     </div>
   </div>
-</section>
+</section> -->
+
+
+
   <!-- JOIN Spokespebble -->
   <section id="joinspoke">
   <div class="container-md">
