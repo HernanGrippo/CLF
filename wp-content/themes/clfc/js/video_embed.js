@@ -6,6 +6,7 @@ const videoContainer = document.getElementById('videoContainer');
 
 // Add a click event listener to the image
 thumbnail.addEventListener('click', function() {
+  
   // Add a fade-out animation class to the thumbnail
   thumbnail.classList.add('fade-out');
 
