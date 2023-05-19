@@ -12526,6 +12526,7 @@ h2, .h2 {
 #superplayer {
   margin: 0 0 133px 0;
 }
+
 #superplayer h3, #superplayer .h3 {
   font-family: "interstate", sans-serif;
   font-style: normal;
@@ -12535,6 +12536,7 @@ h2, .h2 {
   color: #9B3926;
   padding: 37px 0 18px 36px;
 }
+
 #superplayer p {
   font-family: "interstate", sans-serif;
   font-style: normal;
@@ -12544,45 +12546,104 @@ h2, .h2 {
   color: #333333;
   max-width: 180px;
 }
+
+@media (max-width: 992px) {
+  #superplayer p {
+    font-size: 22px;
+    max-width: 890px;
+  }
+}
+@media (max-width: 576px) {
+  #superplayer p {
+    font-size: 16px;
+    max-width: 180px;
+  }
+}
 #superplayer button {
   background: none;
   border: none;
   padding: 15px 0 15px 0;
 }
+
 #superplayer button:hover {
   opacity: 50%;
+}
+
+@media (max-width: 576px) {
+  #superplayer button:hover {
+    opacity: 100%;
+  }
+}
+@media (max-width: 992px) {
+  #superplayer button:hover {
+    opacity: 100%;
+  }
 }
 #superplayer .btnline {
   border-top: #C97B62 2px solid;
   margin-top: -3px;
 }
+
 #superplayer .container {
   max-width: 1194px;
   background-color: #FEFBEA;
   border-radius: 0 26px 26px 0;
   padding: 0;
 }
+
 #superplayer .list-group-item {
   align-items: center;
 }
+
 #superplayer .list-group-item img {
   margin-right: 16px;
 }
+
 #superplayer .video-player {
   height: 100%;
   width: auto;
 }
+
 #superplayer .video-player iframe {
   width: 100%;
   height: 100%;
   border-radius: 26px;
   border: 3px solid #C34F30;
 }
+
+@media (max-width: 992px) {
+  #superplayer .video-player iframe {
+    max-width: 980px;
+    height: 800px;
+    margin: 20px 0 0 0;
+  }
+}
+@media (max-width: 576px) {
+  #superplayer .video-player iframe {
+    max-width: 450px;
+    height: 330px;
+    margin: 20px 0 0 0;
+  }
+}
 #superplayer .spacesforline {
   margin: 0 30px 0 15px;
 }
+
 #superplayer .overlay-image {
   cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  #superplayer .overlay-image {
+    max-width: 450px;
+    height: auto;
+  }
+}
+@media (max-width: 992px) {
+  #superplayer .overlay-image {
+    width: 980px;
+    height: auto;
+  }
 }
 #superplayer .btn {
   position: relative;
@@ -12593,6 +12654,19 @@ h2, .h2 {
   background-color: #FEFBEA;
   padding: 16px 15px 15px 20px;
   width: 420px;
+}
+
+@media (max-width: 576px) {
+  #superplayer .btn {
+    max-width: 360px;
+    padding: 16px 15px 15px 15px;
+  }
+}
+@media (max-width: 992px) {
+  #superplayer .btn {
+    width: 890px;
+    padding: 16px 15px 15px 15px;
+  }
 }
 #superplayer .btn::after {
   content: "";
@@ -12607,6 +12681,12 @@ h2, .h2 {
   border-left: none;
   border-bottom: none;
   background-color: #FEFBEA;
+}
+
+@media (max-width: 576px) {
+  #superplayer .btn::after {
+    right: -39px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

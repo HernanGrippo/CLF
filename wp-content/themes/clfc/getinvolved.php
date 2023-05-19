@@ -42,16 +42,16 @@ Template Name: GetInvolved
 
 <!-- VIDEO EMBED --> 
 <!-- Image -->
-<section id="video_embed">
+<!-- <section id="video_embed">
     <div class="row">
       <div class="col-12 text-center">
       <?php 
           $image = get_field('get_involved_video_image');
           if( !empty( $image ) ): ?>
               <img tabindex="10" class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" id="thumbnail"/>
-      <?php endif; ?>
+      <?php endif; ?> -->
 <!-- Video -->
-        <div id="videoContainer" style="display: none;">
+        <!-- <div id="videoContainer" style="display: none;">
         <?php
         // Load value.
         $iframe = get_field('video_embed_url');
@@ -80,11 +80,11 @@ Template Name: GetInvolved
     </div>
   </div>
 </div>
-</section>
+</section> -->
 
 
 <!-- SUPER PLAYER --> 
-<!-- <section id="superplayer">
+<section id="superplayer">
   <div class="container">
     <div class="row">
       <div class="col-lg-4">
@@ -158,7 +158,7 @@ Template Name: GetInvolved
       </div>
     </div>
   </div>
-</section> -->
+</section>
 
 
 
