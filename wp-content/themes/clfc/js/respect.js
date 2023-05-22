@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     var postContainer = document.getElementById('post-container-respect');
-    var categoryId = 2; // Category ID of the desired category
+    var categoryId = 3; // Category ID of the desired category
     var currentPage = 1; // Initial page number
     var viewMoreTrigger = document.getElementById('view-more-trigger-respect');
     var totalPosts = 0; // Total number of posts
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function renderPostWithImage(post, imageUrl) {
       if (currentRow === null || currentRow.childElementCount === 3) {
         currentRow = document.createElement('div');
-        currentRow.classList.add('row');
+        currentRow.classList.add('row', 'mb-4'); // Add the "mb-4" class for margin-bottom
         postContainer.appendChild(currentRow);
       }
   
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
       // Create the post item
       var postItem = document.createElement('div');
-      postItem.classList.add('post-item');
+      postItem.classList.add('post-item', 'position-relative');
   
       // Display the featured image
       if (imageUrl) {
@@ -56,10 +56,13 @@ document.addEventListener('DOMContentLoaded', function() {
       }
   
       // Display the post content
+
+      var contentContainer = document.createElement('div');
       var content = document.createElement('div');
+      content.classList.add('boxedtext', 'bg', 'text-center');
       content.innerHTML = post.content.rendered;
+      
       postItem.appendChild(content);
-  
       col.appendChild(postItem);
       currentRow.appendChild(col);
     }
