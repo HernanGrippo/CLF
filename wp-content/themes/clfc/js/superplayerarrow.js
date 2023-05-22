@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', function() {
+
 const buttons = document.querySelectorAll('.list-group button');
 
 buttons.forEach(button => {
@@ -9,4 +11,4 @@ buttons.forEach(button => {
   });
 });
 
-
+});

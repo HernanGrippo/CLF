@@ -47,8 +47,4 @@
 <script src="<?php bloginfo('template_url'); ?>/js/navigation.js"></script>
 
 
-
-
-
-
 </html>

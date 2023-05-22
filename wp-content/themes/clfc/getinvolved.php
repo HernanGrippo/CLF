@@ -187,4 +187,7 @@ Template Name: GetInvolved
 <? get_template_part( 'components/contactform3' ); ?>
 </div>
 
+<script src="<?php bloginfo('template_url'); ?>/js/superplayer.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/superplayerarrow.js"></script>
+
 <?php get_footer();?> 
