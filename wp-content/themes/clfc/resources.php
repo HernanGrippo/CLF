@@ -32,68 +32,76 @@ Template Name: Resources
       </div>
     </div>
     <div class="vertical-spacer-sm">&nbsp;</div>
-    <div class="row">
 
-        <?php
-// Custom loop for a specific category
-function custom_category_loop() {
-  // Define the query arguments for the loop
-  $query_args = array(
-      'category_name' => 'Respect',
-      'posts_per_page' => 10, // Adjust the number of posts per page as needed
-      'order' => 'ASC', // Order posts in descending order
-  );
 
-  // Execute the query
-  $query = new WP_Query($query_args);
 
-  // Loop through the posts
-  if ($query->have_posts()) {
-      while ($query->have_posts()) {
-          $query->the_post();
-
-          echo '
-          <div class="col-md-4 col-sm-12">
-          <div class="position-relative"> ';
-
-            // Echo the featured image
-            if (has_post_thumbnail()) {
-                echo '<div class="featured-image">';
-                the_post_thumbnail();
-                echo '</div>';
-            }
-
-            echo '<div class="boxedtext bg">';
-
-            echo '<span tabindex="12" class="imagelink"';
-            the_content();
-            echo '</span>';
-            echo '</div>';
-
-          echo '
-          </div>
-          </div>
-          ';
-
-      }
-  }
-
-  // Reset post data
-  wp_reset_postdata();
-}
-
-// Output the custom loop on a specific page or template file
-custom_category_loop();
-
-        ?>
-
-    </div> <!-- end of row -->
   </div> <!-- end of container -->
 </section>
 
+
+<div id="post-container-respect" class="container-md"></div>
+<div class="container-md"><div id="view-more-trigger-respect" class="text-center">SHOW MORE</div></div>
+<script src="<?php bloginfo('template_url'); ?>/js/respect.js"></script>
+
+<div class="vertical-spacer-sm">&nbsp;</div>
+<div class="line"></div>
 <div class="vertical-spacer-sm">&nbsp;</div>
 
+<!-- CONNECT -->
+<section id="connect">
+  <div class="container-md">
+    <div class="row">
+      <div class="col-md-3">
+      <?php 
+            $image = get_field('connect_section_icon');
+            if( !empty( $image ) ): ?>
+            <img tabindex="17" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="mx-auto d-block"/>
+      <?php endif; ?>
+      </div>
+      <div class="col-md-9">
+        <h2 tabindex="18"><?php the_field('connect_title_copy'); ?></h2>
+        <div tabindex="19"><?php the_field('connect_paragraph'); ?></div>
+      </div>
+    </div>
+    <div class="vertical-spacer-sm">&nbsp;</div>
+    <div id="post-container-connect" class="container-md"></div>
+    <div class="container-md"><div id="view-more-trigger-connect" class="text-center">SHOW MORE</div></div>
+    <script src="<?php bloginfo('template_url'); ?>/js/connect.js"></script>
+    </div>
+  </div>
+</section>
+
+<div class="vertical-spacer-sm">&nbsp;</div>
 <div class="line"></div>
+
+<!-- PROTECT -->
+<div class="vertical-spacer-sm">&nbsp;</div>
+
+<section id="protect">
+  <div class="container-md">
+    <div class="row">
+      <div class="col-md-3 col-sm-12">
+        <?php 
+              $image = get_field('protect_section_icon');
+              if( !empty( $image ) ): ?>
+              <img tabindex="26" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="mx-auto d-block"/>
+        <?php endif; ?>
+      </div>
+      <div class="col-md-9">
+          <h2 tabindex="27"><?php the_field('protect_title'); ?></h2>
+          <div tabindex="28"><?php the_field('protect_paragraph'); ?></div>
+        </div>
+      </div>
+    </div>
+    <div class="vertical-spacer-sm">&nbsp;</div>
+    <div id="post-container-protect" class="container-md"></div>
+    <div class="container-md"><div id="view-more-trigger-protect" class="text-center">SHOW MORE</div></div>
+   
+    <script src="<?php bloginfo('template_url'); ?>/js/protect.js"></script>
+    </div>
+  </div>
+</section>
+
 
 <div class="vertical-spacer-sm">&nbsp;</div>
 
