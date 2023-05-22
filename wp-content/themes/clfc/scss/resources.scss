@@ -198,5 +198,19 @@ h2 {
     }
 }
 
-
-
+#view-more-trigger-respect, #view-more-trigger-connect, #view-more-trigger-protect {
+    padding-top: 30px;
+    
+    
+    /* identical to box height, or 150% */
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #213A45;
+    &:hover {
+        cursor: pointer;
+    }
+}
