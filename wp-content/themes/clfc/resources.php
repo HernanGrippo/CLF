@@ -40,7 +40,7 @@ Template Name: Resources
 
 
 <div id="post-container-respect" class="container-md"></div>
-<div class="container-md"><div id="view-more-trigger-respect" class="text-center">SHOW MORE</div></div>
+<div class="container-md"><div id="view-more-trigger-respect" class="text-center">SHOW MORE <span style="margin: 0 0 0 12px;"><img src="<?php bloginfo('template_url'); ?>/img/arrow-show-more.png" alt="Show more arrow"></span></div></div>
 <script src="<?php bloginfo('template_url'); ?>/js/respect.js"></script>
 
 <div class="vertical-spacer-sm">&nbsp;</div>
@@ -65,7 +65,7 @@ Template Name: Resources
     </div>
     <div class="vertical-spacer-sm">&nbsp;</div>
     <div id="post-container-connect" class="container-md"></div>
-    <div class="container-md"><div id="view-more-trigger-connect" class="text-center">SHOW MORE</div></div>
+    <div class="container-md"><div id="view-more-trigger-connect" class="text-center">SHOW MORE <span style="margin: 0 0 0 12px;"><img src="<?php bloginfo('template_url'); ?>/img/arrow-show-more.png" alt="Show more arrow"></span></div></div>
     <script src="<?php bloginfo('template_url'); ?>/js/connect.js"></script>
     </div>
   </div>
@@ -95,7 +95,7 @@ Template Name: Resources
     </div>
     <div class="vertical-spacer-sm">&nbsp;</div>
     <div id="post-container-protect" class="container-md"></div>
-    <div class="container-md"><div id="view-more-trigger-protect" class="text-center">SHOW MORE</div></div>
+    <div class="container-md"><div id="view-more-trigger-protect" class="text-center">SHOW MORE <span style="margin: 0 0 0 12px;"><img src="<?php bloginfo('template_url'); ?>/img/arrow-show-more.png" alt="Show more arrow"></span></div></div>
    
     <script src="<?php bloginfo('template_url'); ?>/js/protect.js"></script>
     </div>
