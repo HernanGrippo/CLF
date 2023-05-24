@@ -101,16 +101,6 @@ Template Name: GetInvolved
               <p class="mb-0"><?php the_field('text_video_1'); ?></p>
             </div>
           </button>
-          <button tabindex="14" class="btnline list-group-item list-group-item-action d-flex align-items-center" onclick="<?php the_field("video_id_2"); ?>">
-          <?php 
-              $image = get_field('image_video_2');
-              if( !empty( $image ) ): ?>
-              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="img-fluid mr-3"/>
-            <?php endif; ?>
-            <div class="flex-grow-1">
-              <p class="mb-0"><?php the_field('text_video_2'); ?></p>
-            </div>
-          </button>
           <button tabindex="15" class="btnline list-group-item list-group-item-action d-flex align-items-center" onclick="<?php the_field("video_id_3"); ?>">
           <?php 
               $image = get_field('image_video_3');
@@ -129,16 +119,6 @@ Template Name: GetInvolved
             <?php endif; ?>
             <div class="flex-grow-1">
               <p class="mb-0"><?php the_field('text_video_4'); ?></p>
-            </div>
-          </button>
-          <button tabindex="17" class="btnline list-group-item list-group-item-action d-flex align-items-center" onclick="<?php the_field("video_id_5"); ?>">
-          <?php 
-              $image = get_field('image_video_5');
-              if( !empty( $image ) ): ?>
-              <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="img-fluid mr-3"/>
-            <?php endif; ?>
-            <div class="flex-grow-1">
-              <p class="mb-0"><?php the_field('text_video_5'); ?></p>
             </div>
           </button>
         </div>
