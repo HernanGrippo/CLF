@@ -11,7 +11,7 @@
         <a tabindex="51" href="https://www.blm.gov/" target="_blank"><img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/national.png" alt="in partnership with the national system of public lands" class="me-3b"></a>
         <div class="d-flex align-items-center">
           <div class="contact-links">
-            <p tabindex="52"><a href="mailto:info@conservationlands.org">info@conservationlands.org</a></p>
+            <p tabindex="52"><a href="mailto:shevawn@conservationlands.org">info@conservationlands.org</a></p>
             <div class="social-icons">
             <a tabindex="53" href="https://www.facebook.com/conservationlands/" target="_blank"> <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/facebook.png" alt="facebook logo" class="me-4" style="max-width: 20px;"></a> 
             <a tabindex="54" href="https://twitter.com/ConservationLF" target="_blank"> <img src="https://www.respectconnectprotect.org/wp-content/uploads/2023/04/twitter.png" alt="twitter logo" class="me-4" style="max-width: 34px;"></a> 
