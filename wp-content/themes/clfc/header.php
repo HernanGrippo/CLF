@@ -8,6 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://use.typekit.net/env8cis.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style.css" />
+  <link rel="stylesheet" href="ruta-a-tu-tema/owl-carousel-slider/owl.carousel.min.css">
+  <link rel="stylesheet" href="ruta-a-tu-tema/owl-carousel-slider/owl.theme.default.min.css">
   <link rel="icon" type="image/x-icon" href="<?php bloginfo('template_url'); ?>/img/rcp-favicon.png">
 
   <!-- Meta Pixel Code -->
