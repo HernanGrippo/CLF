@@ -11169,6 +11169,10 @@ body h1, body .h1 {
   width: auto;
   margin: 50px 0 50px 0;
 }
+#sponsors .slider-item {
+  display: flex;
+  justify-content: center;
+}
 
 #campaign {
   padding: 0 0 62px 0;

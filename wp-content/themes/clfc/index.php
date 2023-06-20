@@ -141,87 +141,89 @@ Template Name: Home
   <!-- CONTACT FORM -->
   <? get_template_part( 'components/contactform' ); ?>
   
- <!-- PARTNERS SECTION -->
- 
-<section id="sponsors">
-<div class="row">
-      <div class="col-12 text-center">
-        <h2 tabindex="20"><?php the_field('partners_title'); ?></h2>
-      </div>
-</div>  
-
-
-<div class="owl-carousel">
-    
-      <div class="row justify-content-center">
-          <img src="<?php bloginfo('template_url'); ?>/img/colorado.png" alt="Imagen 1">
-      </div>  
-  
-      <div class="row justify-content-center">
-          <img src="<?php bloginfo('template_url'); ?>/img/tread.png" alt="Imagen 2">
-      </div>
-
-      <div class="row justify-content-center">
-          <img src="<?php bloginfo('template_url'); ?>/img/leave.png" alt="Imagen 6">
-      </div>
-      
-      <div class="row justify-content-center">  
-          <img src="<?php bloginfo('template_url'); ?>/img/colorado.png" alt="Imagen 1">
-      </div>    
-
-      <div class="row justify-content-center">    
-        <img src="<?php bloginfo('template_url'); ?>/img/tread.png" alt="Imagen 2">
-      </div>  
-
-      <div class="row justify-content-center">
-          <img src="<?php bloginfo('template_url'); ?>/img/leave.png" alt="Imagen 3">
-      </div>    
- 
-   </div>
-</section>
 
  <!-- PARTNERS SECTION -->
-    <section id="partners">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 tabindex="20"><?php the_field('partners_title'); ?></h2>
-      </div>
-    </div>    
-    <div class="row justify-content-center">
-      <div class="col-md-3 col-sm-12 text-center">
-      <?php 
-          $image = get_field('partner1');
-          if (!empty($image)) {
-          $url = get_field('partner1_url');?>
-          <a href="<?php echo $url; ?>" target="_self"><img class="partner1" src="<?php 
-          echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-fluid rounded" tabindex="21"/></a>
-          <?php 
-      }?>
-      </a>
-      </div> 
-      <div class="col-md-3 col-sm-12 text-center">
-      <?php 
-          $image = get_field('partner2');
-          if (!empty($image)) {
-          $url = get_field('partner2_url');
-          ?>
-          <a href="<?php echo $url; ?>" target="_self"><img class="partner2" src="<?php 
-          echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-fluid rounded" tabindex="22"/></a>
-          <?php
-      }?>
-      </div>
-      <div class="col-md-3 col-sm-12 text-center">
-      <?php 
-          $image = get_field('partner3');
-          if (!empty($image)) {
-          $url = get_field('partner3_url');
-          ?>
-          <a href="<?php echo $url; ?>" target="_self"><img class="partner3" src="<?php 
-          echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-fluid rounded" tabindex="23"/></a>
-          <?php 
-      }?>
-      </div>
+
+ <section id="sponsors">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h2 tabindex="20"><?php the_field('partners_title'); ?></h2>
     </div>
-  </section>
+  </div>  
+
+  <div class="owl-carousel">
+    <div class="slider-item">
+      <?php $image_1 = get_field('partner1'); ?>
+      <?php $link_1 = get_field('partner1_url'); ?>
+      <a href="<?php echo $link_1; ?>" target="_blank" class="slider-image-link">
+        <img src="<?php echo $image_1['url']; ?>" alt="<?php echo $image_1['alt']; ?>">
+      </a>
+    </div>  
+
+    <div class="slider-item">
+      <?php $image_2 = get_field('partner2'); ?>
+      <?php $link_2 = get_field('partner2_url'); ?>
+      <a href="<?php echo $link_2; ?>" target="_blank" class="slider-image-link">
+        <img src="<?php echo $image_2['url']; ?>" alt="<?php echo $image_2['alt']; ?>">
+      </a>
+    </div>
+
+    <div class="slider-item">
+      <?php $image_3 = get_field('partner3'); ?>
+      <?php $link_3 = get_field('partner3_url'); ?>
+      <a href="<?php echo $link_3; ?>" target="_blank" class="slider-image-link">
+        <img src="<?php echo $image_3['url']; ?>" alt="<?php echo $image_3['alt']; ?>">
+      </a>
+    </div>
+
+    <div class="slider-item">
+      <?php $image_4 = get_field('partner4'); ?>
+      <?php $link_4 = get_field('partner4_url'); ?>
+      <a href="<?php echo $link_3; ?>" target="_blank" class="slider-image-link">
+        <img src="<?php echo $image_4['url']; ?>" alt="<?php echo $image_4['alt']; ?>">
+      </a>
+    </div>
+
+    <div class="slider-item">
+      <?php $image_5 = get_field('partner5'); ?>
+      <?php $link_5 = get_field('partner5_url'); ?>
+      <a href="<?php echo $link_3; ?>" target="_blank" class="slider-image-link">
+        <img src="<?php echo $image_5['url']; ?>" alt="<?php echo $image_5['alt']; ?>">
+      </a>
+    </div>
+
+    <div class="slider-item">
+      <?php $image_6 = get_field('partner6'); ?>
+      <?php $link_6 = get_field('partner6_url'); ?>
+      <a href="<?php echo $link_3; ?>" target="_blank" class="slider-image-link">
+        <img src="<?php echo $image_6['url']; ?>" alt="<?php echo $image_6['alt']; ?>">
+      </a>
+    </div>
+
+    <div class="slider-item">
+      <?php $image_7 = get_field('partner7'); ?>
+      <?php $link_7 = get_field('partner7_url'); ?>
+      <a href="<?php echo $link_3; ?>" target="_blank" class="slider-image-link">
+        <img src="<?php echo $image_7['url']; ?>" alt="<?php echo $image_7['alt']; ?>">
+      </a>
+    </div>
+
+    <div class="slider-item">
+      <?php $image_8 = get_field('partner8'); ?>
+      <?php $link_8 = get_field('partner8_url'); ?>
+      <a href="<?php echo $link_3; ?>" target="_blank" class="slider-image-link">
+        <img src="<?php echo $image_8['url']; ?>" alt="<?php echo $image_8['alt']; ?>">
+      </a>
+    </div>
+
+    <div class="slider-item">
+      <?php $image_9 = get_field('partner9'); ?>
+      <?php $link_9 = get_field('partner9_url'); ?>
+      <a href="<?php echo $link_9; ?>" target="_blank" class="slider-image-link">
+        <img src="<?php echo $image_9['url']; ?>" alt="<?php echo $image_9['alt']; ?>">
+      </a>
+    </div>
+  </div>
+</section>
 
 <?php get_footer();?> 
