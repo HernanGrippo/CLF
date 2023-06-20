@@ -141,7 +141,45 @@ Template Name: Home
   <!-- CONTACT FORM -->
   <? get_template_part( 'components/contactform' ); ?>
   
+ <!-- PARTNERS SECTION -->
+ 
+<section id="sponsors">
+<div class="row">
+      <div class="col-12 text-center">
+        <h2 tabindex="20"><?php the_field('partners_title'); ?></h2>
+      </div>
+</div>  
+
+
+<div class="owl-carousel">
+    
+      <div class="row justify-content-center">
+          <img src="<?php bloginfo('template_url'); ?>/img/colorado.png" alt="Imagen 1">
+      </div>  
   
+      <div class="row justify-content-center">
+          <img src="<?php bloginfo('template_url'); ?>/img/tread.png" alt="Imagen 2">
+      </div>
+
+      <div class="row justify-content-center">
+          <img src="<?php bloginfo('template_url'); ?>/img/leave.png" alt="Imagen 6">
+      </div>
+      
+      <div class="row justify-content-center">  
+          <img src="<?php bloginfo('template_url'); ?>/img/colorado.png" alt="Imagen 1">
+      </div>    
+
+      <div class="row justify-content-center">    
+        <img src="<?php bloginfo('template_url'); ?>/img/tread.png" alt="Imagen 2">
+      </div>  
+
+      <div class="row justify-content-center">
+          <img src="<?php bloginfo('template_url'); ?>/img/leave.png" alt="Imagen 3">
+      </div>    
+ 
+   </div>
+</section>
+
  <!-- PARTNERS SECTION -->
     <section id="partners">
     <div class="row">
