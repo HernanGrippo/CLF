@@ -1,5 +1,8 @@
 #sponsors {
   padding: 0 0 163px 0;
+  @media (max-width: 576px) {
+    padding: 0 0 60px 0;
+  }
 
   h2 {
     font-family: "gelica", sans-serif;
@@ -25,6 +28,11 @@
     max-height: 120px;
     width: auto;
     margin: 50px 0 50px 0;
+    @media (max-width: 576px) {
+      max-height: 35px;
+      width: auto;
+      margin: 10px 0 10px 0;
+    }
   }
   .slider-item {
     display: flex;

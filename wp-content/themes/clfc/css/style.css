@@ -11146,6 +11146,11 @@ body h1, body .h1 {
 #sponsors {
   padding: 0 0 163px 0;
 }
+@media (max-width: 576px) {
+  #sponsors {
+    padding: 0 0 60px 0;
+  }
+}
 #sponsors h2, #sponsors .h2 {
   font-family: "gelica", sans-serif;
   font-weight: 700;
@@ -11168,6 +11173,13 @@ body h1, body .h1 {
   max-height: 120px;
   width: auto;
   margin: 50px 0 50px 0;
+}
+@media (max-width: 576px) {
+  #sponsors img {
+    max-height: 35px;
+    width: auto;
+    margin: 10px 0 10px 0;
+  }
 }
 #sponsors .slider-item {
   display: flex;

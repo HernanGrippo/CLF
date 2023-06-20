@@ -179,7 +179,7 @@ Template Name: Home
     <div class="slider-item">
       <?php $image_4 = get_field('partner4'); ?>
       <?php $link_4 = get_field('partner4_url'); ?>
-      <a href="<?php echo $link_3; ?>" target="_blank" class="slider-image-link">
+      <a href="<?php echo $link_4; ?>" target="_blank" class="slider-image-link">
         <img src="<?php echo $image_4['url']; ?>" alt="<?php echo $image_4['alt']; ?>">
       </a>
     </div>
@@ -187,7 +187,7 @@ Template Name: Home
     <div class="slider-item">
       <?php $image_5 = get_field('partner5'); ?>
       <?php $link_5 = get_field('partner5_url'); ?>
-      <a href="<?php echo $link_3; ?>" target="_blank" class="slider-image-link">
+      <a href="<?php echo $link_5; ?>" target="_blank" class="slider-image-link">
         <img src="<?php echo $image_5['url']; ?>" alt="<?php echo $image_5['alt']; ?>">
       </a>
     </div>
@@ -195,7 +195,7 @@ Template Name: Home
     <div class="slider-item">
       <?php $image_6 = get_field('partner6'); ?>
       <?php $link_6 = get_field('partner6_url'); ?>
-      <a href="<?php echo $link_3; ?>" target="_blank" class="slider-image-link">
+      <a href="<?php echo $link_6; ?>" target="_blank" class="slider-image-link">
         <img src="<?php echo $image_6['url']; ?>" alt="<?php echo $image_6['alt']; ?>">
       </a>
     </div>
@@ -203,7 +203,7 @@ Template Name: Home
     <div class="slider-item">
       <?php $image_7 = get_field('partner7'); ?>
       <?php $link_7 = get_field('partner7_url'); ?>
-      <a href="<?php echo $link_3; ?>" target="_blank" class="slider-image-link">
+      <a href="<?php echo $link_7; ?>" target="_blank" class="slider-image-link">
         <img src="<?php echo $image_7['url']; ?>" alt="<?php echo $image_7['alt']; ?>">
       </a>
     </div>
@@ -211,7 +211,7 @@ Template Name: Home
     <div class="slider-item">
       <?php $image_8 = get_field('partner8'); ?>
       <?php $link_8 = get_field('partner8_url'); ?>
-      <a href="<?php echo $link_3; ?>" target="_blank" class="slider-image-link">
+      <a href="<?php echo $link_8; ?>" target="_blank" class="slider-image-link">
         <img src="<?php echo $image_8['url']; ?>" alt="<?php echo $image_8['alt']; ?>">
       </a>
     </div>
